@@ -2,21 +2,34 @@ package com.example.maximumhackathon.presentation
 
 import android.app.Activity
 import android.content.Intent
+import android.content.res.AssetManager
 import android.os.Bundle
 import android.util.Log
 import android.view.View
 import com.example.maximumhackathon.R
+import com.example.maximumhackathon.domain.model.Word
 import com.example.maximumhackathon.presentation.base.BaseFragment
 import com.firebase.ui.auth.AuthUI
 import com.firebase.ui.auth.IdpResponse
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
+import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.ktx.Firebase
 import kotlinx.android.synthetic.main.fragment_main.*
+import org.json.JSONException
+import org.json.JSONObject
+import java.io.IOException
+import java.io.InputStream
+import java.lang.StringBuilder
+import java.math.BigInteger
+
 
 class MainFragment: BaseFragment() {
 
     private lateinit var pagerAdapter: MainViewPagerAdapter
+
+    private val docRef = FirebaseFirestore.getInstance()
+
 
     override fun getLayoutId(): Int {
         return R.layout.fragment_main
@@ -34,10 +47,26 @@ class MainFragment: BaseFragment() {
                     .setAvailableProviders(arrayListOf(AuthUI.IdpConfig.EmailBuilder().build()))
                     .setTheme(R.style.Theme_MaximumHackathon)
                     .build(),
-                RC_SIGN_IN)
+                RC_SIGN_IN
+            )
         } else {
-            showMainUI()
+            sendData()
+//            showMainUI()
         }
+
+//        val hm = hashMapOf<String, Any>()
+//        hm["orderNumber"] = 0
+//        hm["name"] = "name"
+//        hm["frequency"] = 123
+//
+//        docRef
+//            .collection("words")
+//            .add(hm).addOnSuccessListener {
+//            Log.i("Save", "Done")
+//        }.addOnFailureListener {
+//            Log.i("Save", "Error")
+//        }
+
     }
 
     // [START auth_fui_result]
@@ -53,7 +82,8 @@ class MainFragment: BaseFragment() {
 
                 Log.i("Auth", "Auth done with user $user")
 
-                showMainUI()
+                sendData()
+//                showMainUI()
 
             } else {
                 Log.i("Auth", "Failed with ${response?.error?.errorCode}")
@@ -65,6 +95,97 @@ class MainFragment: BaseFragment() {
         pagerAdapter = MainViewPagerAdapter(requireFragmentManager(), requireContext())
         viewPager.adapter = pagerAdapter
         tabsLayout.setupWithViewPager(viewPager)
+    }
+
+    private fun sendData(){
+
+        try {
+            val obj = JSONObject(loadJSONFromAsset())
+            val m_jArry = obj.getJSONArray("data")
+            val formList = ArrayList<String>()
+            for (i in 0 until m_jArry.length()) {
+                val jo_inside = m_jArry.getJSONObject(i)
+                Log.d("Details-->", jo_inside.getString("column0"))
+                val outData = jo_inside.getString("column0")
+
+                formList.add(outData)
+            }
+
+            convertData(formList)
+
+        } catch (e: JSONException) {
+            e.printStackTrace()
+        }
+    }
+
+    private fun convertData(inData: List<String>){
+        val outData = mutableListOf<Word>()
+
+        inData.forEachIndexed { index, s ->
+            outData.add(
+                Word(
+                    index + 1,
+                    getName(s),
+                    getFrequence(s)
+                )
+            )
+        }
+
+        saveData(outData)
+    }
+
+    private fun saveData(inData: List<Word>){
+        inData.forEach {
+            val hm = hashMapOf<String, Any>()
+            hm["orderNumber"] = it.orderNumber
+            hm["name"] = it.name
+            hm["frequency"] = it.frequency
+
+            docRef
+                .collection("words")
+                .add(hm)
+        }
+    }
+
+    private fun getName(inData: String): String {
+        val sb = StringBuilder()
+
+        inData.forEach {
+            if (it.isLetter()){
+                sb.append(it)
+            }
+        }
+
+        return sb.toString()
+    }
+
+    private fun getFrequence(inData: String): Long {
+        val sb = StringBuilder()
+
+        inData.forEach {
+            if (it.isDigit()){
+                sb.append(it)
+            }
+        }
+
+        return sb.toString().toLong()
+    }
+
+
+    private fun loadJSONFromAsset(): String? {
+        var json: String? = null
+        json = try {
+            val `is`: InputStream = activity!!.assets.open("data.json")
+            val size: Int = `is`.available()
+            val buffer = ByteArray(size)
+            `is`.read(buffer)
+            `is`.close()
+            String(buffer, Charsets.UTF_8)
+        } catch (ex: IOException) {
+            ex.printStackTrace()
+            return null
+        }
+        return json
     }
 
     companion object {

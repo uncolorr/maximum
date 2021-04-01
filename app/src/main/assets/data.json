@@ -1,0 +1,9033 @@
+{ "data" :[
+   {
+      "column0": "THE\t53097401461"
+   },
+   {
+      "column0": "OF\t30966074232"
+   },
+   {
+      "column0": "AND\t22632024504"
+   },
+   {
+      "column0": "TO\t19347398077"
+   },
+   {
+      "column0": "IN\t16891065263"
+   },
+   {
+      "column0": "A\t15310087895"
+   },
+   {
+      "column0": "IS\t8384246685"
+   },
+   {
+      "column0": "THAT\t8000768228"
+   },
+   {
+      "column0": "FOR\t6545282031"
+   },
+   {
+      "column0": "IT\t5740085369"
+   },
+   {
+      "column0": "AS\t5700645258"
+   },
+   {
+      "column0": "WAS\t5502713968"
+   },
+   {
+      "column0": "WITH\t5182797249"
+   },
+   {
+      "column0": "BE\t4818864785"
+   },
+   {
+      "column0": "BY\t4703106084"
+   },
+   {
+      "column0": "ON\t4594521081"
+   },
+   {
+      "column0": "NOT\t4522732626"
+   },
+   {
+      "column0": "HE\t4110457083"
+   },
+   {
+      "column0": "I\t3884828634"
+   },
+   {
+      "column0": "THIS\t3826060334"
+   },
+   {
+      "column0": "ARE\t3700433333"
+   },
+   {
+      "column0": "OR\t3667713965"
+   },
+   {
+      "column0": "HIS\t3611377789"
+   },
+   {
+      "column0": "FROM\t3469207674"
+   },
+   {
+      "column0": "AT\t3413452256"
+   },
+   {
+      "column0": "WHICH\t3140226612"
+   },
+   {
+      "column0": "BUT\t2792350185"
+   },
+   {
+      "column0": "HAVE\t2777439117"
+   },
+   {
+      "column0": "AN\t2726250863"
+   },
+   {
+      "column0": "HAD\t2616021603"
+   },
+   {
+      "column0": "THEY\t2462131290"
+   },
+   {
+      "column0": "YOU\t2337737641"
+   },
+   {
+      "column0": "WERE\t2270487439"
+   },
+   {
+      "column0": "THEIR\t2152980325"
+   },
+   {
+      "column0": "ONE\t2148983086"
+   },
+   {
+      "column0": "ALL\t2062779102"
+   },
+   {
+      "column0": "WE\t2057296224"
+   },
+   {
+      "column0": "CAN\t1665414118"
+   },
+   {
+      "column0": "HER\t1633278704"
+   },
+   {
+      "column0": "HAS\t1632148758"
+   },
+   {
+      "column0": "THERE\t1623700147"
+   },
+   {
+      "column0": "BEEN\t1619043628"
+   },
+   {
+      "column0": "IF\t1564986692"
+   },
+   {
+      "column0": "MORE\t1547251508"
+   },
+   {
+      "column0": "WHEN\t1519738651"
+   },
+   {
+      "column0": "WILL\t1485140664"
+   },
+   {
+      "column0": "WOULD\t1472811049"
+   },
+   {
+      "column0": "WHO\t1464601967"
+   },
+   {
+      "column0": "SO\t1449153410"
+   },
+   {
+      "column0": "NO\t1400645478"
+   },
+   {
+      "column0": "SHE\t1392695717"
+   },
+   {
+      "column0": "OTHER\t1383185827"
+   },
+   {
+      "column0": "ITS\t1369438835"
+   },
+   {
+      "column0": "MAY\t1318050430"
+   },
+   {
+      "column0": "THESE\t1305787385"
+   },
+   {
+      "column0": "WHAT\t1222533828"
+   },
+   {
+      "column0": "THEM\t1199636039"
+   },
+   {
+      "column0": "THAN\t1185020453"
+   },
+   {
+      "column0": "SOME\t1182318418"
+   },
+   {
+      "column0": "HIM\t1180769747"
+   },
+   {
+      "column0": "TIME\t1167810273"
+   },
+   {
+      "column0": "INTO\t1144226142"
+   },
+   {
+      "column0": "ONLY\t1135235700"
+   },
+   {
+      "column0": "DO\t1116608183"
+   },
+   {
+      "column0": "SUCH\t1100072478"
+   },
+   {
+      "column0": "MY\t1082298016"
+   },
+   {
+      "column0": "NEW\t1073292865"
+   },
+   {
+      "column0": "ABOUT\t1070877995"
+   },
+   {
+      "column0": "OUT\t1048211344"
+   },
+   {
+      "column0": "ALSO\t1038616504"
+   },
+   {
+      "column0": "TWO\t1034082956"
+   },
+   {
+      "column0": "ANY\t983649138"
+   },
+   {
+      "column0": "UP\t975409474"
+   },
+   {
+      "column0": "FIRST\t923189150"
+   },
+   {
+      "column0": "COULD\t886891028"
+   },
+   {
+      "column0": "OUR\t874965041"
+   },
+   {
+      "column0": "THEN\t872791735"
+   },
+   {
+      "column0": "MOST\t860964491"
+   },
+   {
+      "column0": "SEE\t846494292"
+   },
+   {
+      "column0": "ME\t819570654"
+   },
+   {
+      "column0": "SHOULD\t814245936"
+   },
+   {
+      "column0": "AFTER\t802220137"
+   },
+   {
+      "column0": "SAID\t757996425"
+   },
+   {
+      "column0": "YOUR\t750769635"
+   },
+   {
+      "column0": "VERY\t746876416"
+   },
+   {
+      "column0": "BETWEEN\t744064796"
+   },
+   {
+      "column0": "MADE\t737658132"
+   },
+   {
+      "column0": "MANY\t732675942"
+   },
+   {
+      "column0": "OVER\t715517744"
+   },
+   {
+      "column0": "LIKE\t709849832"
+   },
+   {
+      "column0": "THOSE\t691668501"
+   },
+   {
+      "column0": "DID\t689814257"
+   },
+   {
+      "column0": "NOW\t679337516"
+   },
+   {
+      "column0": "EVEN\t677507335"
+   },
+   {
+      "column0": "WELL\t675415316"
+   },
+   {
+      "column0": "WHERE\t671644491"
+   },
+   {
+      "column0": "MUST\t662994536"
+   },
+   {
+      "column0": "PEOPLE\t658716166"
+   },
+   {
+      "column0": "THROUGH\t647091198"
+   },
+   {
+      "column0": "HOW\t630072115"
+   },
+   {
+      "column0": "SAME\t624529137"
+   },
+   {
+      "column0": "WORK\t621797228"
+   },
+   {
+      "column0": "BEING\t616194541"
+   },
+   {
+      "column0": "BECAUSE\t612321946"
+   },
+   {
+      "column0": "MAN\t609019192"
+   },
+   {
+      "column0": "LIFE\t607266209"
+   },
+   {
+      "column0": "BEFORE\t605166565"
+   },
+   {
+      "column0": "EACH\t601281917"
+   },
+   {
+      "column0": "MUCH\t601262291"
+   },
+   {
+      "column0": "UNDER\t585610545"
+   },
+   {
+      "column0": "S\t569891879"
+   },
+   {
+      "column0": "YEARS\t563247544"
+   },
+   {
+      "column0": "WAY\t559785767"
+   },
+   {
+      "column0": "GREAT\t557149997"
+   },
+   {
+      "column0": "STATE\t553386027"
+   },
+   {
+      "column0": "BOTH\t543776931"
+   },
+   {
+      "column0": "USE\t535798133"
+   },
+   {
+      "column0": "UPON\t532434413"
+   },
+   {
+      "column0": "OWN\t524268424"
+   },
+   {
+      "column0": "USED\t524065144"
+   },
+   {
+      "column0": "HOWEVER\t519207264"
+   },
+   {
+      "column0": "US\t516975345"
+   },
+   {
+      "column0": "PART\t515815125"
+   },
+   {
+      "column0": "GOOD\t509939542"
+   },
+   {
+      "column0": "WORLD\t505870068"
+   },
+   {
+      "column0": "MAKE\t502804979"
+   },
+   {
+      "column0": "THREE\t487787199"
+   },
+   {
+      "column0": "WHILE\t483440546"
+   },
+   {
+      "column0": "LONG\t477333877"
+   },
+   {
+      "column0": "DAY\t471012276"
+   },
+   {
+      "column0": "WITHOUT\t465581954"
+   },
+   {
+      "column0": "JUST\t454162727"
+   },
+   {
+      "column0": "MEN\t454094525"
+   },
+   {
+      "column0": "GENERAL\t450612588"
+   },
+   {
+      "column0": "DURING\t448173996"
+   },
+   {
+      "column0": "ANOTHER\t444695376"
+   },
+   {
+      "column0": "LITTLE\t442854872"
+   },
+   {
+      "column0": "FOUND\t436617767"
+   },
+   {
+      "column0": "HERE\t432309508"
+   },
+   {
+      "column0": "SYSTEM\t428655277"
+   },
+   {
+      "column0": "DOES\t426675356"
+   },
+   {
+      "column0": "DE\t424296592"
+   },
+   {
+      "column0": "DOWN\t422555509"
+   },
+   {
+      "column0": "NUMBER\t421670920"
+   },
+   {
+      "column0": "CASE\t416258729"
+   },
+   {
+      "column0": "AGAINST\t410444403"
+   },
+   {
+      "column0": "MIGHT\t409560494"
+   },
+   {
+      "column0": "STILL\t408263128"
+   },
+   {
+      "column0": "BACK\t406548203"
+   },
+   {
+      "column0": "RIGHT\t405717045"
+   },
+   {
+      "column0": "KNOW\t405542218"
+   },
+   {
+      "column0": "PLACE\t401396238"
+   },
+   {
+      "column0": "EVERY\t393306866"
+   },
+   {
+      "column0": "GOVERNMENT\t390643826"
+   },
+   {
+      "column0": "TOO\t387800392"
+   },
+   {
+      "column0": "HIGH\t384098421"
+   },
+   {
+      "column0": "OLD\t383853789"
+   },
+   {
+      "column0": "DIFFERENT\t381761001"
+   },
+   {
+      "column0": "STATES\t379406076"
+   },
+   {
+      "column0": "TAKE\t378659319"
+   },
+   {
+      "column0": "YEAR\t377400785"
+   },
+   {
+      "column0": "POWER\t374440251"
+   },
+   {
+      "column0": "SINCE\t371590865"
+   },
+   {
+      "column0": "GIVEN\t370958373"
+   },
+   {
+      "column0": "GOD\t368677508"
+   },
+   {
+      "column0": "NEVER\t367408537"
+   },
+   {
+      "column0": "SOCIAL\t362939226"
+   },
+   {
+      "column0": "ORDER\t360669813"
+   },
+   {
+      "column0": "WATER\t355340324"
+   },
+   {
+      "column0": "THUS\t352803269"
+   },
+   {
+      "column0": "FORM\t352032932"
+   },
+   {
+      "column0": "WITHIN\t351785120"
+   },
+   {
+      "column0": "SMALL\t350484848"
+   },
+   {
+      "column0": "SHALL\t343397728"
+   },
+   {
+      "column0": "PUBLIC\t342759195"
+   },
+   {
+      "column0": "LARGE\t342399659"
+   },
+   {
+      "column0": "LAW\t338265440"
+   },
+   {
+      "column0": "COME\t337666242"
+   },
+   {
+      "column0": "LESS\t337388744"
+   },
+   {
+      "column0": "CHILDREN\t336723802"
+   },
+   {
+      "column0": "WAR\t335494566"
+   },
+   {
+      "column0": "POINT\t333858038"
+   },
+   {
+      "column0": "CALLED\t329762185"
+   },
+   {
+      "column0": "AMERICAN\t329409247"
+   },
+   {
+      "column0": "AGAIN\t326183679"
+   },
+   {
+      "column0": "OFTEN\t325385700"
+   },
+   {
+      "column0": "GO\t323996019"
+   },
+   {
+      "column0": "FEW\t321537010"
+   },
+   {
+      "column0": "AMONG\t321351351"
+   },
+   {
+      "column0": "IMPORTANT\t318798581"
+   },
+   {
+      "column0": "END\t318429766"
+   },
+   {
+      "column0": "GET\t318321184"
+   },
+   {
+      "column0": "HOUSE\t316642686"
+   },
+   {
+      "column0": "SECOND\t316484908"
+   },
+   {
+      "column0": "THOUGH\t315756488"
+   },
+   {
+      "column0": "PRESENT\t313754008"
+   },
+   {
+      "column0": "EXAMPLE\t313505718"
+   },
+   {
+      "column0": "HIMSELF\t311869400"
+   },
+   {
+      "column0": "WOMEN\t311778830"
+   },
+   {
+      "column0": "LAST\t310248709"
+   },
+   {
+      "column0": "SAY\t310063047"
+   },
+   {
+      "column0": "LEFT\t306802162"
+   },
+   {
+      "column0": "FACT\t303323018"
+   },
+   {
+      "column0": "OFF\t302535533"
+   },
+   {
+      "column0": "SET\t302361340"
+   },
+   {
+      "column0": "PER\t300402417"
+   },
+   {
+      "column0": "YET\t298106656"
+   },
+   {
+      "column0": "HAND\t297264744"
+   },
+   {
+      "column0": "CAME\t294530569"
+   },
+   {
+      "column0": "DEVELOPMENT\t292567752"
+   },
+   {
+      "column0": "THOUGHT\t292090261"
+   },
+   {
+      "column0": "ALWAYS\t289326176"
+   },
+   {
+      "column0": "FAR\t288760391"
+   },
+   {
+      "column0": "COUNTRY\t287858905"
+   },
+   {
+      "column0": "YORK\t287117910"
+   },
+   {
+      "column0": "SCHOOL\t286198020"
+   },
+   {
+      "column0": "INFORMATION\t285127664"
+   },
+   {
+      "column0": "GROUP\t284672959"
+   },
+   {
+      "column0": "FOLLOWING\t282890287"
+   },
+   {
+      "column0": "THINK\t282298331"
+   },
+   {
+      "column0": "OTHERS\t280160469"
+   },
+   {
+      "column0": "POLITICAL\t279042950"
+   },
+   {
+      "column0": "HUMAN\t279027691"
+   },
+   {
+      "column0": "HISTORY\t277771947"
+   },
+   {
+      "column0": "UNITED\t275947752"
+   },
+   {
+      "column0": "GIVE\t275807450"
+   },
+   {
+      "column0": "FAMILY\t275638251"
+   },
+   {
+      "column0": "FIND\t274292734"
+   },
+   {
+      "column0": "NEED\t273479350"
+   },
+   {
+      "column0": "FIGURE\t273002399"
+   },
+   {
+      "column0": "POSSIBLE\t272346265"
+   },
+   {
+      "column0": "ALTHOUGH\t269984217"
+   },
+   {
+      "column0": "RATHER\t269938951"
+   },
+   {
+      "column0": "LATER\t269420608"
+   },
+   {
+      "column0": "UNIVERSITY\t267605414"
+   },
+   {
+      "column0": "ONCE\t267334111"
+   },
+   {
+      "column0": "COURSE\t267248526"
+   },
+   {
+      "column0": "UNTIL\t266946065"
+   },
+   {
+      "column0": "SEVERAL\t266874027"
+   },
+   {
+      "column0": "NATIONAL\t265411421"
+   },
+   {
+      "column0": "WHOLE\t264397495"
+   },
+   {
+      "column0": "CHAPTER\t263277218"
+   },
+   {
+      "column0": "EARLY\t262989441"
+   },
+   {
+      "column0": "FOUR\t262968583"
+   },
+   {
+      "column0": "HOME\t262557366"
+   },
+   {
+      "column0": "MEANS\t261935832"
+   },
+   {
+      "column0": "THINGS\t261491585"
+   },
+   {
+      "column0": "PROCESS\t261231720"
+   },
+   {
+      "column0": "NATURE\t258607404"
+   },
+   {
+      "column0": "ABOVE\t257260161"
+   },
+   {
+      "column0": "THEREFORE\t256680119"
+   },
+   {
+      "column0": "HAVING\t256366406"
+   },
+   {
+      "column0": "CERTAIN\t255354603"
+   },
+   {
+      "column0": "CONTROL\t254704442"
+   },
+   {
+      "column0": "DATA\t254114763"
+   },
+   {
+      "column0": "NAME\t253016135"
+   },
+   {
+      "column0": "ACT\t252837316"
+   },
+   {
+      "column0": "CHANGE\t252169887"
+   },
+   {
+      "column0": "VALUE\t251727013"
+   },
+   {
+      "column0": "BODY\t251658904"
+   },
+   {
+      "column0": "STUDY\t251146114"
+   },
+   {
+      "column0": "ET\t249406150"
+   },
+   {
+      "column0": "TABLE\t247925745"
+   },
+   {
+      "column0": "BECOME\t247467268"
+   },
+   {
+      "column0": "WHETHER\t245964864"
+   },
+   {
+      "column0": "CITY\t245776687"
+   },
+   {
+      "column0": "BOOK\t244679041"
+   },
+   {
+      "column0": "TAKEN\t244444700"
+   },
+   {
+      "column0": "SIDE\t244375385"
+   },
+   {
+      "column0": "TIMES\t244274912"
+   },
+   {
+      "column0": "AWAY\t243726011"
+   },
+   {
+      "column0": "C\t243374626"
+   },
+   {
+      "column0": "KNOWN\t242748318"
+   },
+   {
+      "column0": "PERIOD\t240810310"
+   },
+   {
+      "column0": "BEST\t239519326"
+   },
+   {
+      "column0": "B\t239260173"
+   },
+   {
+      "column0": "LINE\t237500159"
+   },
+   {
+      "column0": "AM\t236082024"
+   },
+   {
+      "column0": "COURT\t235765991"
+   },
+   {
+      "column0": "JOHN\t235323655"
+   },
+   {
+      "column0": "DAYS\t235135424"
+   },
+   {
+      "column0": "PUT\t234694082"
+   },
+   {
+      "column0": "YOUNG\t233692423"
+   },
+   {
+      "column0": "SEEN\t232791574"
+   },
+   {
+      "column0": "COMMON\t232507127"
+   },
+   {
+      "column0": "PERSON\t232353232"
+   },
+   {
+      "column0": "EITHER\t231828021"
+   },
+   {
+      "column0": "LET\t231529250"
+   },
+   {
+      "column0": "WHY\t230806163"
+   },
+   {
+      "column0": "LAND\t230194244"
+   },
+   {
+      "column0": "HEAD\t229586755"
+   },
+   {
+      "column0": "BUSINESS\t228894757"
+   },
+   {
+      "column0": "COMPANY\t228554181"
+   },
+   {
+      "column0": "CHURCH\t228296650"
+   },
+   {
+      "column0": "WORDS\t227368818"
+   },
+   {
+      "column0": "EFFECT\t227026494"
+   },
+   {
+      "column0": "SOCIETY\t226962849"
+   },
+   {
+      "column0": "AROUND\t225965973"
+   },
+   {
+      "column0": "BETTER\t225159108"
+   },
+   {
+      "column0": "NOTHING\t224710005"
+   },
+   {
+      "column0": "TOOK\t224536350"
+   },
+   {
+      "column0": "WHITE\t223783182"
+   },
+   {
+      "column0": "ITSELF\t223352412"
+   },
+   {
+      "column0": "SOMETHING\t223298632"
+   },
+   {
+      "column0": "LIGHT\t223142561"
+   },
+   {
+      "column0": "QUESTION\t222529720"
+   },
+   {
+      "column0": "ALMOST\t222456557"
+   },
+   {
+      "column0": "WENT\t222172805"
+   },
+   {
+      "column0": "INTEREST\t221787128"
+   },
+   {
+      "column0": "MIND\t220137001"
+   },
+   {
+      "column0": "NEXT\t219433560"
+   },
+   {
+      "column0": "LEAST\t219366839"
+   },
+   {
+      "column0": "LEVEL\t217515046"
+   },
+   {
+      "column0": "THEMSELVES\t216975281"
+   },
+   {
+      "column0": "ECONOMIC\t216707350"
+   },
+   {
+      "column0": "CHILD\t214513506"
+   },
+   {
+      "column0": "DEATH\t214241154"
+   },
+   {
+      "column0": "SERVICE\t214015710"
+   },
+   {
+      "column0": "VIEW\t213769776"
+   },
+   {
+      "column0": "ACTION\t212759202"
+   },
+   {
+      "column0": "FIVE\t212389943"
+   },
+   {
+      "column0": "II\t211760644"
+   },
+   {
+      "column0": "PRESS\t211628967"
+   },
+   {
+      "column0": "FATHER\t210972103"
+   },
+   {
+      "column0": "FURTHER\t210653665"
+   },
+   {
+      "column0": "LOVE\t210137973"
+   },
+   {
+      "column0": "RESEARCH\t210101214"
+   },
+   {
+      "column0": "AREA\t209904357"
+   },
+   {
+      "column0": "TRUE\t209902030"
+   },
+   {
+      "column0": "EDUCATION\t209865301"
+   },
+   {
+      "column0": "SELF\t209487136"
+   },
+   {
+      "column0": "AGE\t208047899"
+   },
+   {
+      "column0": "NECESSARY\t208018922"
+   },
+   {
+      "column0": "SUBJECT\t207720288"
+   },
+   {
+      "column0": "WANT\t207691335"
+   },
+   {
+      "column0": "CASES\t207684567"
+   },
+   {
+      "column0": "EVER\t207615532"
+   },
+   {
+      "column0": "GOING\t207111364"
+   },
+   {
+      "column0": "PROBLEM\t207066989"
+   },
+   {
+      "column0": "FREE\t206158509"
+   },
+   {
+      "column0": "DONE\t205603672"
+   },
+   {
+      "column0": "MAKING\t204240192"
+   },
+   {
+      "column0": "PARTY\t203139462"
+   },
+   {
+      "column0": "KING\t203072868"
+   },
+   {
+      "column0": "TOGETHER\t202762516"
+   },
+   {
+      "column0": "CENTURY\t202612948"
+   },
+   {
+      "column0": "SECTION\t202298684"
+   },
+   {
+      "column0": "USING\t201536862"
+   },
+   {
+      "column0": "POSITION\t201281266"
+   },
+   {
+      "column0": "TYPE\t200474855"
+   },
+   {
+      "column0": "RESULT\t199933678"
+   },
+   {
+      "column0": "HELP\t199252187"
+   },
+   {
+      "column0": "INDIVIDUAL\t199046341"
+   },
+   {
+      "column0": "ALREADY\t198197475"
+   },
+   {
+      "column0": "MATTER\t198029580"
+   },
+   {
+      "column0": "FULL\t197457082"
+   },
+   {
+      "column0": "HALF\t197368932"
+   },
+   {
+      "column0": "VARIOUS\t197327756"
+   },
+   {
+      "column0": "SENSE\t197220509"
+   },
+   {
+      "column0": "LOOK\t197095972"
+   },
+   {
+      "column0": "BASED\t197020666"
+   },
+   {
+      "column0": "WHOSE\t196188708"
+   },
+   {
+      "column0": "ENGLISH\t195298116"
+   },
+   {
+      "column0": "SOUTH\t194907298"
+   },
+   {
+      "column0": "TOTAL\t194645191"
+   },
+   {
+      "column0": "CLASS\t193633305"
+   },
+   {
+      "column0": "BECAME\t192781007"
+   },
+   {
+      "column0": "PERHAPS\t192537809"
+   },
+   {
+      "column0": "LONDON\t192383215"
+   },
+   {
+      "column0": "POLICY\t191429651"
+   },
+   {
+      "column0": "MEMBERS\t190942415"
+   },
+   {
+      "column0": "AL\t189349849"
+   },
+   {
+      "column0": "LOCAL\t188970118"
+   },
+   {
+      "column0": "ENOUGH\t188948038"
+   },
+   {
+      "column0": "PARTICULAR\t188618420"
+   },
+   {
+      "column0": "RATE\t188524311"
+   },
+   {
+      "column0": "AIR\t187006770"
+   },
+   {
+      "column0": "ALONG\t186532177"
+   },
+   {
+      "column0": "MOTHER\t186371465"
+   },
+   {
+      "column0": "KNOWLEDGE\t185412728"
+   },
+   {
+      "column0": "FACE\t184744335"
+   },
+   {
+      "column0": "WORD\t184603724"
+   },
+   {
+      "column0": "KIND\t184534482"
+   },
+   {
+      "column0": "OPEN\t184266698"
+   },
+   {
+      "column0": "TERMS\t183434872"
+   },
+   {
+      "column0": "ABLE\t182787681"
+   },
+   {
+      "column0": "MONEY\t182729316"
+   },
+   {
+      "column0": "EXPERIENCE\t182659383"
+   },
+   {
+      "column0": "CONDITIONS\t182610089"
+   },
+   {
+      "column0": "SUPPORT\t182544724"
+   },
+   {
+      "column0": "LA\t182088211"
+   },
+   {
+      "column0": "PROBLEMS\t182033209"
+   },
+   {
+      "column0": "REAL\t181565857"
+   },
+   {
+      "column0": "BLACK\t181542099"
+   },
+   {
+      "column0": "LANGUAGE\t180585791"
+   },
+   {
+      "column0": "RESULTS\t180160027"
+   },
+   {
+      "column0": "ROOM\t179662401"
+   },
+   {
+      "column0": "FORCE\t179566043"
+   },
+   {
+      "column0": "HELD\t179077711"
+   },
+   {
+      "column0": "LOW\t178926877"
+   },
+   {
+      "column0": "ACCORDING\t178815411"
+   },
+   {
+      "column0": "USUALLY\t178737795"
+   },
+   {
+      "column0": "NORTH\t178650422"
+   },
+   {
+      "column0": "SHOW\t178523179"
+   },
+   {
+      "column0": "NIGHT\t177813198"
+   },
+   {
+      "column0": "TOLD\t177717884"
+   },
+   {
+      "column0": "SHORT\t176858591"
+   },
+   {
+      "column0": "FIELD\t176569485"
+   },
+   {
+      "column0": "REASON\t174823900"
+   },
+   {
+      "column0": "ASKED\t173745399"
+   },
+   {
+      "column0": "QUITE\t173456485"
+   },
+   {
+      "column0": "NOR\t173428887"
+   },
+   {
+      "column0": "HEALTH\t172752751"
+   },
+   {
+      "column0": "SPECIAL\t172749212"
+   },
+   {
+      "column0": "THING\t172738438"
+   },
+   {
+      "column0": "ANALYSIS\t172535798"
+   },
+   {
+      "column0": "EYES\t172228666"
+   },
+   {
+      "column0": "ESPECIALLY\t171145125"
+   },
+   {
+      "column0": "LORD\t169071283"
+   },
+   {
+      "column0": "WOMAN\t168921413"
+   },
+   {
+      "column0": "MAJOR\t168841614"
+   },
+   {
+      "column0": "SIMILAR\t168686666"
+   },
+   {
+      "column0": "CARE\t168579579"
+   },
+   {
+      "column0": "THEORY\t168319212"
+   },
+   {
+      "column0": "D\t167799877"
+   },
+   {
+      "column0": "BROUGHT\t167509544"
+   },
+   {
+      "column0": "WHOM\t167398469"
+   },
+   {
+      "column0": "OFFICE\t166126353"
+   },
+   {
+      "column0": "ART\t165726241"
+   },
+   {
+      "column0": "PRODUCTION\t165669185"
+   },
+   {
+      "column0": "SOMETIMES\t165282667"
+   },
+   {
+      "column0": "THIRD\t164752523"
+   },
+   {
+      "column0": "SHOWN\t164618363"
+   },
+   {
+      "column0": "BRITISH\t164541425"
+   },
+   {
+      "column0": "DUE\t164237479"
+   },
+   {
+      "column0": "INTERNATIONAL\t163591875"
+   },
+   {
+      "column0": "BEGAN\t163262683"
+   },
+   {
+      "column0": "SINGLE\t163205541"
+   },
+   {
+      "column0": "NATURAL\t163033916"
+   },
+   {
+      "column0": "GOT\t162985190"
+   },
+   {
+      "column0": "ACCOUNT\t162780963"
+   },
+   {
+      "column0": "CAUSE\t162187677"
+   },
+   {
+      "column0": "COMMUNITY\t162100278"
+   },
+   {
+      "column0": "SAW\t161350792"
+   },
+   {
+      "column0": "HEART\t161254474"
+   },
+   {
+      "column0": "SOON\t160678206"
+   },
+   {
+      "column0": "CHANGES\t160538481"
+   },
+   {
+      "column0": "STUDIES\t159772512"
+   },
+   {
+      "column0": "GROUPS\t159418843"
+   },
+   {
+      "column0": "METHOD\t159053948"
+   },
+   {
+      "column0": "EVIDENCE\t158753663"
+   },
+   {
+      "column0": "SEEMS\t158520801"
+   },
+   {
+      "column0": "GREATER\t158013141"
+   },
+   {
+      "column0": "REQUIRED\t157770281"
+   },
+   {
+      "column0": "TRADE\t157534593"
+   },
+   {
+      "column0": "FOREIGN\t155858655"
+   },
+   {
+      "column0": "WEST\t155720736"
+   },
+   {
+      "column0": "CLEAR\t155451094"
+   },
+   {
+      "column0": "MODEL\t155409143"
+   },
+   {
+      "column0": "E\t155009877"
+   },
+   {
+      "column0": "NEAR\t154954539"
+   },
+   {
+      "column0": "STUDENTS\t154638455"
+   },
+   {
+      "column0": "PROBABLY\t154301146"
+   },
+   {
+      "column0": "FRENCH\t154091688"
+   },
+   {
+      "column0": "GAVE\t153925918"
+   },
+   {
+      "column0": "INCLUDING\t153800374"
+   },
+   {
+      "column0": "READ\t153605720"
+   },
+   {
+      "column0": "ENGLAND\t153296679"
+   },
+   {
+      "column0": "MATERIAL\t153214581"
+   },
+   {
+      "column0": "TERM\t152976238"
+   },
+   {
+      "column0": "PAST\t152399625"
+   },
+   {
+      "column0": "REPORT\t151675470"
+   },
+   {
+      "column0": "CONSIDERED\t151545059"
+   },
+   {
+      "column0": "FUTURE\t151100623"
+   },
+   {
+      "column0": "HIGHER\t150778139"
+   },
+   {
+      "column0": "STRUCTURE\t150602123"
+   },
+   {
+      "column0": "FIG\t150377590"
+   },
+   {
+      "column0": "AVAILABLE\t150037688"
+   },
+   {
+      "column0": "WORKING\t149602561"
+   },
+   {
+      "column0": "FELT\t148292456"
+   },
+   {
+      "column0": "TELL\t148165666"
+   },
+   {
+      "column0": "AMOUNT\t147854681"
+   },
+   {
+      "column0": "REALLY\t147420684"
+   },
+   {
+      "column0": "FUNCTION\t147417217"
+   },
+   {
+      "column0": "KEEP\t147405178"
+   },
+   {
+      "column0": "INDEED\t147261279"
+   },
+   {
+      "column0": "GROWTH\t147031630"
+   },
+   {
+      "column0": "MARKET\t146995195"
+   },
+   {
+      "column0": "NON\t146456349"
+   },
+   {
+      "column0": "INCREASE\t146162071"
+   },
+   {
+      "column0": "PERSONAL\t146111561"
+   },
+   {
+      "column0": "COST\t146106969"
+   },
+   {
+      "column0": "MEAN\t146013228"
+   },
+   {
+      "column0": "SURFACE\t145677703"
+   },
+   {
+      "column0": "KNEW\t145643159"
+   },
+   {
+      "column0": "IDEA\t145406908"
+   },
+   {
+      "column0": "LOWER\t145218962"
+   },
+   {
+      "column0": "NOTE\t145170586"
+   },
+   {
+      "column0": "PROGRAM\t144947729"
+   },
+   {
+      "column0": "TREATMENT\t144883050"
+   },
+   {
+      "column0": "SIX\t144460042"
+   },
+   {
+      "column0": "FOOD\t144138399"
+   },
+   {
+      "column0": "T\t144097590"
+   },
+   {
+      "column0": "CLOSE\t144027294"
+   },
+   {
+      "column0": "SYSTEMS\t143847585"
+   },
+   {
+      "column0": "BLOOD\t143765938"
+   },
+   {
+      "column0": "POPULATION\t143726550"
+   },
+   {
+      "column0": "CENTRAL\t143504901"
+   },
+   {
+      "column0": "CHARACTER\t143305637"
+   },
+   {
+      "column0": "PRESIDENT\t143231208"
+   },
+   {
+      "column0": "ENERGY\t142518230"
+   },
+   {
+      "column0": "PROPERTY\t142167084"
+   },
+   {
+      "column0": "LIVING\t141598875"
+   },
+   {
+      "column0": "PROVIDE\t141554873"
+   },
+   {
+      "column0": "SPECIFIC\t141363074"
+   },
+   {
+      "column0": "SCIENCE\t141250014"
+   },
+   {
+      "column0": "RETURN\t141090661"
+   },
+   {
+      "column0": "PRACTICE\t140702777"
+   },
+   {
+      "column0": "HANDS\t140696114"
+   },
+   {
+      "column0": "ROLE\t140590569"
+   },
+   {
+      "column0": "COUNTRIES\t140381058"
+   },
+   {
+      "column0": "MANAGEMENT\t140362524"
+   },
+   {
+      "column0": "TOWARD\t140324365"
+   },
+   {
+      "column0": "SON\t140264746"
+   },
+   {
+      "column0": "SAYS\t140186080"
+   },
+   {
+      "column0": "GENERALLY\t139841620"
+   },
+   {
+      "column0": "INFLUENCE\t139632645"
+   },
+   {
+      "column0": "PURPOSE\t139327457"
+   },
+   {
+      "column0": "AMERICA\t139130506"
+   },
+   {
+      "column0": "RECEIVED\t139080046"
+   },
+   {
+      "column0": "STRONG\t138949457"
+   },
+   {
+      "column0": "CALL\t138858263"
+   },
+   {
+      "column0": "SERVICES\t138796737"
+   },
+   {
+      "column0": "RIGHTS\t138786228"
+   },
+   {
+      "column0": "CURRENT\t138569643"
+   },
+   {
+      "column0": "M\t138549303"
+   },
+   {
+      "column0": "BELIEVE\t138049846"
+   },
+   {
+      "column0": "EFFECTS\t137897766"
+   },
+   {
+      "column0": "LETTER\t137746343"
+   },
+   {
+      "column0": "X\t137589571"
+   },
+   {
+      "column0": "LOOKED\t137482513"
+   },
+   {
+      "column0": "STORY\t136788548"
+   },
+   {
+      "column0": "FORMS\t136468034"
+   },
+   {
+      "column0": "SEEMED\t136340001"
+   },
+   {
+      "column0": "GROUND\t136169686"
+   },
+   {
+      "column0": "MAIN\t135766466"
+   },
+   {
+      "column0": "PAPER\t135586065"
+   },
+   {
+      "column0": "WORKS\t134992496"
+   },
+   {
+      "column0": "AREAS\t134941395"
+   },
+   {
+      "column0": "MODERN\t134920850"
+   },
+   {
+      "column0": "PROVIDED\t134897102"
+   },
+   {
+      "column0": "MOMENT\t134838703"
+   },
+   {
+      "column0": "WRITTEN\t134806145"
+   },
+   {
+      "column0": "SITUATION\t134610698"
+   },
+   {
+      "column0": "TURN\t134505772"
+   },
+   {
+      "column0": "FEET\t134348666"
+   },
+   {
+      "column0": "PLAN\t133951245"
+   },
+   {
+      "column0": "PARTS\t133867316"
+   },
+   {
+      "column0": "VALUES\t133213477"
+   },
+   {
+      "column0": "MOVEMENT\t133198779"
+   },
+   {
+      "column0": "PRIVATE\t132458739"
+   },
+   {
+      "column0": "LATE\t132159565"
+   },
+   {
+      "column0": "SIZE\t131691612"
+   },
+   {
+      "column0": "UNION\t131560771"
+   },
+   {
+      "column0": "DESCRIBED\t131540958"
+   },
+   {
+      "column0": "EAST\t131239699"
+   },
+   {
+      "column0": "TEST\t131231093"
+   },
+   {
+      "column0": "DIFFICULT\t130577321"
+   },
+   {
+      "column0": "FEEL\t129516227"
+   },
+   {
+      "column0": "RIVER\t129050101"
+   },
+   {
+      "column0": "POOR\t128893459"
+   },
+   {
+      "column0": "ATTENTION\t128701456"
+   },
+   {
+      "column0": "BOOKS\t128685076"
+   },
+   {
+      "column0": "TOWN\t128248209"
+   },
+   {
+      "column0": "SPACE\t127941942"
+   },
+   {
+      "column0": "O\t127592144"
+   },
+   {
+      "column0": "PRICE\t127365117"
+   },
+   {
+      "column0": "TURNED\t127075437"
+   },
+   {
+      "column0": "RULE\t126808176"
+   },
+   {
+      "column0": "PERCENT\t126774559"
+   },
+   {
+      "column0": "ACTIVITY\t126420735"
+   },
+   {
+      "column0": "ACROSS\t125969728"
+   },
+   {
+      "column0": "PLAY\t125848745"
+   },
+   {
+      "column0": "BUILDING\t125844801"
+   },
+   {
+      "column0": "ANYTHING\t125837838"
+   },
+   {
+      "column0": "PHYSICAL\t125807765"
+   },
+   {
+      "column0": "CAPITAL\t125735242"
+   },
+   {
+      "column0": "N\t125421809"
+   },
+   {
+      "column0": "HARD\t125255025"
+   },
+   {
+      "column0": "MAKES\t125236883"
+   },
+   {
+      "column0": "SEA\t125103373"
+   },
+   {
+      "column0": "CENT\t125071257"
+   },
+   {
+      "column0": "APPROACH\t125032805"
+   },
+   {
+      "column0": "PRESSURE\t124800018"
+   },
+   {
+      "column0": "FINALLY\t124762454"
+   },
+   {
+      "column0": "MILITARY\t124721452"
+   },
+   {
+      "column0": "MIDDLE\t124608043"
+   },
+   {
+      "column0": "SIR\t124152316"
+   },
+   {
+      "column0": "LONGER\t124113646"
+   },
+   {
+      "column0": "SPIRIT\t123746611"
+   },
+   {
+      "column0": "CONTINUED\t123662279"
+   },
+   {
+      "column0": "BASIS\t123422191"
+   },
+   {
+      "column0": "ARMY\t123310034"
+   },
+   {
+      "column0": "RED\t122998966"
+   },
+   {
+      "column0": "ALONE\t122890524"
+   },
+   {
+      "column0": "SIMPLE\t122864411"
+   },
+   {
+      "column0": "BELOW\t122666600"
+   },
+   {
+      "column0": "SERIES\t122648090"
+   },
+   {
+      "column0": "SOURCE\t122508876"
+   },
+   {
+      "column0": "INCREASED\t122496287"
+   },
+   {
+      "column0": "SENT\t122390977"
+   },
+   {
+      "column0": "PARTICULARLY\t121435155"
+   },
+   {
+      "column0": "EARTH\t121334649"
+   },
+   {
+      "column0": "MONTHS\t121167402"
+   },
+   {
+      "column0": "DEPARTMENT\t121167286"
+   },
+   {
+      "column0": "HEARD\t121054582"
+   },
+   {
+      "column0": "QUESTIONS\t120973232"
+   },
+   {
+      "column0": "LIKELY\t120758940"
+   },
+   {
+      "column0": "LOST\t120728633"
+   },
+   {
+      "column0": "COMPLETE\t120475549"
+   },
+   {
+      "column0": "BEHIND\t120225593"
+   },
+   {
+      "column0": "TAKING\t119919305"
+   },
+   {
+      "column0": "WIFE\t119667451"
+   },
+   {
+      "column0": "LINES\t119425686"
+   },
+   {
+      "column0": "OBJECT\t119195088"
+   },
+   {
+      "column0": "HOURS\t119182573"
+   },
+   {
+      "column0": "TWENTY\t119057697"
+   },
+   {
+      "column0": "ESTABLISHED\t119035887"
+   },
+   {
+      "column0": "COMMITTEE\t118868748"
+   },
+   {
+      "column0": "RELATED\t118838205"
+   },
+   {
+      "column0": "RANGE\t118834139"
+   },
+   {
+      "column0": "TRUTH\t118722538"
+   },
+   {
+      "column0": "INCOME\t118647362"
+   },
+   {
+      "column0": "INSTEAD\t118485329"
+   },
+   {
+      "column0": "BEYOND\t118422939"
+   },
+   {
+      "column0": "REST\t118218918"
+   },
+   {
+      "column0": "DEVELOPED\t118108656"
+   },
+   {
+      "column0": "OUTSIDE\t118074170"
+   },
+   {
+      "column0": "ORGANIZATION\t117575520"
+   },
+   {
+      "column0": "RELIGIOUS\t117449364"
+   },
+   {
+      "column0": "BOARD\t117325679"
+   },
+   {
+      "column0": "LIVE\t117234948"
+   },
+   {
+      "column0": "L\t117220317"
+   },
+   {
+      "column0": "DESIGN\t117049361"
+   },
+   {
+      "column0": "NEEDS\t116865318"
+   },
+   {
+      "column0": "PERSONS\t116745553"
+   },
+   {
+      "column0": "EXCEPT\t116721782"
+   },
+   {
+      "column0": "AUTHORITY\t116697449"
+   },
+   {
+      "column0": "PATIENT\t116454325"
+   },
+   {
+      "column0": "RESPECT\t116205867"
+   },
+   {
+      "column0": "LATTER\t116154349"
+   },
+   {
+      "column0": "SURE\t116091233"
+   },
+   {
+      "column0": "CULTURE\t116003133"
+   },
+   {
+      "column0": "RELATIONSHIP\t115960669"
+   },
+   {
+      "column0": "TEN\t115708195"
+   },
+   {
+      "column0": "METHODS\t115683616"
+   },
+   {
+      "column0": "FOLLOWED\t115410114"
+   },
+   {
+      "column0": "WILLIAM\t115262883"
+   },
+   {
+      "column0": "CONDITION\t115246769"
+   },
+   {
+      "column0": "POINTS\t115158315"
+   },
+   {
+      "column0": "ADDITION\t115111424"
+   },
+   {
+      "column0": "DIRECT\t114945752"
+   },
+   {
+      "column0": "SEEM\t114793384"
+   },
+   {
+      "column0": "INDUSTRY\t114733976"
+   },
+   {
+      "column0": "COLLEGE\t114625844"
+   },
+   {
+      "column0": "FRIENDS\t114335214"
+   },
+   {
+      "column0": "BEGINNING\t114330225"
+   },
+   {
+      "column0": "HUNDRED\t114288698"
+   },
+   {
+      "column0": "MANNER\t114272160"
+   },
+   {
+      "column0": "FRONT\t114244970"
+   },
+   {
+      "column0": "ORIGINAL\t114070624"
+   },
+   {
+      "column0": "PATIENTS\t114060991"
+   },
+   {
+      "column0": "APPEAR\t113979614"
+   },
+   {
+      "column0": "INCLUDE\t113661157"
+   },
+   {
+      "column0": "SHOWS\t113416183"
+   },
+   {
+      "column0": "WAYS\t113283389"
+   },
+   {
+      "column0": "ACTIVITIES\t113101457"
+   },
+   {
+      "column0": "RELATIONS\t112325996"
+   },
+   {
+      "column0": "WRITING\t112154899"
+   },
+   {
+      "column0": "COUNCIL\t111961286"
+   },
+   {
+      "column0": "DISEASE\t111922686"
+   },
+   {
+      "column0": "STANDARD\t111899749"
+   },
+   {
+      "column0": "FIRE\t111793160"
+   },
+   {
+      "column0": "GERMAN\t111778665"
+   },
+   {
+      "column0": "FRANCE\t111695924"
+   },
+   {
+      "column0": "DEGREE\t111537970"
+   },
+   {
+      "column0": "TOWARDS\t111513874"
+   },
+   {
+      "column0": "PRODUCED\t111503587"
+   },
+   {
+      "column0": "LEAVE\t111442661"
+   },
+   {
+      "column0": "UNDERSTAND\t111365730"
+   },
+   {
+      "column0": "CELLS\t111296827"
+   },
+   {
+      "column0": "AVERAGE\t111225011"
+   },
+   {
+      "column0": "MARCH\t111017382"
+   },
+   {
+      "column0": "CARRIED\t110953787"
+   },
+   {
+      "column0": "LENGTH\t110823907"
+   },
+   {
+      "column0": "DIFFERENCE\t110581448"
+   },
+   {
+      "column0": "SIMPLY\t110224005"
+   },
+   {
+      "column0": "NORMAL\t110176830"
+   },
+   {
+      "column0": "VOL\t110098926"
+   },
+   {
+      "column0": "QUALITY\t110037183"
+   },
+   {
+      "column0": "STREET\t110013571"
+   },
+   {
+      "column0": "RUN\t109873076"
+   },
+   {
+      "column0": "ANSWER\t109738829"
+   },
+   {
+      "column0": "MORNING\t109646842"
+   },
+   {
+      "column0": "LOSS\t109639032"
+   },
+   {
+      "column0": "DOING\t109588230"
+   },
+   {
+      "column0": "STAGE\t109565790"
+   },
+   {
+      "column0": "PAY\t109289513"
+   },
+   {
+      "column0": "TODAY\t108960014"
+   },
+   {
+      "column0": "DECISION\t108947093"
+   },
+   {
+      "column0": "LABOR\t108728677"
+   },
+   {
+      "column0": "PAGE\t108390018"
+   },
+   {
+      "column0": "V\t108064400"
+   },
+   {
+      "column0": "PUBLISHED\t107976995"
+   },
+   {
+      "column0": "WORKERS\t107751613"
+   },
+   {
+      "column0": "BANK\t107713584"
+   },
+   {
+      "column0": "TOP\t107686513"
+   },
+   {
+      "column0": "WANTED\t107546531"
+   },
+   {
+      "column0": "JOURNAL\t107491373"
+   },
+   {
+      "column0": "PASSED\t107205319"
+   },
+   {
+      "column0": "DOOR\t107165852"
+   },
+   {
+      "column0": "P\t106894432"
+   },
+   {
+      "column0": "IMPORTANCE\t106610622"
+   },
+   {
+      "column0": "WESTERN\t106592600"
+   },
+   {
+      "column0": "TAX\t106424130"
+   },
+   {
+      "column0": "INVOLVED\t106252318"
+   },
+   {
+      "column0": "SOLUTION\t106000254"
+   },
+   {
+      "column0": "HOPE\t105991336"
+   },
+   {
+      "column0": "VOICE\t105822860"
+   },
+   {
+      "column0": "READING\t105673771"
+   },
+   {
+      "column0": "OBTAINED\t105602979"
+   },
+   {
+      "column0": "BRING\t105435509"
+   },
+   {
+      "column0": "PEACE\t105430654"
+   },
+   {
+      "column0": "NEEDED\t105352008"
+   },
+   {
+      "column0": "PLACED\t105053742"
+   },
+   {
+      "column0": "CHIEF\t104936898"
+   },
+   {
+      "column0": "SPECIES\t104777832"
+   },
+   {
+      "column0": "ADDED\t104772904"
+   },
+   {
+      "column0": "EUROPE\t104380168"
+   },
+   {
+      "column0": "LOOKING\t104343071"
+   },
+   {
+      "column0": "FACTORS\t104238296"
+   },
+   {
+      "column0": "LAWS\t104226443"
+   },
+   {
+      "column0": "BEHAVIOR\t104177552"
+   },
+   {
+      "column0": "DIE\t104147370"
+   },
+   {
+      "column0": "RESPONSE\t103816451"
+   },
+   {
+      "column0": "LED\t103672634"
+   },
+   {
+      "column0": "ASSOCIATION\t103663697"
+   },
+   {
+      "column0": "PERFORMANCE\t103654915"
+   },
+   {
+      "column0": "ROAD\t103446400"
+   },
+   {
+      "column0": "ISSUE\t103420145"
+   },
+   {
+      "column0": "CONSIDER\t103396986"
+   },
+   {
+      "column0": "EQUAL\t103238744"
+   },
+   {
+      "column0": "LEARNING\t103238640"
+   },
+   {
+      "column0": "INDIA\t103234898"
+   },
+   {
+      "column0": "TRAINING\t103222916"
+   },
+   {
+      "column0": "FORCES\t103159527"
+   },
+   {
+      "column0": "CUT\t103037571"
+   },
+   {
+      "column0": "EARLIER\t102977377"
+   },
+   {
+      "column0": "BASIC\t102960618"
+   },
+   {
+      "column0": "MEMBER\t102879701"
+   },
+   {
+      "column0": "FRIEND\t102792326"
+   },
+   {
+      "column0": "LEAD\t102763510"
+   },
+   {
+      "column0": "APPEARS\t102703030"
+   },
+   {
+      "column0": "TYPES\t102702549"
+   },
+   {
+      "column0": "SCHOOLS\t102673006"
+   },
+   {
+      "column0": "MUSIC\t102628158"
+   },
+   {
+      "column0": "JAMES\t102601697"
+   },
+   {
+      "column0": "TEMPERATURE\t102534206"
+   },
+   {
+      "column0": "CHRISTIAN\t102337125"
+   },
+   {
+      "column0": "VOLUME\t102231218"
+   },
+   {
+      "column0": "KEPT\t102131747"
+   },
+   {
+      "column0": "REVIEW\t102040164"
+   },
+   {
+      "column0": "SIGNIFICANT\t101999263"
+   },
+   {
+      "column0": "J\t101980525"
+   },
+   {
+      "column0": "FORMER\t101846921"
+   },
+   {
+      "column0": "MEANING\t101764328"
+   },
+   {
+      "column0": "ASSOCIATED\t101716328"
+   },
+   {
+      "column0": "WROTE\t101295092"
+   },
+   {
+      "column0": "CENTER\t100841549"
+   },
+   {
+      "column0": "DIRECTION\t100827132"
+   },
+   {
+      "column0": "EVERYTHING\t100209737"
+   },
+   {
+      "column0": "JOB\t100179458"
+   },
+   {
+      "column0": "UNDERSTANDING\t100058677"
+   },
+   {
+      "column0": "REGION\t99947510"
+   },
+   {
+      "column0": "BIG\t99488298"
+   },
+   {
+      "column0": "HOLD\t99442715"
+   },
+   {
+      "column0": "OPINION\t99413974"
+   },
+   {
+      "column0": "TEXT\t99367890"
+   },
+   {
+      "column0": "JUNE\t99367805"
+   },
+   {
+      "column0": "DATE\t99163252"
+   },
+   {
+      "column0": "APPLICATION\t99149278"
+   },
+   {
+      "column0": "AUTHOR\t99092074"
+   },
+   {
+      "column0": "F\t98925228"
+   },
+   {
+      "column0": "CELL\t98824016"
+   },
+   {
+      "column0": "DISTRIBUTION\t98801980"
+   },
+   {
+      "column0": "FALL\t98777178"
+   },
+   {
+      "column0": "BECOMES\t98769246"
+   },
+   {
+      "column0": "WASHINGTON\t98704427"
+   },
+   {
+      "column0": "LIMITED\t98575904"
+   },
+   {
+      "column0": "INDIAN\t98531340"
+   },
+   {
+      "column0": "PRESENCE\t98464008"
+   },
+   {
+      "column0": "SOUND\t98359048"
+   },
+   {
+      "column0": "III\t98208308"
+   },
+   {
+      "column0": "MEETING\t98128650"
+   },
+   {
+      "column0": "CLEARLY\t97843943"
+   },
+   {
+      "column0": "EXPECTED\t97832275"
+   },
+   {
+      "column0": "FEDERAL\t97641247"
+   },
+   {
+      "column0": "R\t97228768"
+   },
+   {
+      "column0": "NEARLY\t97223334"
+   },
+   {
+      "column0": "ED\t97120955"
+   },
+   {
+      "column0": "EXTENT\t97114220"
+   },
+   {
+      "column0": "PARENTS\t97099001"
+   },
+   {
+      "column0": "YES\t96899883"
+   },
+   {
+      "column0": "IDEAS\t96892979"
+   },
+   {
+      "column0": "MEDICAL\t96691323"
+   },
+   {
+      "column0": "OBSERVED\t96654419"
+   },
+   {
+      "column0": "ACTUALLY\t96637249"
+   },
+   {
+      "column0": "FINAL\t96624825"
+   },
+   {
+      "column0": "GEORGE\t96604675"
+   },
+   {
+      "column0": "MILES\t96533288"
+   },
+   {
+      "column0": "ELEMENTS\t96488567"
+   },
+   {
+      "column0": "LIST\t96243232"
+   },
+   {
+      "column0": "PROJECT\t96234298"
+   },
+   {
+      "column0": "PRODUCT\t96228667"
+   },
+   {
+      "column0": "THROUGHOUT\t96182381"
+   },
+   {
+      "column0": "CHRIST\t95948428"
+   },
+   {
+      "column0": "DISCUSSION\t95836510"
+   },
+   {
+      "column0": "APPLIED\t95584186"
+   },
+   {
+      "column0": "RULES\t95446866"
+   },
+   {
+      "column0": "PRODUCE\t95384159"
+   },
+   {
+      "column0": "RELIGION\t95336728"
+   },
+   {
+      "column0": "DEEP\t95321084"
+   },
+   {
+      "column0": "OPERATION\t95100641"
+   },
+   {
+      "column0": "ISSUES\t94936661"
+   },
+   {
+      "column0": "ELSE\t94712154"
+   },
+   {
+      "column0": "MASS\t94678376"
+   },
+   {
+      "column0": "COMING\t94643724"
+   },
+   {
+      "column0": "DETERMINED\t94480905"
+   },
+   {
+      "column0": "EUROPEAN\t94407549"
+   },
+   {
+      "column0": "EVENTS\t94350605"
+   },
+   {
+      "column0": "SECURITY\t94081024"
+   },
+   {
+      "column0": "OIL\t94078195"
+   },
+   {
+      "column0": "FINE\t94065909"
+   },
+   {
+      "column0": "DISTANCE\t94015589"
+   },
+   {
+      "column0": "MOVE\t93962800"
+   },
+   {
+      "column0": "EFFECTIVE\t93845257"
+   },
+   {
+      "column0": "PAID\t93735031"
+   },
+   {
+      "column0": "NATION\t93534315"
+   },
+   {
+      "column0": "STEP\t93522951"
+   },
+   {
+      "column0": "GIVES\t93485484"
+   },
+   {
+      "column0": "SUCCESS\t93383234"
+   },
+   {
+      "column0": "LITERATURE\t93086473"
+   },
+   {
+      "column0": "PRODUCTS\t92985765"
+   },
+   {
+      "column0": "NEITHER\t92913536"
+   },
+   {
+      "column0": "RESOURCES\t92890018"
+   },
+   {
+      "column0": "FOLLOW\t92875751"
+   },
+   {
+      "column0": "CROSS\t92631653"
+   },
+   {
+      "column0": "ASK\t92326874"
+   },
+   {
+      "column0": "LEVELS\t92296964"
+   },
+   {
+      "column0": "IMMEDIATELY\t92279838"
+   },
+   {
+      "column0": "CERTAINLY\t92207776"
+   },
+   {
+      "column0": "PRINCIPLE\t92207363"
+   },
+   {
+      "column0": "MORAL\t92086790"
+   },
+   {
+      "column0": "JULY\t91750068"
+   },
+   {
+      "column0": "FORMED\t91737307"
+   },
+   {
+      "column0": "REACHED\t91732623"
+   },
+   {
+      "column0": "FAITH\t91679190"
+   },
+   {
+      "column0": "DEAL\t91637705"
+   },
+   {
+      "column0": "RECENT\t91426553"
+   },
+   {
+      "column0": "LEGAL\t91243628"
+   },
+   {
+      "column0": "ADMINISTRATION\t91223973"
+   },
+   {
+      "column0": "COMES\t91173579"
+   },
+   {
+      "column0": "MATERIALS\t91143958"
+   },
+   {
+      "column0": "POTENTIAL\t91052860"
+   },
+   {
+      "column0": "PRESENTED\t90941683"
+   },
+   {
+      "column0": "CONGRESS\t90923426"
+   },
+   {
+      "column0": "CIVIL\t90893209"
+   },
+   {
+      "column0": "DIRECTLY\t90710253"
+   },
+   {
+      "column0": "MEET\t90681024"
+   },
+   {
+      "column0": "MET\t90663973"
+   },
+   {
+      "column0": "PRINCIPLES\t90657731"
+   },
+   {
+      "column0": "EXPRESSION\t90569415"
+   },
+   {
+      "column0": "MYSELF\t90480990"
+   },
+   {
+      "column0": "BORN\t90297418"
+   },
+   {
+      "column0": "WIDE\t90243089"
+   },
+   {
+      "column0": "POST\t90205323"
+   },
+   {
+      "column0": "JUSTICE\t90057247"
+   },
+   {
+      "column0": "STRENGTH\t90040288"
+   },
+   {
+      "column0": "RELATION\t90003036"
+   },
+   {
+      "column0": "STATEMENT\t89976766"
+   },
+   {
+      "column0": "FINANCIAL\t89946991"
+   },
+   {
+      "column0": "DEAD\t89942531"
+   },
+   {
+      "column0": "LARGER\t89837443"
+   },
+   {
+      "column0": "CULTURAL\t89796487"
+   },
+   {
+      "column0": "HISTORICAL\t89471481"
+   },
+   {
+      "column0": "EXISTENCE\t89086621"
+   },
+   {
+      "column0": "BUILT\t88977072"
+   },
+   {
+      "column0": "WEIGHT\t88931850"
+   },
+   {
+      "column0": "REFERENCE\t88812899"
+   },
+   {
+      "column0": "FEELING\t88796885"
+   },
+   {
+      "column0": "ROUND\t88680611"
+   },
+   {
+      "column0": "REPORTED\t88357597"
+   },
+   {
+      "column0": "RISK\t88332946"
+   },
+   {
+      "column0": "APPEARED\t88081092"
+   },
+   {
+      "column0": "INCLUDED\t87961423"
+   },
+   {
+      "column0": "SCALE\t87945524"
+   },
+   {
+      "column0": "INDIVIDUALS\t87854335"
+   },
+   {
+      "column0": "SUPPLY\t87778086"
+   },
+   {
+      "column0": "MILLION\t87612893"
+   },
+   {
+      "column0": "DIFFERENCES\t87593624"
+   },
+   {
+      "column0": "WRITE\t87398762"
+   },
+   {
+      "column0": "DOUBT\t86837636"
+   },
+   {
+      "column0": "HOUR\t86782301"
+   },
+   {
+      "column0": "INDUSTRIAL\t86710235"
+   },
+   {
+      "column0": "APRIL\t86612130"
+   },
+   {
+      "column0": "PRIMARY\t86561888"
+   },
+   {
+      "column0": "BASE\t86517782"
+   },
+   {
+      "column0": "LETTERS\t86483192"
+   },
+   {
+      "column0": "INTERESTS\t86405949"
+   },
+   {
+      "column0": "NUMBERS\t86377548"
+   },
+   {
+      "column0": "SEVEN\t86326705"
+   },
+   {
+      "column0": "PLACES\t86150103"
+   },
+   {
+      "column0": "WALL\t86098266"
+   },
+   {
+      "column0": "COMPLEX\t86083324"
+   },
+   {
+      "column0": "ENTIRE\t86075488"
+   },
+   {
+      "column0": "TRY\t86024314"
+   },
+   {
+      "column0": "ARTICLE\t86017205"
+   },
+   {
+      "column0": "COUNTY\t86016942"
+   },
+   {
+      "column0": "COSTS\t85952250"
+   },
+   {
+      "column0": "THINKING\t85735136"
+   },
+   {
+      "column0": "RECORD\t85612085"
+   },
+   {
+      "column0": "FLOW\t85584876"
+   },
+   {
+      "column0": "FOLLOWS\t85545433"
+   },
+   {
+      "column0": "SUN\t85535857"
+   },
+   {
+      "column0": "ATTEMPT\t85325513"
+   },
+   {
+      "column0": "BAD\t85320148"
+   },
+   {
+      "column0": "INSTANCE\t85306493"
+   },
+   {
+      "column0": "COMMISSION\t85299537"
+   },
+   {
+      "column0": "EASILY\t85185742"
+   },
+   {
+      "column0": "UNIT\t85082435"
+   },
+   {
+      "column0": "DIED\t84913888"
+   },
+   {
+      "column0": "GREEN\t84883858"
+   },
+   {
+      "column0": "CHARLES\t84830217"
+   },
+   {
+      "column0": "WEEK\t84735902"
+   },
+   {
+      "column0": "DEMAND\t84566589"
+   },
+   {
+      "column0": "ACID\t84436627"
+   },
+   {
+      "column0": "ENVIRONMENT\t84401739"
+   },
+   {
+      "column0": "PROPER\t84248955"
+   },
+   {
+      "column0": "TAKES\t84145451"
+   },
+   {
+      "column0": "POSITIVE\t84081928"
+   },
+   {
+      "column0": "TALK\t83995152"
+   },
+   {
+      "column0": "ACTIVE\t83964190"
+   },
+   {
+      "column0": "IMAGE\t83929870"
+   },
+   {
+      "column0": "PLANT\t83847060"
+   },
+   {
+      "column0": "FREEDOM\t83831865"
+   },
+   {
+      "column0": "LIBRARY\t83724358"
+   },
+   {
+      "column0": "DARK\t83668292"
+   },
+   {
+      "column0": "KEY\t83552147"
+   },
+   {
+      "column0": "MENTIONED\t83540627"
+   },
+   {
+      "column0": "CO\t83487330"
+   },
+   {
+      "column0": "SPEAK\t83469645"
+   },
+   {
+      "column0": "ALLOWED\t83426595"
+   },
+   {
+      "column0": "WHATEVER\t83396786"
+   },
+   {
+      "column0": "CONCERNED\t83350541"
+   },
+   {
+      "column0": "MEASURE\t83157475"
+   },
+   {
+      "column0": "LIVES\t83154557"
+   },
+   {
+      "column0": "MERELY\t83043351"
+   },
+   {
+      "column0": "FEAR\t83025936"
+   },
+   {
+      "column0": "PARIS\t83003865"
+   },
+   {
+      "column0": "INDEPENDENT\t82973548"
+   },
+   {
+      "column0": "HEAT\t82916476"
+   },
+   {
+      "column0": "CIRCUMSTANCES\t82859794"
+   },
+   {
+      "column0": "THOMAS\t82734020"
+   },
+   {
+      "column0": "GIVING\t82617922"
+   },
+   {
+      "column0": "MASTER\t82454164"
+   },
+   {
+      "column0": "TRIED\t82422379"
+   },
+   {
+      "column0": "CHINA\t82354191"
+   },
+   {
+      "column0": "EYE\t82308670"
+   },
+   {
+      "column0": "UPPER\t82015080"
+   },
+   {
+      "column0": "GONE\t81987916"
+   },
+   {
+      "column0": "ACTUAL\t81881900"
+   },
+   {
+      "column0": "COLD\t81812697"
+   },
+   {
+      "column0": "FREQUENTLY\t81661621"
+   },
+   {
+      "column0": "EIGHT\t81515476"
+   },
+   {
+      "column0": "ABILITY\t81500208"
+   },
+   {
+      "column0": "UNLESS\t81484257"
+   },
+   {
+      "column0": "REGARD\t81462519"
+   },
+   {
+      "column0": "HENRY\t81403955"
+   },
+   {
+      "column0": "STATUS\t81390371"
+   },
+   {
+      "column0": "HEAR\t81378760"
+   },
+   {
+      "column0": "THOUSAND\t81181403"
+   },
+   {
+      "column0": "MINUTES\t81117083"
+   },
+   {
+      "column0": "PARTIES\t81116646"
+   },
+   {
+      "column0": "STOCK\t81089976"
+   },
+   {
+      "column0": "STUDENT\t81078065"
+   },
+   {
+      "column0": "RISE\t81063866"
+   },
+   {
+      "column0": "ARMS\t80956755"
+   },
+   {
+      "column0": "FACTOR\t80951457"
+   },
+   {
+      "column0": "CHARGE\t80928075"
+   },
+   {
+      "column0": "EASY\t80893690"
+   },
+   {
+      "column0": "CREATED\t80763009"
+   },
+   {
+      "column0": "STAND\t80686346"
+   },
+   {
+      "column0": "STARTED\t80515153"
+   },
+   {
+      "column0": "CONTENT\t80471016"
+   },
+   {
+      "column0": "SHARE\t80467423"
+   },
+   {
+      "column0": "PICTURE\t80466092"
+   },
+   {
+      "column0": "HERSELF\t80318677"
+   },
+   {
+      "column0": "AGREEMENT\t80276151"
+   },
+   {
+      "column0": "REMEMBER\t80168659"
+   },
+   {
+      "column0": "CONSTANT\t80167769"
+   },
+   {
+      "column0": "NONE\t80150779"
+   },
+   {
+      "column0": "POPULAR\t80074272"
+   },
+   {
+      "column0": "APPROPRIATE\t80022252"
+   },
+   {
+      "column0": "STYLE\t79906426"
+   },
+   {
+      "column0": "START\t79891984"
+   },
+   {
+      "column0": "GOODS\t79809435"
+   },
+   {
+      "column0": "CONSIDERABLE\t79770275"
+   },
+   {
+      "column0": "READY\t79609735"
+   },
+   {
+      "column0": "Y\t79536358"
+   },
+   {
+      "column0": "OCCUR\t79479712"
+   },
+   {
+      "column0": "NOTES\t79463444"
+   },
+   {
+      "column0": "FORWARD\t79381233"
+   },
+   {
+      "column0": "RATES\t79237251"
+   },
+   {
+      "column0": "RETURNED\t79199231"
+   },
+   {
+      "column0": "DEFINED\t79139469"
+   },
+   {
+      "column0": "CONSTRUCTION\t78888353"
+   },
+   {
+      "column0": "MINISTER\t78885515"
+   },
+   {
+      "column0": "USEFUL\t78871232"
+   },
+   {
+      "column0": "REMAIN\t78855958"
+   },
+   {
+      "column0": "NATIONS\t78827475"
+   },
+   {
+      "column0": "ISLAND\t78815401"
+   },
+   {
+      "column0": "STOOD\t78683031"
+   },
+   {
+      "column0": "CHOICE\t78633933"
+   },
+   {
+      "column0": "DISTRICT\t78585014"
+   },
+   {
+      "column0": "SPEECH\t78548997"
+   },
+   {
+      "column0": "ECONOMY\t78392321"
+   },
+   {
+      "column0": "JESUS\t78352447"
+   },
+   {
+      "column0": "MOVED\t78308876"
+   },
+   {
+      "column0": "POWERS\t78184548"
+   },
+   {
+      "column0": "PAUL\t78063298"
+   },
+   {
+      "column0": "DESIRE\t78023132"
+   },
+   {
+      "column0": "DIVISION\t78010703"
+   },
+   {
+      "column0": "BILL\t77905466"
+   },
+   {
+      "column0": "GERMANY\t77889212"
+   },
+   {
+      "column0": "HIGHLY\t77844910"
+   },
+   {
+      "column0": "TASK\t77779959"
+   },
+   {
+      "column0": "STAFF\t77708958"
+   },
+   {
+      "column0": "ADDITIONAL\t77664573"
+   },
+   {
+      "column0": "PROGRESS\t77622452"
+   },
+   {
+      "column0": "SITE\t77606105"
+   },
+   {
+      "column0": "REASONS\t77424645"
+   },
+   {
+      "column0": "SERIOUS\t77351744"
+   },
+   {
+      "column0": "RE\t77257723"
+   },
+   {
+      "column0": "GOLD\t77223152"
+   },
+   {
+      "column0": "BOY\t77220366"
+   },
+   {
+      "column0": "BROTHER\t77196407"
+   },
+   {
+      "column0": "REMAINED\t77179789"
+   },
+   {
+      "column0": "JANUARY\t77148384"
+   },
+   {
+      "column0": "SORT\t76748889"
+   },
+   {
+      "column0": "RELATIVE\t76673081"
+   },
+   {
+      "column0": "PASS\t76642270"
+   },
+   {
+      "column0": "PREVIOUS\t76638735"
+   },
+   {
+      "column0": "PAIN\t76589902"
+   },
+   {
+      "column0": "SEPARATE\t76484418"
+   },
+   {
+      "column0": "PLANNING\t76437277"
+   },
+   {
+      "column0": "LAY\t76414354"
+   },
+   {
+      "column0": "EXCHANGE\t76398427"
+   },
+   {
+      "column0": "DER\t76206810"
+   },
+   {
+      "column0": "PROCESSES\t76196139"
+   },
+   {
+      "column0": "ROBERT\t76162406"
+   },
+   {
+      "column0": "CRITICAL\t76145395"
+   },
+   {
+      "column0": "ANIMALS\t76126929"
+   },
+   {
+      "column0": "ANCIENT\t76060198"
+   },
+   {
+      "column0": "FUNCTIONS\t76050556"
+   },
+   {
+      "column0": "OCTOBER\t75987271"
+   },
+   {
+      "column0": "AUGUST\t75950243"
+   },
+   {
+      "column0": "SUFFICIENT\t75910173"
+   },
+   {
+      "column0": "DISCUSSED\t75791362"
+   },
+   {
+      "column0": "MARRIAGE\t75597009"
+   },
+   {
+      "column0": "REMAINS\t75547626"
+   },
+   {
+      "column0": "PROGRAMS\t75509847"
+   },
+   {
+      "column0": "INTRODUCTION\t75350470"
+   },
+   {
+      "column0": "EFFORT\t75329669"
+   },
+   {
+      "column0": "MEMORY\t75319047"
+   },
+   {
+      "column0": "GIRL\t75288361"
+   },
+   {
+      "column0": "SOURCES\t75269037"
+   },
+   {
+      "column0": "INTERNAL\t75228149"
+   },
+   {
+      "column0": "SOUL\t75109866"
+   },
+   {
+      "column0": "NEWS\t75088462"
+   },
+   {
+      "column0": "BED\t75087117"
+   },
+   {
+      "column0": "LE\t75050930"
+   },
+   {
+      "column0": "DES\t75044809"
+   },
+   {
+      "column0": "BROWN\t75023376"
+   },
+   {
+      "column0": "CAUSED\t75022109"
+   },
+   {
+      "column0": "CHINESE\t75019978"
+   },
+   {
+      "column0": "LACK\t74862176"
+   },
+   {
+      "column0": "HUSBAND\t74612454"
+   },
+   {
+      "column0": "SEPTEMBER\t74566913"
+   },
+   {
+      "column0": "LIVED\t74523682"
+   },
+   {
+      "column0": "LEARN\t74450821"
+   },
+   {
+      "column0": "COMMAND\t74409169"
+   },
+   {
+      "column0": "POLITICS\t74316154"
+   },
+   {
+      "column0": "DECEMBER\t74262603"
+   },
+   {
+      "column0": "DUTY\t74211760"
+   },
+   {
+      "column0": "TEACHER\t74147301"
+   },
+   {
+      "column0": "DAILY\t74143745"
+   },
+   {
+      "column0": "TECHNOLOGY\t74134226"
+   },
+   {
+      "column0": "ESSENTIAL\t74121670"
+   },
+   {
+      "column0": "ALLOW\t74009167"
+   },
+   {
+      "column0": "BOX\t73974790"
+   },
+   {
+      "column0": "IRON\t73912969"
+   },
+   {
+      "column0": "FAILURE\t73834492"
+   },
+   {
+      "column0": "DECIDED\t73604266"
+   },
+   {
+      "column0": "CONCEPT\t73598965"
+   },
+   {
+      "column0": "NOTED\t73569863"
+   },
+   {
+      "column0": "NAMES\t73408991"
+   },
+   {
+      "column0": "GETTING\t73375416"
+   },
+   {
+      "column0": "PATTERN\t73371169"
+   },
+   {
+      "column0": "AGO\t73358573"
+   },
+   {
+      "column0": "PHASE\t73292544"
+   },
+   {
+      "column0": "TEACHERS\t73279702"
+   },
+   {
+      "column0": "OTHERWISE\t73189721"
+   },
+   {
+      "column0": "VARIETY\t73108031"
+   },
+   {
+      "column0": "DETERMINE\t73035028"
+   },
+   {
+      "column0": "HENCE\t72980522"
+   },
+   {
+      "column0": "BLUE\t72974499"
+   },
+   {
+      "column0": "PREPARED\t72924152"
+   },
+   {
+      "column0": "FIGURES\t72916620"
+   },
+   {
+      "column0": "CONTACT\t72897350"
+   },
+   {
+      "column0": "LOT\t72894408"
+   },
+   {
+      "column0": "H\t72827269"
+   },
+   {
+      "column0": "CONTINUE\t72786692"
+   },
+   {
+      "column0": "MEASURES\t72774916"
+   },
+   {
+      "column0": "HEAVY\t72613321"
+   },
+   {
+      "column0": "LABOUR\t72574389"
+   },
+   {
+      "column0": "COMPANIES\t72557544"
+   },
+   {
+      "column0": "SUGGESTED\t72555131"
+   },
+   {
+      "column0": "SOUTHERN\t72546462"
+   },
+   {
+      "column0": "SUBJECTS\t72417020"
+   },
+   {
+      "column0": "FEATURES\t72363939"
+   },
+   {
+      "column0": "COMMUNICATION\t72359865"
+   },
+   {
+      "column0": "FULLY\t72304884"
+   },
+   {
+      "column0": "OFFICERS\t72282982"
+   },
+   {
+      "column0": "WISH\t72239553"
+   },
+   {
+      "column0": "OPPORTUNITY\t72227568"
+   },
+   {
+      "column0": "COMPUTER\t72150984"
+   },
+   {
+      "column0": "EXERCISE\t72067303"
+   },
+   {
+      "column0": "POLICE\t72033659"
+   },
+   {
+      "column0": "CREATE\t72032879"
+   },
+   {
+      "column0": "REALITY\t71920825"
+   },
+   {
+      "column0": "ADD\t71846370"
+   },
+   {
+      "column0": "WORKED\t71844417"
+   },
+   {
+      "column0": "LEARNED\t71787022"
+   },
+   {
+      "column0": "INSIDE\t71761839"
+   },
+   {
+      "column0": "DESCRIPTION\t71716121"
+   },
+   {
+      "column0": "TEACHING\t71709226"
+   },
+   {
+      "column0": "SUMMER\t71669834"
+   },
+   {
+      "column0": "GAS\t71631004"
+   },
+   {
+      "column0": "CAR\t71566944"
+   },
+   {
+      "column0": "SCIENTIFIC\t71545578"
+   },
+   {
+      "column0": "TITLE\t71430817"
+   },
+   {
+      "column0": "SOIL\t71250643"
+   },
+   {
+      "column0": "CLAIM\t71229695"
+   },
+   {
+      "column0": "OBJECTS\t71202828"
+   },
+   {
+      "column0": "VILLAGE\t71188072"
+   },
+   {
+      "column0": "TRYING\t71151809"
+   },
+   {
+      "column0": "TRADITIONAL\t71120417"
+   },
+   {
+      "column0": "PROTECTION\t71001976"
+   },
+   {
+      "column0": "ENTIRELY\t71001785"
+   },
+   {
+      "column0": "EMPLOYED\t70975469"
+   },
+   {
+      "column0": "SOVIET\t70956695"
+   },
+   {
+      "column0": "FIXED\t70927704"
+   },
+   {
+      "column0": "LADY\t70866011"
+   },
+   {
+      "column0": "PROVIDES\t70820003"
+   },
+   {
+      "column0": "EFFORTS\t70808999"
+   },
+   {
+      "column0": "CAPACITY\t70798559"
+   },
+   {
+      "column0": "COMPLETELY\t70695291"
+   },
+   {
+      "column0": "EXPRESSED\t70616426"
+   },
+   {
+      "column0": "MAJORITY\t70452760"
+   },
+   {
+      "column0": "IV\t70418238"
+   },
+   {
+      "column0": "PRINCIPAL\t70383823"
+   },
+   {
+      "column0": "PURPOSES\t70367846"
+   },
+   {
+      "column0": "MENTAL\t70316772"
+   },
+   {
+      "column0": "ACCESS\t70273491"
+   },
+   {
+      "column0": "SAYING\t70213724"
+   },
+   {
+      "column0": "RAISED\t70194506"
+   },
+   {
+      "column0": "REDUCED\t70099950"
+   },
+   {
+      "column0": "FAMILIES\t70068465"
+   },
+   {
+      "column0": "CHANGED\t69992672"
+   },
+   {
+      "column0": "COMPARED\t69960215"
+   },
+   {
+      "column0": "PRACTICAL\t69860667"
+   },
+   {
+      "column0": "SUCCESSFUL\t69664268"
+   },
+   {
+      "column0": "INTERESTING\t69655404"
+   },
+   {
+      "column0": "CODE\t69596496"
+   },
+   {
+      "column0": "CAUSES\t69543312"
+   },
+   {
+      "column0": "INCREASING\t69530493"
+   },
+   {
+      "column0": "PLANTS\t69487892"
+   },
+   {
+      "column0": "IMPOSSIBLE\t69416389"
+   },
+   {
+      "column0": "GROWING\t69385925"
+   },
+   {
+      "column0": "FACTS\t69361489"
+   },
+   {
+      "column0": "DEVELOP\t69342356"
+   },
+   {
+      "column0": "COLOR\t69334092"
+   },
+   {
+      "column0": "BEGIN\t69317502"
+   },
+   {
+      "column0": "SOMEONE\t69306780"
+   },
+   {
+      "column0": "EVENT\t69296813"
+   },
+   {
+      "column0": "SOMEWHAT\t69242663"
+   },
+   {
+      "column0": "MONTH\t69201284"
+   },
+   {
+      "column0": "OFFERED\t69064840"
+   },
+   {
+      "column0": "NOTICE\t69035963"
+   },
+   {
+      "column0": "REVOLUTION\t68999580"
+   },
+   {
+      "column0": "PHILOSOPHY\t68932185"
+   },
+   {
+      "column0": "LEADING\t68886037"
+   },
+   {
+      "column0": "SHOWED\t68805694"
+   },
+   {
+      "column0": "ONES\t68802924"
+   },
+   {
+      "column0": "AFFAIRS\t68716682"
+   },
+   {
+      "column0": "BEAUTIFUL\t68637744"
+   },
+   {
+      "column0": "RELATIVELY\t68593730"
+   },
+   {
+      "column0": "COVERED\t68569446"
+   },
+   {
+      "column0": "EMPLOYMENT\t68561659"
+   },
+   {
+      "column0": "OFFER\t68537056"
+   },
+   {
+      "column0": "NOVEMBER\t68507059"
+   },
+   {
+      "column0": "OPERATIONS\t68494352"
+   },
+   {
+      "column0": "WRONG\t68462528"
+   },
+   {
+      "column0": "NEGATIVE\t68431010"
+   },
+   {
+      "column0": "EXAMPLES\t68415550"
+   },
+   {
+      "column0": "REQUIRE\t68399544"
+   },
+   {
+      "column0": "ACTS\t68321327"
+   },
+   {
+      "column0": "ATTACK\t68207552"
+   },
+   {
+      "column0": "TREE\t68119957"
+   },
+   {
+      "column0": "ADDRESS\t68024298"
+   },
+   {
+      "column0": "INSTITUTIONS\t67994139"
+   },
+   {
+      "column0": "AID\t67970418"
+   },
+   {
+      "column0": "AFRICA\t67945763"
+   },
+   {
+      "column0": "DAVID\t67869725"
+   },
+   {
+      "column0": "PROPOSED\t67817278"
+   },
+   {
+      "column0": "HALL\t67814436"
+   },
+   {
+      "column0": "MOTION\t67756261"
+   },
+   {
+      "column0": "G\t67743309"
+   },
+   {
+      "column0": "RECEIVE\t67739361"
+   },
+   {
+      "column0": "TILL\t67715750"
+   },
+   {
+      "column0": "CARRY\t67589761"
+   },
+   {
+      "column0": "CONNECTION\t67589468"
+   },
+   {
+      "column0": "FEMALE\t67579818"
+   },
+   {
+      "column0": "SERVE\t67412909"
+   },
+   {
+      "column0": "WEEKS\t67337561"
+   },
+   {
+      "column0": "STONE\t67310166"
+   },
+   {
+      "column0": "QUICKLY\t67282635"
+   },
+   {
+      "column0": "CONSTITUTION\t67156640"
+   },
+   {
+      "column0": "FORMATION\t67087752"
+   },
+   {
+      "column0": "EVENING\t67063297"
+   },
+   {
+      "column0": "RACE\t66940365"
+   },
+   {
+      "column0": "ANIMAL\t66921780"
+   },
+   {
+      "column0": "PROCEDURE\t66904035"
+   },
+   {
+      "column0": "COLLECTION\t66607266"
+   },
+   {
+      "column0": "ANNUAL\t66566187"
+   },
+   {
+      "column0": "ROYAL\t66531300"
+   },
+   {
+      "column0": "SECRETARY\t66502317"
+   },
+   {
+      "column0": "RICH\t66499063"
+   },
+   {
+      "column0": "EN\t66416081"
+   },
+   {
+      "column0": "MALE\t66340217"
+   },
+   {
+      "column0": "PROFESSIONAL\t66329317"
+   },
+   {
+      "column0": "GREATEST\t66308784"
+   },
+   {
+      "column0": "CONTEXT\t66145330"
+   },
+   {
+      "column0": "TRUST\t66094897"
+   },
+   {
+      "column0": "UNITS\t66087714"
+   },
+   {
+      "column0": "TREES\t66033516"
+   },
+   {
+      "column0": "MARY\t66021880"
+   },
+   {
+      "column0": "APPEARANCE\t65998192"
+   },
+   {
+      "column0": "FIRM\t65972267"
+   },
+   {
+      "column0": "BALANCE\t65883702"
+   },
+   {
+      "column0": "BRITAIN\t65825505"
+   },
+   {
+      "column0": "SPRING\t65760939"
+   },
+   {
+      "column0": "STOP\t65673690"
+   },
+   {
+      "column0": "REACTION\t65622588"
+   },
+   {
+      "column0": "CHARACTERISTICS\t65577627"
+   },
+   {
+      "column0": "LEADERS\t65488082"
+   },
+   {
+      "column0": "SAMPLE\t65476686"
+   },
+   {
+      "column0": "CLASSES\t65300245"
+   },
+   {
+      "column0": "FOOT\t65276705"
+   },
+   {
+      "column0": "BATTLE\t65239064"
+   },
+   {
+      "column0": "CONTRACT\t65231279"
+   },
+   {
+      "column0": "THIRTY\t65218473"
+   },
+   {
+      "column0": "ACCEPTED\t65209499"
+   },
+   {
+      "column0": "JAPANESE\t65199997"
+   },
+   {
+      "column0": "MATTERS\t65056493"
+   },
+   {
+      "column0": "RESISTANCE\t64991796"
+   },
+   {
+      "column0": "HAIR\t64980632"
+   },
+   {
+      "column0": "BELIEVED\t64898939"
+   },
+   {
+      "column0": "DRAWN\t64897953"
+   },
+   {
+      "column0": "REPORTS\t64893091"
+   },
+   {
+      "column0": "STANDING\t64890602"
+   },
+   {
+      "column0": "EQUIPMENT\t64858025"
+   },
+   {
+      "column0": "CALIFORNIA\t64701169"
+   },
+   {
+      "column0": "WOOD\t64530458"
+   },
+   {
+      "column0": "FLOOR\t64500064"
+   },
+   {
+      "column0": "MARRIED\t64470207"
+   },
+   {
+      "column0": "ARGUMENT\t64366769"
+   },
+   {
+      "column0": "FILE\t64366267"
+   },
+   {
+      "column0": "MARK\t64363165"
+   },
+   {
+      "column0": "SMITH\t64298764"
+   },
+   {
+      "column0": "MISS\t64251611"
+   },
+   {
+      "column0": "HILL\t64209533"
+   },
+   {
+      "column0": "OPENED\t64164929"
+   },
+   {
+      "column0": "DAUGHTER\t64124472"
+   },
+   {
+      "column0": "DESPITE\t64074399"
+   },
+   {
+      "column0": "PROPERTIES\t64066475"
+   },
+   {
+      "column0": "CONFERENCE\t64052525"
+   },
+   {
+      "column0": "OH\t64028903"
+   },
+   {
+      "column0": "GLASS\t64025067"
+   },
+   {
+      "column0": "ADVANTAGE\t63931110"
+   },
+   {
+      "column0": "EXTERNAL\t63895944"
+   },
+   {
+      "column0": "PREVENT\t63858667"
+   },
+   {
+      "column0": "GOES\t63818616"
+   },
+   {
+      "column0": "OUTPUT\t63738756"
+   },
+   {
+      "column0": "JUDGE\t63704000"
+   },
+   {
+      "column0": "HOUSES\t63698859"
+   },
+   {
+      "column0": "STATED\t63693123"
+   },
+   {
+      "column0": "REPRESENTED\t63517694"
+   },
+   {
+      "column0": "INVESTMENT\t63499936"
+   },
+   {
+      "column0": "ENEMY\t63490658"
+   },
+   {
+      "column0": "PAPERS\t63406891"
+   },
+   {
+      "column0": "JAPAN\t63378888"
+   },
+   {
+      "column0": "PIECE\t63366737"
+   },
+   {
+      "column0": "CREDIT\t63361824"
+   },
+   {
+      "column0": "COMMERCIAL\t63306941"
+   },
+   {
+      "column0": "NORTHERN\t63274155"
+   },
+   {
+      "column0": "SQUARE\t63228484"
+   },
+   {
+      "column0": "REACH\t63077482"
+   },
+   {
+      "column0": "ACTIONS\t62817930"
+   },
+   {
+      "column0": "CONTAINS\t62770963"
+   },
+   {
+      "column0": "MEANT\t62748044"
+   },
+   {
+      "column0": "HOSPITAL\t62742412"
+   },
+   {
+      "column0": "CONFLICT\t62738701"
+   },
+   {
+      "column0": "NATIVE\t62731218"
+   },
+   {
+      "column0": "VISIT\t62724360"
+   },
+   {
+      "column0": "FEBRUARY\t62666912"
+   },
+   {
+      "column0": "EXISTING\t62595784"
+   },
+   {
+      "column0": "DESIGNED\t62500143"
+   },
+   {
+      "column0": "JUDGMENT\t62468378"
+   },
+   {
+      "column0": "FELL\t62427066"
+   },
+   {
+      "column0": "SEX\t62311864"
+   },
+   {
+      "column0": "ENTERED\t62265498"
+   },
+   {
+      "column0": "FILM\t62259212"
+   },
+   {
+      "column0": "INITIAL\t62219297"
+   },
+   {
+      "column0": "RECORDS\t62192421"
+   },
+   {
+      "column0": "OFFICIAL\t62170843"
+   },
+   {
+      "column0": "AFRICAN\t62023623"
+   },
+   {
+      "column0": "HOLY\t61909285"
+   },
+   {
+      "column0": "REQUIRES\t61891844"
+   },
+   {
+      "column0": "ENTER\t61810749"
+   },
+   {
+      "column0": "EXPLAIN\t61797995"
+   },
+   {
+      "column0": "HAPPENED\t61778592"
+   },
+   {
+      "column0": "INTRODUCED\t61710748"
+   },
+   {
+      "column0": "WORTH\t61649677"
+   },
+   {
+      "column0": "SAT\t61635745"
+   },
+   {
+      "column0": "ROMAN\t61532165"
+   },
+   {
+      "column0": "CONCERNING\t61467271"
+   },
+   {
+      "column0": "EDUCATIONAL\t61447635"
+   },
+   {
+      "column0": "TREATED\t61429009"
+   },
+   {
+      "column0": "OFFICER\t61393680"
+   },
+   {
+      "column0": "ELEMENT\t61321484"
+   },
+   {
+      "column0": "PRICES\t61303835"
+   },
+   {
+      "column0": "FAIR\t61264119"
+   },
+   {
+      "column0": "SKIN\t61261984"
+   },
+   {
+      "column0": "ASPECTS\t61148251"
+   },
+   {
+      "column0": "CONDUCT\t61100427"
+   },
+   {
+      "column0": "COVER\t61094511"
+   },
+   {
+      "column0": "ORDINARY\t61059033"
+   },
+   {
+      "column0": "SHIP\t60998012"
+   },
+   {
+      "column0": "FORTH\t60949516"
+   },
+   {
+      "column0": "DOUBLE\t60894167"
+   },
+   {
+      "column0": "CONTRAST\t60864432"
+   },
+   {
+      "column0": "RESPONSIBILITY\t60772473"
+   },
+   {
+      "column0": "MOVING\t60732193"
+   },
+   {
+      "column0": "AVOID\t60713817"
+   },
+   {
+      "column0": "TECHNICAL\t60608738"
+   },
+   {
+      "column0": "MOUTH\t60506237"
+   },
+   {
+      "column0": "K\t60478290"
+   },
+   {
+      "column0": "RUNNING\t60367634"
+   },
+   {
+      "column0": "EXIST\t60331721"
+   },
+   {
+      "column0": "NETWORK\t60296197"
+   },
+   {
+      "column0": "IMPACT\t60250556"
+   },
+   {
+      "column0": "RESPONSIBLE\t60225845"
+   },
+   {
+      "column0": "ROSE\t60213645"
+   },
+   {
+      "column0": "ARRIVED\t60190022"
+   },
+   {
+      "column0": "PORTION\t60144489"
+   },
+   {
+      "column0": "OCCURS\t60130691"
+   },
+   {
+      "column0": "REQUIREMENTS\t60035392"
+   },
+   {
+      "column0": "INTENDED\t60016193"
+   },
+   {
+      "column0": "MACHINE\t60013857"
+   },
+   {
+      "column0": "SEARCH\t59889263"
+   },
+   {
+      "column0": "STEPS\t59851144"
+   },
+   {
+      "column0": "VIEWS\t59730863"
+   },
+   {
+      "column0": "LEAVES\t59706459"
+   },
+   {
+      "column0": "UNDERSTOOD\t59601763"
+   },
+   {
+      "column0": "SERVED\t59581886"
+   },
+   {
+      "column0": "SAN\t59574315"
+   },
+   {
+      "column0": "SPENT\t59522444"
+   },
+   {
+      "column0": "DEFINITION\t59510174"
+   },
+   {
+      "column0": "POWERFUL\t59473409"
+   },
+   {
+      "column0": "GOVERNOR\t59443896"
+   },
+   {
+      "column0": "GAME\t59438950"
+   },
+   {
+      "column0": "SCENE\t59437019"
+   },
+   {
+      "column0": "FILLED\t59421796"
+   },
+   {
+      "column0": "BRAIN\t59381487"
+   },
+   {
+      "column0": "CHANCE\t59324368"
+   },
+   {
+      "column0": "SHAPE\t59292802"
+   },
+   {
+      "column0": "ORIGIN\t59234974"
+   },
+   {
+      "column0": "SPIRITUAL\t59185069"
+   },
+   {
+      "column0": "NUMEROUS\t59170232"
+   },
+   {
+      "column0": "HAPPY\t59164298"
+   },
+   {
+      "column0": "OBTAIN\t59149618"
+   },
+   {
+      "column0": "WINDOW\t59108775"
+   },
+   {
+      "column0": "CITIES\t59065496"
+   },
+   {
+      "column0": "CLOSED\t59054121"
+   },
+   {
+      "column0": "FISH\t58989578"
+   },
+   {
+      "column0": "STRESS\t58985819"
+   },
+   {
+      "column0": "SETTING\t58941240"
+   },
+   {
+      "column0": "STANDARDS\t58856766"
+   },
+   {
+      "column0": "IBID\t58856383"
+   },
+   {
+      "column0": "PROFESSOR\t58855941"
+   },
+   {
+      "column0": "SEXUAL\t58848555"
+   },
+   {
+      "column0": "EASTERN\t58810126"
+   },
+   {
+      "column0": "OLDER\t58790316"
+   },
+   {
+      "column0": "SMALLER\t58778292"
+   },
+   {
+      "column0": "CONSIDERATION\t58749519"
+   },
+   {
+      "column0": "TRIAL\t58746152"
+   },
+   {
+      "column0": "SPEAKING\t58740614"
+   },
+   {
+      "column0": "MODELS\t58647771"
+   },
+   {
+      "column0": "WINTER\t58529151"
+   },
+   {
+      "column0": "CORRECT\t58484354"
+   },
+   {
+      "column0": "HOT\t58469511"
+   },
+   {
+      "column0": "BOYS\t58466042"
+   },
+   {
+      "column0": "STAY\t58401920"
+   },
+   {
+      "column0": "REMOVED\t58380242"
+   },
+   {
+      "column0": "PLANS\t58326527"
+   },
+   {
+      "column0": "PERFECT\t58282715"
+   },
+   {
+      "column0": "SALES\t58217116"
+   },
+   {
+      "column0": "LEAVING\t58148523"
+   },
+   {
+      "column0": "ACCEPT\t58101526"
+   },
+   {
+      "column0": "FIELDS\t58098390"
+   },
+   {
+      "column0": "USUAL\t58076335"
+   },
+   {
+      "column0": "PRIOR\t58065499"
+   },
+   {
+      "column0": "CAPTAIN\t58049580"
+   },
+   {
+      "column0": "SUDDENLY\t58025537"
+   },
+   {
+      "column0": "APPLY\t58019012"
+   },
+   {
+      "column0": "DOMESTIC\t58007675"
+   },
+   {
+      "column0": "TRADITION\t57990909"
+   },
+   {
+      "column0": "FREQUENCY\t57939798"
+   },
+   {
+      "column0": "MARKED\t57927946"
+   },
+   {
+      "column0": "HORSE\t57895565"
+   },
+   {
+      "column0": "SPEED\t57878343"
+   },
+   {
+      "column0": "BENEFIT\t57755928"
+   },
+   {
+      "column0": "CONCERN\t57734815"
+   },
+   {
+      "column0": "WIND\t57733031"
+   },
+   {
+      "column0": "INDEX\t57715744"
+   },
+   {
+      "column0": "DIFFICULTY\t57686471"
+   },
+   {
+      "column0": "BIRTH\t57685653"
+   },
+   {
+      "column0": "MOREOVER\t57580480"
+   },
+   {
+      "column0": "PASSAGE\t57452785"
+   },
+   {
+      "column0": "OUGHT\t57330059"
+   },
+   {
+      "column0": "RELATIONSHIPS\t57294609"
+   },
+   {
+      "column0": "LAID\t57237270"
+   },
+   {
+      "column0": "USES\t57125716"
+   },
+   {
+      "column0": "CORPORATION\t57050250"
+   },
+   {
+      "column0": "ORGANIZATIONS\t57029267"
+   },
+   {
+      "column0": "TRANSFER\t56934652"
+   },
+   {
+      "column0": "SELECTED\t56917569"
+   },
+   {
+      "column0": "REGULAR\t56846646"
+   },
+   {
+      "column0": "AGREED\t56839367"
+   },
+   {
+      "column0": "NAMED\t56790689"
+   },
+   {
+      "column0": "ERROR\t56750399"
+   },
+   {
+      "column0": "FOURTH\t56689720"
+   },
+   {
+      "column0": "MAXIMUM\t56689718"
+   },
+   {
+      "column0": "CONCLUSION\t56665504"
+   },
+   {
+      "column0": "JOINT\t56586193"
+   },
+   {
+      "column0": "DRY\t56573384"
+   },
+   {
+      "column0": "BODIES\t56571011"
+   },
+   {
+      "column0": "SIGN\t56562400"
+   },
+   {
+      "column0": "DIVINE\t56514961"
+   },
+   {
+      "column0": "RICHARD\t56502351"
+   },
+   {
+      "column0": "LAKE\t56494737"
+   },
+   {
+      "column0": "FOCUS\t56401617"
+   },
+   {
+      "column0": "BEAR\t56397439"
+   },
+   {
+      "column0": "INSTITUTE\t56291636"
+   },
+   {
+      "column0": "TECHNIQUES\t56278415"
+   },
+   {
+      "column0": "CHICAGO\t56269529"
+   },
+   {
+      "column0": "REGARDED\t56261135"
+   },
+   {
+      "column0": "REFERRED\t56063992"
+   },
+   {
+      "column0": "SURVEY\t56062675"
+   },
+   {
+      "column0": "CENTRE\t56049472"
+   },
+   {
+      "column0": "PETER\t56046161"
+   },
+   {
+      "column0": "RECENTLY\t56016797"
+   },
+   {
+      "column0": "EXAMINATION\t56013819"
+   },
+   {
+      "column0": "CHEMICAL\t55928223"
+   },
+   {
+      "column0": "WHEREAS\t55849806"
+   },
+   {
+      "column0": "ORDERS\t55817675"
+   },
+   {
+      "column0": "JEWISH\t55777800"
+   },
+   {
+      "column0": "SUPPOSE\t55746581"
+   },
+   {
+      "column0": "ILL\t55727302"
+   },
+   {
+      "column0": "NEVERTHELESS\t55671556"
+   },
+   {
+      "column0": "GIRLS\t55618263"
+   },
+   {
+      "column0": "HARDLY\t55618153"
+   },
+   {
+      "column0": "DECISIONS\t55547439"
+   },
+   {
+      "column0": "EVERYONE\t55441727"
+   },
+   {
+      "column0": "HIGHEST\t55398171"
+   },
+   {
+      "column0": "QUEEN\t55387905"
+   },
+   {
+      "column0": "FORCED\t55369682"
+   },
+   {
+      "column0": "URBAN\t55345225"
+   },
+   {
+      "column0": "BOUND\t55126998"
+   },
+   {
+      "column0": "TESTS\t55063047"
+   },
+   {
+      "column0": "EXACTLY\t54905332"
+   },
+   {
+      "column0": "PERFORMED\t54898930"
+   },
+   {
+      "column0": "EQUATION\t54841869"
+   },
+   {
+      "column0": "DETAILS\t54834084"
+   },
+   {
+      "column0": "PATTERNS\t54815012"
+   },
+   {
+      "column0": "TROOPS\t54752906"
+   },
+   {
+      "column0": "POSSIBILITY\t54751196"
+   },
+   {
+      "column0": "INCLUDES\t54737180"
+   },
+   {
+      "column0": "ABSENCE\t54655294"
+   },
+   {
+      "column0": "FEELINGS\t54596265"
+   },
+   {
+      "column0": "INDICATED\t54574075"
+   },
+   {
+      "column0": "ROCK\t54562355"
+   },
+   {
+      "column0": "REPRESENT\t54521326"
+   },
+   {
+      "column0": "PROVED\t54494328"
+   },
+   {
+      "column0": "KINDS\t54492074"
+   },
+   {
+      "column0": "KINGDOM\t54451671"
+   },
+   {
+      "column0": "BOTTOM\t54446958"
+   },
+   {
+      "column0": "POLICIES\t54411990"
+   },
+   {
+      "column0": "LARGELY\t54329890"
+   },
+   {
+      "column0": "APPARENTLY\t54311901"
+   },
+   {
+      "column0": "STRUCTURES\t54296986"
+   },
+   {
+      "column0": "MAINTAIN\t54287906"
+   },
+   {
+      "column0": "GREEK\t54270831"
+   },
+   {
+      "column0": "COAST\t54258062"
+   },
+   {
+      "column0": "INTERPRETATION\t54221131"
+   },
+   {
+      "column0": "ATTITUDE\t54217753"
+   },
+   {
+      "column0": "CANADA\t54216137"
+   },
+   {
+      "column0": "STATION\t54213962"
+   },
+   {
+      "column0": "VAN\t54213864"
+   },
+   {
+      "column0": "EQUALLY\t54190221"
+   },
+   {
+      "column0": "OPPOSITE\t54155767"
+   },
+   {
+      "column0": "DIVIDED\t54070760"
+   },
+   {
+      "column0": "PRINCE\t54001532"
+   },
+   {
+      "column0": "EVIL\t53936860"
+   },
+   {
+      "column0": "PLATE\t53932896"
+   },
+   {
+      "column0": "ADOPTED\t53907273"
+   },
+   {
+      "column0": "GAIN\t53875417"
+   },
+   {
+      "column0": "COMPARISON\t53871977"
+   },
+   {
+      "column0": "EDITION\t53866139"
+   },
+   {
+      "column0": "DEVELOPING\t53771963"
+   },
+   {
+      "column0": "BIT\t53761826"
+   },
+   {
+      "column0": "AGRICULTURAL\t53759359"
+   },
+   {
+      "column0": "SPREAD\t53745664"
+   },
+   {
+      "column0": "EXPLAINED\t53735335"
+   },
+   {
+      "column0": "PATH\t53730117"
+   },
+   {
+      "column0": "IMMEDIATE\t53728272"
+   },
+   {
+      "column0": "MESSAGE\t53727693"
+   },
+   {
+      "column0": "NET\t53696846"
+   },
+   {
+      "column0": "CHECK\t53673380"
+   },
+   {
+      "column0": "CONNECTED\t53595524"
+   },
+   {
+      "column0": "WALLS\t53543364"
+   },
+   {
+      "column0": "RUSSIAN\t53427209"
+   },
+   {
+      "column0": "PURE\t53373446"
+   },
+   {
+      "column0": "BREAK\t53238563"
+   },
+   {
+      "column0": "HOLDING\t53228464"
+   },
+   {
+      "column0": "RATIO\t53210388"
+   },
+   {
+      "column0": "ENVIRONMENTAL\t53172668"
+   },
+   {
+      "column0": "CLAIMS\t53166860"
+   },
+   {
+      "column0": "SEND\t53144896"
+   },
+   {
+      "column0": "SUGGEST\t53090345"
+   },
+   {
+      "column0": "CONTAINING\t53034057"
+   },
+   {
+      "column0": "SIDES\t52946344"
+   },
+   {
+      "column0": "SECONDARY\t52928063"
+   },
+   {
+      "column0": "READER\t52914263"
+   },
+   {
+      "column0": "OCCURRED\t52908644"
+   },
+   {
+      "column0": "SIGHT\t52878422"
+   },
+   {
+      "column0": "STORIES\t52865694"
+   },
+   {
+      "column0": "AMERICANS\t52859483"
+   },
+   {
+      "column0": "ANYONE\t52719421"
+   },
+   {
+      "column0": "MEDIA\t52684956"
+   },
+   {
+      "column0": "BELIEF\t52661421"
+   },
+   {
+      "column0": "BENEFITS\t52602962"
+   },
+   {
+      "column0": "CONCENTRATION\t52559070"
+   },
+   {
+      "column0": "DEAR\t52539196"
+   },
+   {
+      "column0": "OPENING\t52295495"
+   },
+   {
+      "column0": "INDICATE\t52265683"
+   },
+   {
+      "column0": "NINE\t52256312"
+   },
+   {
+      "column0": "GENERATION\t52220793"
+   },
+   {
+      "column0": "AFFECTED\t52197554"
+   },
+   {
+      "column0": "TEAM\t52185515"
+   },
+   {
+      "column0": "SAVE\t52182226"
+   },
+   {
+      "column0": "FARM\t52182084"
+   },
+   {
+      "column0": "DISCOVERED\t52126341"
+   },
+   {
+      "column0": "FOREST\t52121962"
+   },
+   {
+      "column0": "DOCTOR\t52110730"
+   },
+   {
+      "column0": "RECOGNIZED\t52054489"
+   },
+   {
+      "column0": "ADVANCED\t52030761"
+   },
+   {
+      "column0": "ASSEMBLY\t52014340"
+   },
+   {
+      "column0": "ASSUMED\t52011524"
+   },
+   {
+      "column0": "OCCASION\t51973402"
+   },
+   {
+      "column0": "INTERESTED\t51866976"
+   },
+   {
+      "column0": "DANGER\t51847156"
+   },
+   {
+      "column0": "MERE\t51837676"
+   },
+   {
+      "column0": "BROAD\t51818891"
+   },
+   {
+      "column0": "INDIANS\t51794907"
+   },
+   {
+      "column0": "INSURANCE\t51755974"
+   },
+   {
+      "column0": "BROKEN\t51748053"
+   },
+   {
+      "column0": "IDENTITY\t51717658"
+   },
+   {
+      "column0": "PLEASURE\t51711806"
+   },
+   {
+      "column0": "SPANISH\t51657368"
+   },
+   {
+      "column0": "AGENT\t51554982"
+   },
+   {
+      "column0": "YOURSELF\t51542943"
+   },
+   {
+      "column0": "COURTS\t51541574"
+   },
+   {
+      "column0": "AWARE\t51535555"
+   },
+   {
+      "column0": "PLAYED\t51444945"
+   },
+   {
+      "column0": "FAILED\t51371549"
+   },
+   {
+      "column0": "MEDIUM\t51316760"
+   },
+   {
+      "column0": "YOUTH\t51315735"
+   },
+   {
+      "column0": "DIRECTOR\t51296340"
+   },
+   {
+      "column0": "EXTENDED\t51285992"
+   },
+   {
+      "column0": "EMPIRE\t51178024"
+   },
+   {
+      "column0": "DERIVED\t51174255"
+   },
+   {
+      "column0": "CLINICAL\t51173012"
+   },
+   {
+      "column0": "SUPPOSED\t51153222"
+   },
+   {
+      "column0": "PAGES\t51124390"
+   },
+   {
+      "column0": "LITERARY\t51085419"
+   },
+   {
+      "column0": "KILLED\t51036703"
+   },
+   {
+      "column0": "PROPORTION\t51006706"
+   },
+   {
+      "column0": "SAFETY\t50958691"
+   },
+   {
+      "column0": "ARM\t50956223"
+   },
+   {
+      "column0": "WRITER\t50916508"
+   },
+   {
+      "column0": "ALTERNATIVE\t50908630"
+   },
+   {
+      "column0": "SLEEP\t50888533"
+   },
+   {
+      "column0": "ITEMS\t50843917"
+   },
+   {
+      "column0": "STRUGGLE\t50796822"
+   },
+   {
+      "column0": "UND\t50769352"
+   },
+   {
+      "column0": "OBVIOUS\t50765830"
+   },
+   {
+      "column0": "FRESH\t50740037"
+   },
+   {
+      "column0": "KNOWS\t50729807"
+   },
+   {
+      "column0": "FIT\t50719867"
+   },
+   {
+      "column0": "SHOWING\t50718659"
+   },
+   {
+      "column0": "ANTI\t50685455"
+   },
+   {
+      "column0": "ARTICLES\t50666254"
+   },
+   {
+      "column0": "DRUG\t50643230"
+   },
+   {
+      "column0": "SUM\t50642558"
+   },
+   {
+      "column0": "DRIVE\t50557448"
+   },
+   {
+      "column0": "FINDING\t50542170"
+   },
+   {
+      "column0": "ROME\t50479279"
+   },
+   {
+      "column0": "PREVIOUSLY\t50453707"
+   },
+   {
+      "column0": "CAREFULLY\t50418784"
+   },
+   {
+      "column0": "SELECTION\t50343021"
+   },
+   {
+      "column0": "ASSISTANCE\t50331087"
+   },
+   {
+      "column0": "EXPECT\t50284219"
+   },
+   {
+      "column0": "EMPLOYEES\t50221274"
+   },
+   {
+      "column0": "LEADER\t50103745"
+   },
+   {
+      "column0": "PARLIAMENT\t50072826"
+   },
+   {
+      "column0": "CAMBRIDGE\t50069839"
+   },
+   {
+      "column0": "PARK\t50025256"
+   },
+   {
+      "column0": "ACCOUNTS\t50003184"
+   },
+   {
+      "column0": "TROUBLE\t49989978"
+   },
+   {
+      "column0": "SLOWLY\t49984533"
+   },
+   {
+      "column0": "VALLEY\t49963758"
+   },
+   {
+      "column0": "FAST\t49963650"
+   },
+   {
+      "column0": "TYPICAL\t49958657"
+   },
+   {
+      "column0": "RURAL\t49789702"
+   },
+   {
+      "column0": "APPOINTED\t49781170"
+   },
+   {
+      "column0": "ELECTION\t49710353"
+   },
+   {
+      "column0": "SUPREME\t49685496"
+   },
+   {
+      "column0": "CLOSELY\t49678593"
+   },
+   {
+      "column0": "ESTATE\t49589838"
+   },
+   {
+      "column0": "VARIABLE\t49568655"
+   },
+   {
+      "column0": "CITIZENS\t49540107"
+   },
+   {
+      "column0": "OXFORD\t49518636"
+   },
+   {
+      "column0": "CHARACTERISTIC\t49474095"
+   },
+   {
+      "column0": "FORMAL\t49472322"
+   },
+   {
+      "column0": "BESIDES\t49458956"
+   },
+   {
+      "column0": "METAL\t49446105"
+   },
+   {
+      "column0": "POINTED\t49433730"
+   },
+   {
+      "column0": "FOUNDATION\t49398640"
+   },
+   {
+      "column0": "GUIDE\t49387650"
+   },
+   {
+      "column0": "MODE\t49367671"
+   },
+   {
+      "column0": "STEEL\t49352821"
+   },
+   {
+      "column0": "EXPRESS\t49344208"
+   },
+   {
+      "column0": "AGENCY\t49300440"
+   },
+   {
+      "column0": "SOLD\t49248880"
+   },
+   {
+      "column0": "CONTAINED\t49233292"
+   },
+   {
+      "column0": "SKILLS\t49232238"
+   },
+   {
+      "column0": "DOCTRINE\t49159654"
+   },
+   {
+      "column0": "WILD\t49152163"
+   },
+   {
+      "column0": "LES\t49117538"
+   },
+   {
+      "column0": "VISION\t49076320"
+   },
+   {
+      "column0": "OPPOSITION\t49019476"
+   },
+   {
+      "column0": "SLIGHTLY\t49008791"
+   },
+   {
+      "column0": "SECRET\t48945606"
+   },
+   {
+      "column0": "LIES\t48941300"
+   },
+   {
+      "column0": "SILVER\t48934834"
+   },
+   {
+      "column0": "DEMOCRATIC\t48927219"
+   },
+   {
+      "column0": "STRAIGHT\t48924713"
+   },
+   {
+      "column0": "BANKS\t48921307"
+   },
+   {
+      "column0": "INCREASES\t48903583"
+   },
+   {
+      "column0": "CHOOSE\t48894515"
+   },
+   {
+      "column0": "FUNDAMENTAL\t48892606"
+   },
+   {
+      "column0": "SOUGHT\t48882254"
+   },
+   {
+      "column0": "BEAUTY\t48841623"
+   },
+   {
+      "column0": "DIRECTED\t48828142"
+   },
+   {
+      "column0": "LOCATION\t48772997"
+   },
+   {
+      "column0": "SPOKE\t48762095"
+   },
+   {
+      "column0": "SISTER\t48701787"
+   },
+   {
+      "column0": "HEAVEN\t48660589"
+   },
+   {
+      "column0": "THOUGHTS\t48641591"
+   },
+   {
+      "column0": "REFORM\t48609214"
+   },
+   {
+      "column0": "GRAND\t48540791"
+   },
+   {
+      "column0": "APART\t48518165"
+   },
+   {
+      "column0": "DETAIL\t48469875"
+   },
+   {
+      "column0": "CONTAIN\t48392464"
+   },
+   {
+      "column0": "ASSUME\t48350191"
+   },
+   {
+      "column0": "PROVE\t48293856"
+   },
+   {
+      "column0": "FIGHT\t48287538"
+   },
+   {
+      "column0": "SOLDIERS\t48266635"
+   },
+   {
+      "column0": "EDGE\t48227636"
+   },
+   {
+      "column0": "CAREER\t48221858"
+   },
+   {
+      "column0": "STRATEGY\t48202749"
+   },
+   {
+      "column0": "SUPPORTED\t48200932"
+   },
+   {
+      "column0": "CONSCIOUSNESS\t48106772"
+   },
+   {
+      "column0": "CREATION\t48067308"
+   },
+   {
+      "column0": "CATHOLIC\t48031949"
+   },
+   {
+      "column0": "SEVERE\t47931245"
+   },
+   {
+      "column0": "BACKGROUND\t47910118"
+   },
+   {
+      "column0": "SUGGESTS\t47891970"
+   },
+   {
+      "column0": "WALK\t47866921"
+   },
+   {
+      "column0": "BOSTON\t47851018"
+   },
+   {
+      "column0": "MOVEMENTS\t47843620"
+   },
+   {
+      "column0": "DESCRIBE\t47790971"
+   },
+   {
+      "column0": "BAR\t47759385"
+   },
+   {
+      "column0": "FIFTY\t47736764"
+   },
+   {
+      "column0": "LATIN\t47734483"
+   },
+   {
+      "column0": "MOUNTAIN\t47725744"
+   },
+   {
+      "column0": "ESTABLISH\t47704740"
+   },
+   {
+      "column0": "COMPOSITION\t47623941"
+   },
+   {
+      "column0": "GARDEN\t47623277"
+   },
+   {
+      "column0": "W\t47618976"
+   },
+   {
+      "column0": "GRANT\t47605038"
+   },
+   {
+      "column0": "VIOLENCE\t47577711"
+   },
+   {
+      "column0": "QUANTITY\t47573811"
+   },
+   {
+      "column0": "RUSSIA\t47573665"
+   },
+   {
+      "column0": "CAMP\t47549871"
+   },
+   {
+      "column0": "STRANGE\t47544787"
+   },
+   {
+      "column0": "FAMOUS\t47483028"
+   },
+   {
+      "column0": "INTELLECTUAL\t47375244"
+   },
+   {
+      "column0": "DU\t47314668"
+   },
+   {
+      "column0": "PROVISIONS\t47302636"
+   },
+   {
+      "column0": "STUDIED\t47250984"
+   },
+   {
+      "column0": "REGIONS\t47224271"
+   },
+   {
+      "column0": "EXTREMELY\t47178403"
+   },
+   {
+      "column0": "MEASURED\t47169314"
+   },
+   {
+      "column0": "CHANGING\t47130660"
+   },
+   {
+      "column0": "POETRY\t47129655"
+   },
+   {
+      "column0": "APPARENT\t47087853"
+   },
+   {
+      "column0": "RAPIDLY\t47062588"
+   },
+   {
+      "column0": "GREATLY\t47054034"
+   },
+   {
+      "column0": "EXCELLENT\t47045266"
+   },
+   {
+      "column0": "COMPONENTS\t47003928"
+   },
+   {
+      "column0": "BRIEF\t46999908"
+   },
+   {
+      "column0": "SOLID\t46975719"
+   },
+   {
+      "column0": "BECOMING\t46968791"
+   },
+   {
+      "column0": "REDUCE\t46957559"
+   },
+   {
+      "column0": "SECTIONS\t46932420"
+   },
+   {
+      "column0": "FALSE\t46927953"
+   },
+   {
+      "column0": "IDENTIFIED\t46924265"
+   },
+   {
+      "column0": "ABSOLUTE\t46857273"
+   },
+   {
+      "column0": "ORDERED\t46838880"
+   },
+   {
+      "column0": "DEPENDENT\t46825423"
+   },
+   {
+      "column0": "CHOSEN\t46794950"
+   },
+   {
+      "column0": "EVALUATION\t46767422"
+   },
+   {
+      "column0": "SEEING\t46742569"
+   },
+   {
+      "column0": "DECLARED\t46740150"
+   },
+   {
+      "column0": "WRITERS\t46728181"
+   },
+   {
+      "column0": "EXPERIENCES\t46697064"
+   },
+   {
+      "column0": "JEWS\t46670246"
+   },
+   {
+      "column0": "FUNDS\t46652294"
+   },
+   {
+      "column0": "MISSION\t46636871"
+   },
+   {
+      "column0": "DRAWING\t46624405"
+   },
+   {
+      "column0": "SIGNIFICANCE\t46613726"
+   },
+   {
+      "column0": "MEXICO\t46511393"
+   },
+   {
+      "column0": "DIFFICULTIES\t46488482"
+   },
+   {
+      "column0": "LEADERSHIP\t46477353"
+   },
+   {
+      "column0": "EXPERIMENTAL\t46456700"
+   },
+   {
+      "column0": "OURSELVES\t46441342"
+   },
+   {
+      "column0": "PROCEDURES\t46425637"
+   },
+   {
+      "column0": "INTELLIGENCE\t46373262"
+   },
+   {
+      "column0": "PASSING\t46372633"
+   },
+   {
+      "column0": "PRACTICES\t46358506"
+   },
+   {
+      "column0": "ADVANCE\t46356462"
+   },
+   {
+      "column0": "TECHNIQUE\t46320076"
+   },
+   {
+      "column0": "OPERATING\t46294653"
+   },
+   {
+      "column0": "UNIVERSAL\t46292754"
+   },
+   {
+      "column0": "AUTHORITIES\t46280314"
+   },
+   {
+      "column0": "EXECUTIVE\t46201381"
+   },
+   {
+      "column0": "REFERENCES\t46192280"
+   },
+   {
+      "column0": "RAN\t46186589"
+   },
+   {
+      "column0": "RELIEF\t46156886"
+   },
+   {
+      "column0": "REGARDING\t46130224"
+   },
+   {
+      "column0": "POSSIBLY\t46098126"
+   },
+   {
+      "column0": "THOU\t46072914"
+   },
+   {
+      "column0": "CONFIDENCE\t46039551"
+   },
+   {
+      "column0": "REDUCTION\t45984072"
+   },
+   {
+      "column0": "APPEAL\t45975075"
+   },
+   {
+      "column0": "DRAW\t45968756"
+   },
+   {
+      "column0": "REGIONAL\t45952652"
+   },
+   {
+      "column0": "MINIMUM\t45947751"
+   },
+   {
+      "column0": "ASSESSMENT\t45934634"
+   },
+   {
+      "column0": "MULTIPLE\t45911282"
+   },
+   {
+      "column0": "FAMILIAR\t45892964"
+   },
+   {
+      "column0": "INDEPENDENCE\t45888150"
+   },
+   {
+      "column0": "DEFENSE\t45831678"
+   },
+   {
+      "column0": "SEEK\t45779048"
+   },
+   {
+      "column0": "COMBINATION\t45760019"
+   },
+   {
+      "column0": "CAPABLE\t45736692"
+   },
+   {
+      "column0": "CONTRARY\t45728254"
+   },
+   {
+      "column0": "EL\t45655295"
+   },
+   {
+      "column0": "COMBINED\t45652734"
+   },
+   {
+      "column0": "PIECES\t45623592"
+   },
+   {
+      "column0": "VARIABLES\t45588940"
+   },
+   {
+      "column0": "ORGANIZED\t45586545"
+   },
+   {
+      "column0": "DUTIES\t45544100"
+   },
+   {
+      "column0": "EXPLANATION\t45534202"
+   },
+   {
+      "column0": "REPUBLIC\t45512010"
+   },
+   {
+      "column0": "SUPERIOR\t45506576"
+   },
+   {
+      "column0": "ITALY\t45481256"
+   },
+   {
+      "column0": "SALE\t45475534"
+   },
+   {
+      "column0": "CONSISTS\t45437909"
+   },
+   {
+      "column0": "UN\t45423458"
+   },
+   {
+      "column0": "TWELVE\t45408778"
+   },
+   {
+      "column0": "FORTY\t45401260"
+   },
+   {
+      "column0": "CONTEMPORARY\t45348399"
+   },
+   {
+      "column0": "WEALTH\t45345434"
+   },
+   {
+      "column0": "NECESSARILY\t45327781"
+   },
+   {
+      "column0": "DEPENDS\t45320058"
+   },
+   {
+      "column0": "PLEASE\t45296353"
+   },
+   {
+      "column0": "MEDICINE\t45295205"
+   },
+   {
+      "column0": "LIMITS\t45290452"
+   },
+   {
+      "column0": "BUILD\t45266402"
+   },
+   {
+      "column0": "IDEAL\t45221422"
+   },
+   {
+      "column0": "WAVE\t45179406"
+   },
+   {
+      "column0": "MINE\t45161795"
+   },
+   {
+      "column0": "PARALLEL\t45150095"
+   },
+   {
+      "column0": "CHARACTERS\t45140673"
+   },
+   {
+      "column0": "REASONABLE\t45114019"
+   },
+   {
+      "column0": "SUBSEQUENT\t45054171"
+   },
+   {
+      "column0": "OBJECTIVE\t45014526"
+   },
+   {
+      "column0": "LOCATED\t44993880"
+   },
+   {
+      "column0": "SYMPTOMS\t44991990"
+   },
+   {
+      "column0": "TREATY\t44956059"
+   },
+   {
+      "column0": "HEIGHT\t44915424"
+   },
+   {
+      "column0": "EXPERIMENTS\t44913370"
+   },
+   {
+      "column0": "LANDS\t44906756"
+   },
+   {
+      "column0": "TISSUE\t44870878"
+   },
+   {
+      "column0": "CONVENTION\t44870641"
+   },
+   {
+      "column0": "MM\t44843227"
+   },
+   {
+      "column0": "SIGNS\t44832610"
+   },
+   {
+      "column0": "FELLOW\t44808884"
+   },
+   {
+      "column0": "RESOLUTION\t44774270"
+   },
+   {
+      "column0": "VERSION\t44739611"
+   },
+   {
+      "column0": "PRE\t44727369"
+   },
+   {
+      "column0": "RAPID\t44706695"
+   },
+   {
+      "column0": "CRIME\t44691757"
+   },
+   {
+      "column0": "LIE\t44672168"
+   },
+   {
+      "column0": "INNER\t44668216"
+   },
+   {
+      "column0": "EVENTUALLY\t44667458"
+   },
+   {
+      "column0": "STOPPED\t44666903"
+   },
+   {
+      "column0": "COMPETITION\t44630123"
+   },
+   {
+      "column0": "PSYCHOLOGY\t44607456"
+   },
+   {
+      "column0": "U\t44604000"
+   },
+   {
+      "column0": "WAITING\t44602010"
+   },
+   {
+      "column0": "TALKING\t44565407"
+   },
+   {
+      "column0": "THERAPY\t44552663"
+   },
+   {
+      "column0": "SOFT\t44445491"
+   },
+   {
+      "column0": "CORRESPONDING\t44418215"
+   },
+   {
+      "column0": "SIGNAL\t44417643"
+   },
+   {
+      "column0": "LIMIT\t44392003"
+   },
+   {
+      "column0": "REPLIED\t44367471"
+   },
+   {
+      "column0": "CALLS\t44359360"
+   },
+   {
+      "column0": "TAUGHT\t44317709"
+   },
+   {
+      "column0": "GOAL\t44303157"
+   },
+   {
+      "column0": "GROW\t44289759"
+   },
+   {
+      "column0": "PAYMENT\t44257198"
+   },
+   {
+      "column0": "ENDS\t44237972"
+   },
+   {
+      "column0": "ENGAGED\t44236988"
+   },
+   {
+      "column0": "COMPLETED\t44191661"
+   },
+   {
+      "column0": "JOSEPH\t44179896"
+   },
+   {
+      "column0": "MINUTE\t44151006"
+   },
+   {
+      "column0": "COPY\t44105907"
+   },
+   {
+      "column0": "AFFECT\t44051003"
+   },
+   {
+      "column0": "DISTINCT\t44034717"
+   },
+   {
+      "column0": "CAMPAIGN\t43943080"
+   },
+   {
+      "column0": "PROTEIN\t43938982"
+   },
+   {
+      "column0": "PLANE\t43932667"
+   },
+   {
+      "column0": "APPLICATIONS\t43929991"
+   },
+   {
+      "column0": "REPRESENTS\t43905339"
+   },
+   {
+      "column0": "BUILDINGS\t43891696"
+   },
+   {
+      "column0": "SECTOR\t43875173"
+   },
+   {
+      "column0": "SLOW\t43858116"
+   },
+   {
+      "column0": "AGENTS\t43840422"
+   },
+   {
+      "column0": "WALKED\t43808657"
+   },
+   {
+      "column0": "DEMANDS\t43808616"
+   },
+   {
+      "column0": "EDWARD\t43795202"
+   },
+   {
+      "column0": "COLUMN\t43724858"
+   },
+   {
+      "column0": "SENTENCE\t43722167"
+   },
+   {
+      "column0": "NECESSITY\t43719096"
+   },
+   {
+      "column0": "IMAGES\t43702593"
+   },
+   {
+      "column0": "VON\t43697723"
+   },
+   {
+      "column0": "NOVEL\t43656017"
+   },
+   {
+      "column0": "SUBSTANCE\t43655267"
+   },
+   {
+      "column0": "CONSEQUENCE\t43581859"
+   },
+   {
+      "column0": "LOUIS\t43549326"
+   },
+   {
+      "column0": "ADULT\t43521833"
+   },
+   {
+      "column0": "PRINTED\t43500381"
+   },
+   {
+      "column0": "CONSEQUENCES\t43490291"
+   },
+   {
+      "column0": "PSYCHOLOGICAL\t43473392"
+   },
+   {
+      "column0": "EXPERIMENT\t43456999"
+   },
+   {
+      "column0": "VI\t43394597"
+   },
+   {
+      "column0": "APPROXIMATELY\t43392984"
+   },
+   {
+      "column0": "BLOCK\t43360201"
+   },
+   {
+      "column0": "STORE\t43347796"
+   },
+   {
+      "column0": "STATEMENTS\t43335318"
+   },
+   {
+      "column0": "LAYER\t43318510"
+   },
+   {
+      "column0": "YELLOW\t43313338"
+   },
+   {
+      "column0": "OBSERVATIONS\t43301782"
+   },
+   {
+      "column0": "SEASON\t43274242"
+   },
+   {
+      "column0": "ISRAEL\t43270177"
+   },
+   {
+      "column0": "PERSONALITY\t43247906"
+   },
+   {
+      "column0": "PLAIN\t43237703"
+   },
+   {
+      "column0": "DESIRED\t43233166"
+   },
+   {
+      "column0": "ARTS\t43232890"
+   },
+   {
+      "column0": "MAYBE\t43187764"
+   },
+   {
+      "column0": "KEEPING\t43150553"
+   },
+   {
+      "column0": "PERMANENT\t43136824"
+   },
+   {
+      "column0": "WELFARE\t43102762"
+   },
+   {
+      "column0": "TERRITORY\t43074107"
+   },
+   {
+      "column0": "MAINLY\t43021487"
+   },
+   {
+      "column0": "MUSEUM\t43016395"
+   },
+   {
+      "column0": "BUY\t43002803"
+   },
+   {
+      "column0": "NARROW\t42995632"
+   },
+   {
+      "column0": "CAST\t42965732"
+   },
+   {
+      "column0": "WATCH\t42950958"
+   },
+   {
+      "column0": "ANSWERED\t42914128"
+   },
+   {
+      "column0": "COMMUNITIES\t42897617"
+   },
+   {
+      "column0": "CRISIS\t42896301"
+   },
+   {
+      "column0": "PROVIDING\t42881158"
+   },
+   {
+      "column0": "TEND\t42857686"
+   },
+   {
+      "column0": "AUTHORS\t42845288"
+   },
+   {
+      "column0": "FEATURE\t42814592"
+   },
+   {
+      "column0": "SCHEME\t42778069"
+   },
+   {
+      "column0": "RECORDED\t42755363"
+   },
+   {
+      "column0": "POSITIONS\t42732906"
+   },
+   {
+      "column0": "AGRICULTURE\t42723081"
+   },
+   {
+      "column0": "COUNT\t42657594"
+   },
+   {
+      "column0": "CASH\t42628695"
+   },
+   {
+      "column0": "BISHOP\t42588641"
+   },
+   {
+      "column0": "PROFIT\t42587822"
+   },
+   {
+      "column0": "PROJECTS\t42549528"
+   },
+   {
+      "column0": "POSSESSION\t42540242"
+   },
+   {
+      "column0": "PERSPECTIVE\t42473422"
+   },
+   {
+      "column0": "DISTINCTION\t42470938"
+   },
+   {
+      "column0": "RESULTING\t42465685"
+   },
+   {
+      "column0": "THY\t42411652"
+   },
+   {
+      "column0": "SAFE\t42324033"
+   },
+   {
+      "column0": "PRIMARILY\t42302427"
+   },
+   {
+      "column0": "NATURALLY\t42290781"
+   },
+   {
+      "column0": "TOUCH\t42288164"
+   },
+   {
+      "column0": "ASPECT\t42278553"
+   },
+   {
+      "column0": "SITTING\t42261909"
+   },
+   {
+      "column0": "CARRYING\t42230650"
+   },
+   {
+      "column0": "SETTLEMENT\t42141902"
+   },
+   {
+      "column0": "RECOGNITION\t42129847"
+   },
+   {
+      "column0": "BRANCH\t42059064"
+   },
+   {
+      "column0": "GRACE\t42016481"
+   },
+   {
+      "column0": "INSTITUTION\t41942066"
+   },
+   {
+      "column0": "MILK\t41935735"
+   },
+   {
+      "column0": "JOHNSON\t41907304"
+   },
+   {
+      "column0": "UNABLE\t41900352"
+   },
+   {
+      "column0": "JOINED\t41895639"
+   },
+   {
+      "column0": "SHOT\t41886158"
+   },
+   {
+      "column0": "OFFICIALS\t41847153"
+   },
+   {
+      "column0": "CONTROLLED\t41832797"
+   },
+   {
+      "column0": "AUDIENCE\t41824150"
+   },
+   {
+      "column0": "PROOF\t41818941"
+   },
+   {
+      "column0": "LIBERTY\t41758592"
+   },
+   {
+      "column0": "EXTREME\t41755427"
+   },
+   {
+      "column0": "PRETTY\t41734916"
+   },
+   {
+      "column0": "GRANTED\t41715160"
+   },
+   {
+      "column0": "BONE\t41692999"
+   },
+   {
+      "column0": "ISSUED\t41680486"
+   },
+   {
+      "column0": "AGREE\t41668821"
+   },
+   {
+      "column0": "DOLLARS\t41648624"
+   },
+   {
+      "column0": "ESTABLISHMENT\t41644372"
+   },
+   {
+      "column0": "TRANSPORT\t41636645"
+   },
+   {
+      "column0": "SALT\t41608644"
+   },
+   {
+      "column0": "CROWN\t41604115"
+   },
+   {
+      "column0": "CIRCLE\t41602402"
+   },
+   {
+      "column0": "SPAIN\t41588379"
+   },
+   {
+      "column0": "MAINTAINED\t41583346"
+   },
+   {
+      "column0": "EXTENSIVE\t41577297"
+   },
+   {
+      "column0": "REMAINING\t41570778"
+   },
+   {
+      "column0": "WARM\t41555621"
+   },
+   {
+      "column0": "RELEVANT\t41545159"
+   },
+   {
+      "column0": "MOUNTAINS\t41518559"
+   },
+   {
+      "column0": "DAMAGE\t41512725"
+   },
+   {
+      "column0": "HEARING\t41502280"
+   },
+   {
+      "column0": "GRADUALLY\t41464361"
+   },
+   {
+      "column0": "TEMPLE\t41453268"
+   },
+   {
+      "column0": "DETERMINATION\t41334534"
+   },
+   {
+      "column0": "REPRESENTATION\t41332217"
+   },
+   {
+      "column0": "PUBLICATION\t41331048"
+   },
+   {
+      "column0": "ACHIEVED\t41327102"
+   },
+   {
+      "column0": "HELPED\t41322413"
+   },
+   {
+      "column0": "OBSERVATION\t41311239"
+   },
+   {
+      "column0": "REPEATED\t41293545"
+   },
+   {
+      "column0": "ATTEMPTS\t41272456"
+   },
+   {
+      "column0": "RADIO\t41244924"
+   },
+   {
+      "column0": "WAIT\t41220432"
+   },
+   {
+      "column0": "REFUSED\t41200352"
+   },
+   {
+      "column0": "WINDOWS\t41200193"
+   },
+   {
+      "column0": "LEADS\t41158061"
+   },
+   {
+      "column0": "LOOKS\t41153467"
+   },
+   {
+      "column0": "SUMMARY\t41148631"
+   },
+   {
+      "column0": "VAST\t41147551"
+   },
+   {
+      "column0": "EVIDENT\t41091844"
+   },
+   {
+      "column0": "EMPHASIS\t41070816"
+   },
+   {
+      "column0": "TRAIN\t41055205"
+   },
+   {
+      "column0": "INPUT\t41046336"
+   },
+   {
+      "column0": "BABY\t41036005"
+   },
+   {
+      "column0": "PARTLY\t41029655"
+   },
+   {
+      "column0": "DETAILED\t41029132"
+   },
+   {
+      "column0": "MINOR\t41027981"
+   },
+   {
+      "column0": "ICE\t40996931"
+   },
+   {
+      "column0": "TRAVEL\t40992750"
+   },
+   {
+      "column0": "THIN\t40992703"
+   },
+   {
+      "column0": "MOTOR\t40987965"
+   },
+   {
+      "column0": "IMPROVEMENT\t40966150"
+   },
+   {
+      "column0": "UNKNOWN\t40948477"
+   },
+   {
+      "column0": "EAT\t40931459"
+   },
+   {
+      "column0": "PERIODS\t40929929"
+   },
+   {
+      "column0": "DEPTH\t40927274"
+   },
+   {
+      "column0": "GREW\t40866628"
+   },
+   {
+      "column0": "POET\t40862799"
+   },
+   {
+      "column0": "ESCAPE\t40857659"
+   },
+   {
+      "column0": "CLIENT\t40826946"
+   },
+   {
+      "column0": "CAUGHT\t40822168"
+   },
+   {
+      "column0": "CM\t40791022"
+   },
+   {
+      "column0": "EXPERIENCED\t40716738"
+   },
+   {
+      "column0": "USER\t40687963"
+   },
+   {
+      "column0": "SEQUENCE\t40686559"
+   },
+   {
+      "column0": "MINISTRY\t40686523"
+   },
+   {
+      "column0": "VALUABLE\t40672601"
+   },
+   {
+      "column0": "NUCLEAR\t40670112"
+   },
+   {
+      "column0": "PORT\t40653011"
+   },
+   {
+      "column0": "WILLING\t40579403"
+   },
+   {
+      "column0": "PERCENTAGE\t40578128"
+   },
+   {
+      "column0": "STRONGLY\t40573100"
+   },
+   {
+      "column0": "DOCUMENT\t40561643"
+   },
+   {
+      "column0": "BAND\t40552641"
+   },
+   {
+      "column0": "CONVERSATION\t40544060"
+   },
+   {
+      "column0": "SHIPS\t40502437"
+   },
+   {
+      "column0": "EMPEROR\t40479056"
+   },
+   {
+      "column0": "EXISTS\t40466775"
+   },
+   {
+      "column0": "TENDENCY\t40456094"
+   },
+   {
+      "column0": "SONS\t40419494"
+   },
+   {
+      "column0": "FINISHED\t40413586"
+   },
+   {
+      "column0": "ADVICE\t40404359"
+   },
+   {
+      "column0": "OVERALL\t40338124"
+   },
+   {
+      "column0": "WANTS\t40331501"
+   },
+   {
+      "column0": "SECURE\t40319119"
+   },
+   {
+      "column0": "CANCER\t40304804"
+   },
+   {
+      "column0": "INSTRUMENT\t40292066"
+   },
+   {
+      "column0": "REQUEST\t40272844"
+   },
+   {
+      "column0": "MIXED\t40257312"
+   },
+   {
+      "column0": "SIT\t40245691"
+   },
+   {
+      "column0": "SITUATIONS\t40241767"
+   },
+   {
+      "column0": "AFTERWARDS\t40203907"
+   },
+   {
+      "column0": "PERFORM\t40187395"
+   },
+   {
+      "column0": "ACADEMIC\t40182061"
+   },
+   {
+      "column0": "ESTIMATED\t40175095"
+   },
+   {
+      "column0": "PREPARATION\t40159598"
+   },
+   {
+      "column0": "VIRGINIA\t40157053"
+   },
+   {
+      "column0": "CONSEQUENTLY\t40156710"
+   },
+   {
+      "column0": "BEGINS\t40141482"
+   },
+   {
+      "column0": "CYCLE\t40130390"
+   },
+   {
+      "column0": "ATTACHED\t40121083"
+   },
+   {
+      "column0": "GLOBAL\t40103211"
+   },
+   {
+      "column0": "WIDELY\t40081661"
+   },
+   {
+      "column0": "INSTRUCTION\t40075721"
+   },
+   {
+      "column0": "PROCEEDINGS\t40038684"
+   },
+   {
+      "column0": "PROVISION\t40035470"
+   },
+   {
+      "column0": "MANAGER\t40008965"
+   },
+   {
+      "column0": "ITALIAN\t39969256"
+   },
+   {
+      "column0": "COMMONLY\t39948274"
+   },
+   {
+      "column0": "PURCHASE\t39931742"
+   },
+   {
+      "column0": "SETS\t39931737"
+   },
+   {
+      "column0": "SITES\t39892154"
+   },
+   {
+      "column0": "MR\t39845680"
+   },
+   {
+      "column0": "INVESTIGATION\t39836878"
+   },
+   {
+      "column0": "DOG\t39834624"
+   },
+   {
+      "column0": "BRIDGE\t39831935"
+   },
+   {
+      "column0": "PROPERLY\t39744589"
+   },
+   {
+      "column0": "CIRCUIT\t39742328"
+   },
+   {
+      "column0": "COMPONENT\t39691421"
+   },
+   {
+      "column0": "SELECT\t39690664"
+   },
+   {
+      "column0": "COMPOSED\t39664901"
+   },
+   {
+      "column0": "OBVIOUSLY\t39656429"
+   },
+   {
+      "column0": "SIN\t39638352"
+   },
+   {
+      "column0": "INTERACTION\t39599634"
+   },
+   {
+      "column0": "AGES\t39562530"
+   },
+   {
+      "column0": "RESPECTIVELY\t39552687"
+   },
+   {
+      "column0": "CURVE\t39528834"
+   },
+   {
+      "column0": "DENSITY\t39511815"
+   },
+   {
+      "column0": "CRITICISM\t39452326"
+   },
+   {
+      "column0": "MAP\t39422735"
+   },
+   {
+      "column0": "CAREFUL\t39407698"
+   },
+   {
+      "column0": "SETTLED\t39353584"
+   },
+   {
+      "column0": "CONCEPTS\t39340491"
+   },
+   {
+      "column0": "CRIMINAL\t39262946"
+   },
+   {
+      "column0": "ELECTRIC\t39253032"
+   },
+   {
+      "column0": "KNOWING\t39246879"
+   },
+   {
+      "column0": "TURNING\t39230364"
+   },
+   {
+      "column0": "ANGLE\t39229069"
+   },
+   {
+      "column0": "LARGEST\t39215237"
+   },
+   {
+      "column0": "GOALS\t39150325"
+   },
+   {
+      "column0": "HEADS\t39129988"
+   },
+   {
+      "column0": "WEAK\t39075586"
+   },
+   {
+      "column0": "LOAD\t39073353"
+   },
+   {
+      "column0": "DEBT\t39051863"
+   },
+   {
+      "column0": "DISTINGUISHED\t39048756"
+   },
+   {
+      "column0": "CLUB\t39030470"
+   },
+   {
+      "column0": "PROTECT\t39004382"
+   },
+   {
+      "column0": "PLUS\t38934840"
+   },
+   {
+      "column0": "IDENTIFY\t38898150"
+   },
+   {
+      "column0": "CORNER\t38888303"
+   },
+   {
+      "column0": "ENGINEERING\t38864847"
+   },
+   {
+      "column0": "FACILITIES\t38863926"
+   },
+   {
+      "column0": "DREAM\t38843330"
+   },
+   {
+      "column0": "VOTE\t38825455"
+   },
+   {
+      "column0": "FAIRLY\t38802658"
+   },
+   {
+      "column0": "INDUSTRIES\t38799120"
+   },
+   {
+      "column0": "DOCUMENTS\t38786859"
+   },
+   {
+      "column0": "WEB\t38779130"
+   },
+   {
+      "column0": "ADEQUATE\t38765589"
+   },
+   {
+      "column0": "FUND\t38756431"
+   },
+   {
+      "column0": "EVOLUTION\t38753951"
+   },
+   {
+      "column0": "TONE\t38747774"
+   },
+   {
+      "column0": "PROCESSING\t38739095"
+   },
+   {
+      "column0": "ASIA\t38736905"
+   },
+   {
+      "column0": "ENTRY\t38732873"
+   },
+   {
+      "column0": "EXPANSION\t38731171"
+   },
+   {
+      "column0": "BIRDS\t38724537"
+   },
+   {
+      "column0": "HAPPEN\t38695255"
+   },
+   {
+      "column0": "EMOTIONAL\t38690718"
+   },
+   {
+      "column0": "ENTITLED\t38655674"
+   },
+   {
+      "column0": "FRAME\t38645040"
+   },
+   {
+      "column0": "DUKE\t38643639"
+   },
+   {
+      "column0": "EFFICIENCY\t38620656"
+   },
+   {
+      "column0": "OPPORTUNITIES\t38595041"
+   },
+   {
+      "column0": "DANGEROUS\t38566984"
+   },
+   {
+      "column0": "ACHIEVE\t38553404"
+   },
+   {
+      "column0": "ACTING\t38536231"
+   },
+   {
+      "column0": "GROWN\t38488707"
+   },
+   {
+      "column0": "REPRESENTATIVE\t38475707"
+   },
+   {
+      "column0": "INCHES\t38469742"
+   },
+   {
+      "column0": "GOVERNMENTS\t38437435"
+   },
+   {
+      "column0": "EQUIVALENT\t38432678"
+   },
+   {
+      "column0": "VESSELS\t38424343"
+   },
+   {
+      "column0": "SUGAR\t38411948"
+   },
+   {
+      "column0": "SONG\t38396772"
+   },
+   {
+      "column0": "COLLECTED\t38391065"
+   },
+   {
+      "column0": "SIMILARLY\t38390517"
+   },
+   {
+      "column0": "DISCUSS\t38356144"
+   },
+   {
+      "column0": "COMMERCE\t38345391"
+   },
+   {
+      "column0": "BAY\t38321116"
+   },
+   {
+      "column0": "TESTING\t38274719"
+   },
+   {
+      "column0": "ISLANDS\t38272534"
+   },
+   {
+      "column0": "BRIGHT\t38254782"
+   },
+   {
+      "column0": "ADMINISTRATIVE\t38243304"
+   },
+   {
+      "column0": "HORSES\t38241447"
+   },
+   {
+      "column0": "FLAT\t38209305"
+   },
+   {
+      "column0": "COAL\t38181926"
+   },
+   {
+      "column0": "INDICATES\t38159961"
+   },
+   {
+      "column0": "ACQUIRED\t38151111"
+   },
+   {
+      "column0": "UNITY\t38143462"
+   },
+   {
+      "column0": "FIRMS\t38125994"
+   },
+   {
+      "column0": "CONDUCTED\t38115594"
+   },
+   {
+      "column0": "LEGISLATION\t38089676"
+   },
+   {
+      "column0": "LIQUID\t38026027"
+   },
+   {
+      "column0": "MUSCLE\t38020671"
+   },
+   {
+      "column0": "MENTION\t38014030"
+   },
+   {
+      "column0": "OWNER\t38006556"
+   },
+   {
+      "column0": "TRULY\t37990392"
+   },
+   {
+      "column0": "COUPLE\t37923351"
+   },
+   {
+      "column0": "QUE\t37911264"
+   },
+   {
+      "column0": "PLAYING\t37907905"
+   },
+   {
+      "column0": "EDITOR\t37872363"
+   },
+   {
+      "column0": "SHARED\t37860285"
+   },
+   {
+      "column0": "PARTICIPATION\t37850164"
+   },
+   {
+      "column0": "CONTINUOUS\t37843432"
+   },
+   {
+      "column0": "LOVED\t37832573"
+   },
+   {
+      "column0": "TAXES\t37820510"
+   },
+   {
+      "column0": "FLOWERS\t37815478"
+   },
+   {
+      "column0": "YIELD\t37765055"
+   },
+   {
+      "column0": "SPOT\t37761578"
+   },
+   {
+      "column0": "UNIQUE\t37709353"
+   },
+   {
+      "column0": "RELEASE\t37702415"
+   },
+   {
+      "column0": "STAGES\t37688011"
+   },
+   {
+      "column0": "STARTING\t37683527"
+   },
+   {
+      "column0": "INTERVIEW\t37673067"
+   },
+   {
+      "column0": "STREAM\t37671867"
+   },
+   {
+      "column0": "IRISH\t37668890"
+   },
+   {
+      "column0": "SUITABLE\t37655483"
+   },
+   {
+      "column0": "IRELAND\t37634087"
+   },
+   {
+      "column0": "MARKETS\t37618581"
+   },
+   {
+      "column0": "RARE\t37607806"
+   },
+   {
+      "column0": "IMPROVE\t37594569"
+   },
+   {
+      "column0": "BOAT\t37580980"
+   },
+   {
+      "column0": "NOTION\t37572761"
+   },
+   {
+      "column0": "TELEVISION\t37557353"
+   },
+   {
+      "column0": "CHAIR\t37536211"
+   },
+   {
+      "column0": "TOOLS\t37529774"
+   },
+   {
+      "column0": "WEATHER\t37514660"
+   },
+   {
+      "column0": "REMOVE\t37509398"
+   },
+   {
+      "column0": "HOTEL\t37503472"
+   },
+   {
+      "column0": "LIBERAL\t37493413"
+   },
+   {
+      "column0": "CENTURIES\t37440530"
+   },
+   {
+      "column0": "DEMOCRACY\t37389968"
+   },
+   {
+      "column0": "LOSE\t37385813"
+   },
+   {
+      "column0": "STANDS\t37291888"
+   },
+   {
+      "column0": "CONSUMPTION\t37268431"
+   },
+   {
+      "column0": "MAINTENANCE\t37268075"
+   },
+   {
+      "column0": "THICK\t37256214"
+   },
+   {
+      "column0": "OCCUPIED\t37247710"
+   },
+   {
+      "column0": "MICHAEL\t37213107"
+   },
+   {
+      "column0": "CONTENTS\t37188311"
+   },
+   {
+      "column0": "FLUID\t37084285"
+   },
+   {
+      "column0": "TUBE\t37070360"
+   },
+   {
+      "column0": "DISPLAY\t37056333"
+   },
+   {
+      "column0": "REGULATIONS\t37055824"
+   },
+   {
+      "column0": "OPPOSED\t37009331"
+   },
+   {
+      "column0": "REALIZED\t36983195"
+   },
+   {
+      "column0": "PERMISSION\t36969341"
+   },
+   {
+      "column0": "SEAT\t36955441"
+   },
+   {
+      "column0": "PRAYER\t36923132"
+   },
+   {
+      "column0": "REFER\t36885043"
+   },
+   {
+      "column0": "PROMISE\t36865666"
+   },
+   {
+      "column0": "VISUAL\t36849251"
+   },
+   {
+      "column0": "COLONIAL\t36832344"
+   },
+   {
+      "column0": "PICTURES\t36807149"
+   },
+   {
+      "column0": "FIFTH\t36788809"
+   },
+   {
+      "column0": "FRUIT\t36756104"
+   },
+   {
+      "column0": "REMARKABLE\t36739601"
+   },
+   {
+      "column0": "DINNER\t36739600"
+   },
+   {
+      "column0": "ELSEWHERE\t36721837"
+   },
+   {
+      "column0": "ROOT\t36719902"
+   },
+   {
+      "column0": "WON\t36679386"
+   },
+   {
+      "column0": "JOURNEY\t36673282"
+   },
+   {
+      "column0": "SILENCE\t36633510"
+   },
+   {
+      "column0": "BEARING\t36623913"
+   },
+   {
+      "column0": "RAISE\t36593271"
+   },
+   {
+      "column0": "QUIET\t36586756"
+   },
+   {
+      "column0": "ST\t36574130"
+   },
+   {
+      "column0": "VIRTUE\t36465820"
+   },
+   {
+      "column0": "PROBABILITY\t36444038"
+   },
+   {
+      "column0": "MARTIN\t36428905"
+   },
+   {
+      "column0": "SUFFERING\t36395524"
+   },
+   {
+      "column0": "TWICE\t36389658"
+   },
+   {
+      "column0": "EXTENSION\t36358010"
+   },
+   {
+      "column0": "STAR\t36348727"
+   },
+   {
+      "column0": "MECHANICAL\t36328314"
+   },
+   {
+      "column0": "MID\t36299368"
+   },
+   {
+      "column0": "RING\t36285529"
+   },
+   {
+      "column0": "TASTE\t36279735"
+   },
+   {
+      "column0": "OCCASIONALLY\t36268999"
+   },
+   {
+      "column0": "COMMITTED\t36263625"
+   },
+   {
+      "column0": "SUBSTANTIAL\t36245541"
+   },
+   {
+      "column0": "ALLOWS\t36236343"
+   },
+   {
+      "column0": "HOUSING\t36214062"
+   },
+   {
+      "column0": "THEORETICAL\t36201869"
+   },
+   {
+      "column0": "PARENT\t36180857"
+   },
+   {
+      "column0": "MECHANISM\t36170503"
+   },
+   {
+      "column0": "REGULATION\t36136309"
+   },
+   {
+      "column0": "THOUSANDS\t36126102"
+   },
+   {
+      "column0": "WISDOM\t36113862"
+   },
+   {
+      "column0": "JOIN\t36090222"
+   },
+   {
+      "column0": "BALL\t36084571"
+   },
+   {
+      "column0": "WORSE\t36048597"
+   },
+   {
+      "column0": "DRUGS\t35996062"
+   },
+   {
+      "column0": "CHAIN\t35984375"
+   },
+   {
+      "column0": "DEGREES\t35983474"
+   },
+   {
+      "column0": "LOS\t35911314"
+   },
+   {
+      "column0": "IMPROVED\t35871080"
+   },
+   {
+      "column0": "INSTANCES\t35870781"
+   },
+   {
+      "column0": "CALCULATED\t35852459"
+   },
+   {
+      "column0": "INJURY\t35838064"
+   },
+   {
+      "column0": "TARGET\t35825312"
+   },
+   {
+      "column0": "SELL\t35765250"
+   },
+   {
+      "column0": "RESPONSES\t35764801"
+   },
+   {
+      "column0": "FOUNDED\t35702454"
+   },
+   {
+      "column0": "EXCEPTION\t35691878"
+   },
+   {
+      "column0": "NECK\t35691613"
+   },
+   {
+      "column0": "ZONE\t35682568"
+   },
+   {
+      "column0": "VISIBLE\t35634504"
+   },
+   {
+      "column0": "ACCOMPANIED\t35574328"
+   },
+   {
+      "column0": "CONCERNS\t35567520"
+   },
+   {
+      "column0": "DEALING\t35549079"
+   },
+   {
+      "column0": "RISING\t35546845"
+   },
+   {
+      "column0": "AGENCIES\t35544149"
+   },
+   {
+      "column0": "ARRANGEMENT\t35543478"
+   },
+   {
+      "column0": "READILY\t35532473"
+   },
+   {
+      "column0": "ADMITTED\t35488776"
+   },
+   {
+      "column0": "PLAYS\t35487791"
+   },
+   {
+      "column0": "CLEAN\t35450708"
+   },
+   {
+      "column0": "TOWNS\t35442693"
+   },
+   {
+      "column0": "ARGUED\t35414701"
+   },
+   {
+      "column0": "RECOGNIZE\t35347311"
+   },
+   {
+      "column0": "DROP\t35273150"
+   },
+   {
+      "column0": "THEORIES\t35246058"
+   },
+   {
+      "column0": "PAIR\t35236589"
+   },
+   {
+      "column0": "QUARTER\t35223380"
+   },
+   {
+      "column0": "SPITE\t35152429"
+   },
+   {
+      "column0": "SOLUTIONS\t35137432"
+   },
+   {
+      "column0": "SHARP\t35123187"
+   },
+   {
+      "column0": "QUOTED\t35101662"
+   },
+   {
+      "column0": "POEM\t35076532"
+   },
+   {
+      "column0": "CHURCHES\t35069579"
+   },
+   {
+      "column0": "CONCRETE\t35065757"
+   },
+   {
+      "column0": "AFTERNOON\t35038656"
+   },
+   {
+      "column0": "ESSENTIALLY\t35025234"
+   },
+   {
+      "column0": "CONTRIBUTION\t34975734"
+   },
+   {
+      "column0": "PRODUCING\t34967936"
+   },
+   {
+      "column0": "INVOLVES\t34963051"
+   },
+   {
+      "column0": "AD\t34938992"
+   },
+   {
+      "column0": "EXAMINED\t34888487"
+   },
+   {
+      "column0": "WONDER\t34841089"
+   },
+   {
+      "column0": "CONSISTENT\t34837340"
+   },
+   {
+      "column0": "VARIATION\t34834788"
+   },
+   {
+      "column0": "CHALLENGE\t34831214"
+   },
+   {
+      "column0": "BIBLE\t34828174"
+   },
+   {
+      "column0": "WATERS\t34817817"
+   },
+   {
+      "column0": "REVEALED\t34817241"
+   },
+   {
+      "column0": "ATTITUDES\t34815934"
+   },
+   {
+      "column0": "SHIFT\t34815041"
+   },
+   {
+      "column0": "NINETEENTH\t34793441"
+   },
+   {
+      "column0": "STREETS\t34791074"
+   },
+   {
+      "column0": "INFORMED\t34787210"
+   },
+   {
+      "column0": "STRUCTURAL\t34750812"
+   },
+   {
+      "column0": "ELECTED\t34750328"
+   },
+   {
+      "column0": "ZERO\t34748076"
+   },
+   {
+      "column0": "SCIENCES\t34734598"
+   },
+   {
+      "column0": "EXPOSED\t34697253"
+   },
+   {
+      "column0": "ITEM\t34683877"
+   },
+   {
+      "column0": "LABORATORY\t34667802"
+   },
+   {
+      "column0": "PROVINCE\t34666756"
+   },
+   {
+      "column0": "ATMOSPHERE\t34654170"
+   },
+   {
+      "column0": "DI\t34613080"
+   },
+   {
+      "column0": "REVENUE\t34609143"
+   },
+   {
+      "column0": "SESSION\t34601625"
+   },
+   {
+      "column0": "WASTE\t34589875"
+   },
+   {
+      "column0": "FORT\t34586873"
+   },
+   {
+      "column0": "FAT\t34568562"
+   },
+   {
+      "column0": "FASHION\t34527741"
+   },
+   {
+      "column0": "APPROACHES\t34523481"
+   },
+   {
+      "column0": "ILLUSTRATED\t34519451"
+   },
+   {
+      "column0": "PERSONNEL\t34510595"
+   },
+   {
+      "column0": "AHEAD\t34510196"
+   },
+   {
+      "column0": "SKY\t34497044"
+   },
+   {
+      "column0": "COMMUNIST\t34495839"
+   },
+   {
+      "column0": "FREQUENT\t34485994"
+   },
+   {
+      "column0": "ORIGINALLY\t34471644"
+   },
+   {
+      "column0": "VICE\t34463798"
+   },
+   {
+      "column0": "SOCIETIES\t34463133"
+   },
+   {
+      "column0": "PRIME\t34421805"
+   },
+   {
+      "column0": "FIGHTING\t34404901"
+   },
+   {
+      "column0": "WISE\t34381025"
+   },
+   {
+      "column0": "THEREBY\t34369860"
+   },
+   {
+      "column0": "DEVICE\t34355004"
+   },
+   {
+      "column0": "CHARGED\t34332137"
+   },
+   {
+      "column0": "POVERTY\t34321792"
+   },
+   {
+      "column0": "WINE\t34316723"
+   },
+   {
+      "column0": "READERS\t34306436"
+   },
+   {
+      "column0": "GROUNDS\t34282928"
+   },
+   {
+      "column0": "REPRESENTATIVES\t34257455"
+   },
+   {
+      "column0": "HOUSEHOLD\t34254146"
+   },
+   {
+      "column0": "TRANSITION\t34253090"
+   },
+   {
+      "column0": "BEHAVIOUR\t34250399"
+   },
+   {
+      "column0": "SOFTWARE\t34239916"
+   },
+   {
+      "column0": "PACIFIC\t34223283"
+   },
+   {
+      "column0": "DISEASES\t34211023"
+   },
+   {
+      "column0": "CARBON\t34189551"
+   },
+   {
+      "column0": "AMOUNTS\t34186613"
+   },
+   {
+      "column0": "GRADE\t34186172"
+   },
+   {
+      "column0": "CHANNEL\t34173998"
+   },
+   {
+      "column0": "JOBS\t34143502"
+   },
+   {
+      "column0": "MAIL\t34129653"
+   },
+   {
+      "column0": "CORE\t34125632"
+   },
+   {
+      "column0": "CREATING\t34124270"
+   },
+   {
+      "column0": "OFFERS\t34100512"
+   },
+   {
+      "column0": "SEC\t34055426"
+   },
+   {
+      "column0": "FRANK\t34023929"
+   },
+   {
+      "column0": "OXYGEN\t34022593"
+   },
+   {
+      "column0": "CLAIMED\t34017747"
+   },
+   {
+      "column0": "TABLES\t33991728"
+   },
+   {
+      "column0": "DISCOVERY\t33961308"
+   },
+   {
+      "column0": "PERFECTLY\t33958946"
+   },
+   {
+      "column0": "BRANCHES\t33952659"
+   },
+   {
+      "column0": "COTTON\t33933827"
+   },
+   {
+      "column0": "OP\t33898060"
+   },
+   {
+      "column0": "COLONEL\t33867478"
+   },
+   {
+      "column0": "ASIDE\t33829618"
+   },
+   {
+      "column0": "JOY\t33814519"
+   },
+   {
+      "column0": "SUFFERED\t33811797"
+   },
+   {
+      "column0": "SAND\t33782518"
+   },
+   {
+      "column0": "SWEET\t33768721"
+   },
+   {
+      "column0": "CATEGORIES\t33760189"
+   },
+   {
+      "column0": "FARMERS\t33753767"
+   },
+   {
+      "column0": "VICTORY\t33734196"
+   },
+   {
+      "column0": "WAGES\t33733931"
+   },
+   {
+      "column0": "DRINK\t33706355"
+   },
+   {
+      "column0": "YOUNGER\t33702891"
+   },
+   {
+      "column0": "MINDS\t33691108"
+   },
+   {
+      "column0": "DECIDE\t33687872"
+   },
+   {
+      "column0": "DESTRUCTION\t33686180"
+   },
+   {
+      "column0": "ENSURE\t33681560"
+   },
+   {
+      "column0": "WHENEVER\t33644616"
+   },
+   {
+      "column0": "INCREASINGLY\t33606359"
+   },
+   {
+      "column0": "BENEATH\t33600729"
+   },
+   {
+      "column0": "IMPRESSION\t33592966"
+   },
+   {
+      "column0": "CONSTITUTIONAL\t33584951"
+   },
+   {
+      "column0": "COLOUR\t33517402"
+   },
+   {
+      "column0": "REACTIONS\t33507244"
+   },
+   {
+      "column0": "CORPORATE\t33480974"
+   },
+   {
+      "column0": "FIFTEEN\t33467697"
+   },
+   {
+      "column0": "BEGUN\t33448079"
+   },
+   {
+      "column0": "RAIN\t33443042"
+   },
+   {
+      "column0": "WILSON\t33387711"
+   },
+   {
+      "column0": "TEXAS\t33372633"
+   },
+   {
+      "column0": "EXTRA\t33362107"
+   },
+   {
+      "column0": "ARGUMENTS\t33356218"
+   },
+   {
+      "column0": "ORGANIC\t33346352"
+   },
+   {
+      "column0": "GRAY\t33346335"
+   },
+   {
+      "column0": "DRIVEN\t33344283"
+   },
+   {
+      "column0": "NOISE\t33341287"
+   },
+   {
+      "column0": "INSTRUCTIONS\t33318290"
+   },
+   {
+      "column0": "SACRED\t33314005"
+   },
+   {
+      "column0": "VELOCITY\t33309731"
+   },
+   {
+      "column0": "AFRAID\t33286929"
+   },
+   {
+      "column0": "SATISFACTION\t33277408"
+   },
+   {
+      "column0": "TRANSLATION\t33248866"
+   },
+   {
+      "column0": "IMAGINE\t33245998"
+   },
+   {
+      "column0": "DESTROYED\t33189418"
+   },
+   {
+      "column0": "GUARD\t33171927"
+   },
+   {
+      "column0": "STRATEGIES\t33170180"
+   },
+   {
+      "column0": "ESTIMATE\t33151125"
+   },
+   {
+      "column0": "CLASSICAL\t33142617"
+   },
+   {
+      "column0": "ONTO\t33124930"
+   },
+   {
+      "column0": "STATISTICS\t33106825"
+   },
+   {
+      "column0": "ENTERPRISE\t33088090"
+   },
+   {
+      "column0": "DEPRESSION\t33079940"
+   },
+   {
+      "column0": "INSTRUMENTS\t33071819"
+   },
+   {
+      "column0": "LANGUAGES\t33071086"
+   },
+   {
+      "column0": "FAVOR\t33056700"
+   },
+   {
+      "column0": "MEETINGS\t33056121"
+   },
+   {
+      "column0": "CALLING\t33052256"
+   },
+   {
+      "column0": "SURELY\t33039443"
+   },
+   {
+      "column0": "UNLIKE\t33037605"
+   },
+   {
+      "column0": "QUICK\t33025464"
+   },
+   {
+      "column0": "SUNDAY\t33004845"
+   },
+   {
+      "column0": "NERVE\t32996075"
+   },
+   {
+      "column0": "SUB\t32990466"
+   },
+   {
+      "column0": "CONSCIOUS\t32982191"
+   },
+   {
+      "column0": "BROTHERS\t32965316"
+   },
+   {
+      "column0": "FRAMEWORK\t32961654"
+   },
+   {
+      "column0": "STRIKE\t32955016"
+   },
+   {
+      "column0": "ROOMS\t32937144"
+   },
+   {
+      "column0": "NARRATIVE\t32935920"
+   },
+   {
+      "column0": "MANAGED\t32909932"
+   },
+   {
+      "column0": "SKILL\t32903336"
+   },
+   {
+      "column0": "OCEAN\t32902932"
+   },
+   {
+      "column0": "TELLS\t32899571"
+   },
+   {
+      "column0": "HUGE\t32885590"
+   },
+   {
+      "column0": "ENDED\t32883432"
+   },
+   {
+      "column0": "DEPEND\t32876726"
+   },
+   {
+      "column0": "LOGIC\t32859550"
+   },
+   {
+      "column0": "ENJOY\t32845122"
+   },
+   {
+      "column0": "ASSETS\t32838888"
+   },
+   {
+      "column0": "EXAMINE\t32815558"
+   },
+   {
+      "column0": "FINDINGS\t32790175"
+   },
+   {
+      "column0": "EXPENSE\t32759520"
+   },
+   {
+      "column0": "TEETH\t32750428"
+   },
+   {
+      "column0": "BUDGET\t32746122"
+   },
+   {
+      "column0": "PAINTING\t32738623"
+   },
+   {
+      "column0": "MANUFACTURING\t32719084"
+   },
+   {
+      "column0": "SEPARATED\t32702454"
+   },
+   {
+      "column0": "DIRECTIONS\t32702315"
+   },
+   {
+      "column0": "FURTHERMORE\t32685805"
+   },
+   {
+      "column0": "ADVANTAGES\t32677603"
+   },
+   {
+      "column0": "FINDS\t32668786"
+   },
+   {
+      "column0": "EMPTY\t32665681"
+   },
+   {
+      "column0": "ROUTE\t32665445"
+   },
+   {
+      "column0": "THANK\t32642462"
+   },
+   {
+      "column0": "CATEGORY\t32638568"
+   },
+   {
+      "column0": "APPENDIX\t32618696"
+   },
+   {
+      "column0": "INTENSITY\t32611987"
+   },
+   {
+      "column0": "CHAMBER\t32582324"
+   },
+   {
+      "column0": "ARTIST\t32574512"
+   },
+   {
+      "column0": "LYING\t32572530"
+   },
+   {
+      "column0": "MEASUREMENT\t32572384"
+   },
+   {
+      "column0": "ASSIGNED\t32553957"
+   },
+   {
+      "column0": "CONSTANTLY\t32512083"
+   },
+   {
+      "column0": "DREW\t32504993"
+   },
+   {
+      "column0": "STRUCK\t32440500"
+   },
+   {
+      "column0": "ASSUMPTION\t32429347"
+   },
+   {
+      "column0": "MOSTLY\t32428721"
+   },
+   {
+      "column0": "DELIVERED\t32406042"
+   },
+   {
+      "column0": "DEBATE\t32388516"
+   },
+   {
+      "column0": "CLOTHES\t32383089"
+   },
+   {
+      "column0": "ACUTE\t32380814"
+   },
+   {
+      "column0": "RECOMMENDED\t32360099"
+   },
+   {
+      "column0": "SMILE\t32358171"
+   },
+   {
+      "column0": "ARMED\t32356907"
+   },
+   {
+      "column0": "INDUCED\t32346816"
+   },
+   {
+      "column0": "SNOW\t32315248"
+   },
+   {
+      "column0": "MOON\t32311194"
+   },
+   {
+      "column0": "HOST\t32304193"
+   },
+   {
+      "column0": "LEGS\t32292364"
+   },
+   {
+      "column0": "INCH\t32278328"
+   },
+   {
+      "column0": "ROCKS\t32246632"
+   },
+   {
+      "column0": "QUALITIES\t32241851"
+   },
+   {
+      "column0": "POPE\t32240389"
+   },
+   {
+      "column0": "RANK\t32214611"
+   },
+   {
+      "column0": "IMAGINATION\t32209198"
+   },
+   {
+      "column0": "CONCEPTION\t32190893"
+   },
+   {
+      "column0": "NORMALLY\t32182785"
+   },
+   {
+      "column0": "INTERIOR\t32172949"
+   },
+   {
+      "column0": "VERTICAL\t32170450"
+   },
+   {
+      "column0": "REMEMBERED\t32168596"
+   },
+   {
+      "column0": "CONCLUDED\t32167980"
+   },
+   {
+      "column0": "PERMITTED\t32157168"
+   },
+   {
+      "column0": "RARELY\t32147693"
+   },
+   {
+      "column0": "DECLINE\t32145951"
+   },
+   {
+      "column0": "SEEKING\t32115829"
+   },
+   {
+      "column0": "UNIFORM\t32114380"
+   },
+   {
+      "column0": "FAIL\t32114237"
+   },
+   {
+      "column0": "EXCESS\t32097688"
+   },
+   {
+      "column0": "FLIGHT\t32091204"
+   },
+   {
+      "column0": "PHILADELPHIA\t32089662"
+   },
+   {
+      "column0": "ENGINE\t32085323"
+   },
+   {
+      "column0": "PERMIT\t32060441"
+   },
+   {
+      "column0": "VIA\t32040070"
+   },
+   {
+      "column0": "TELEPHONE\t32006278"
+   },
+   {
+      "column0": "GAINED\t32001121"
+   },
+   {
+      "column0": "DEMONSTRATED\t31983964"
+   },
+   {
+      "column0": "DANCE\t31951446"
+   },
+   {
+      "column0": "JONES\t31948987"
+   },
+   {
+      "column0": "EXPOSURE\t31946297"
+   },
+   {
+      "column0": "SOUNDS\t31940276"
+   },
+   {
+      "column0": "POUNDS\t31920439"
+   },
+   {
+      "column0": "DIAGNOSIS\t31889752"
+   },
+   {
+      "column0": "ERA\t31880608"
+   },
+   {
+      "column0": "SUCCEEDED\t31853189"
+   },
+   {
+      "column0": "DEEPLY\t31848480"
+   },
+   {
+      "column0": "ELIZABETH\t31846827"
+   },
+   {
+      "column0": "DEFENCE\t31833614"
+   },
+   {
+      "column0": "BRINGING\t31818351"
+   },
+   {
+      "column0": "SUDDEN\t31785129"
+   },
+   {
+      "column0": "HIT\t31784189"
+   },
+   {
+      "column0": "TELLING\t31781959"
+   },
+   {
+      "column0": "EMPLOYEE\t31739955"
+   },
+   {
+      "column0": "FALLS\t31738357"
+   },
+   {
+      "column0": "SPECIFICALLY\t31733299"
+   },
+   {
+      "column0": "SCREEN\t31729007"
+   },
+   {
+      "column0": "DIAMETER\t31720879"
+   },
+   {
+      "column0": "GIFT\t31714744"
+   },
+   {
+      "column0": "AUSTRALIA\t31712794"
+   },
+   {
+      "column0": "SEPARATION\t31687958"
+   },
+   {
+      "column0": "TRAFFIC\t31682800"
+   },
+   {
+      "column0": "SENATE\t31672138"
+   },
+   {
+      "column0": "SIGNED\t31651241"
+   },
+   {
+      "column0": "PRESENTS\t31651198"
+   },
+   {
+      "column0": "BROKE\t31638358"
+   },
+   {
+      "column0": "BOND\t31636787"
+   },
+   {
+      "column0": "OBJECTIVES\t31605165"
+   },
+   {
+      "column0": "ALEXANDER\t31583394"
+   },
+   {
+      "column0": "LEAGUE\t31578928"
+   },
+   {
+      "column0": "THEATRE\t31554734"
+   },
+   {
+      "column0": "STORAGE\t31540226"
+   },
+   {
+      "column0": "SHEET\t31531345"
+   },
+   {
+      "column0": "NAMELY\t31529367"
+   },
+   {
+      "column0": "SUPPLIES\t31510616"
+   },
+   {
+      "column0": "DEVOTED\t31462187"
+   },
+   {
+      "column0": "FORMULA\t31449322"
+   },
+   {
+      "column0": "INTENTION\t31446662"
+   },
+   {
+      "column0": "ARRANGED\t31436031"
+   },
+   {
+      "column0": "JACK\t31435774"
+   },
+   {
+      "column0": "CHAPTERS\t31427115"
+   },
+   {
+      "column0": "CHARGES\t31422342"
+   },
+   {
+      "column0": "EGYPT\t31417662"
+   },
+   {
+      "column0": "SPECIFIED\t31416699"
+   },
+   {
+      "column0": "HAPPINESS\t31365803"
+   },
+   {
+      "column0": "NOBLE\t31356734"
+   },
+   {
+      "column0": "ATTEMPTED\t31355462"
+   },
+   {
+      "column0": "FILL\t31346644"
+   },
+   {
+      "column0": "PRECEDING\t31345156"
+   },
+   {
+      "column0": "EFFICIENT\t31307288"
+   },
+   {
+      "column0": "SATISFIED\t31286367"
+   },
+   {
+      "column0": "PRECISELY\t31275394"
+   },
+   {
+      "column0": "VESSEL\t31269268"
+   },
+   {
+      "column0": "FORGET\t31228249"
+   },
+   {
+      "column0": "DRESS\t31215942"
+   },
+   {
+      "column0": "DISCIPLINE\t31204655"
+   },
+   {
+      "column0": "TEACH\t31184397"
+   },
+   {
+      "column0": "EX\t31170141"
+   },
+   {
+      "column0": "SPEND\t31141732"
+   },
+   {
+      "column0": "INFECTION\t31129653"
+   },
+   {
+      "column0": "ANSWERS\t31127642"
+   },
+   {
+      "column0": "ERRORS\t31095884"
+   },
+   {
+      "column0": "LINEAR\t31091743"
+   },
+   {
+      "column0": "WITNESS\t31068957"
+   },
+   {
+      "column0": "DISTRIBUTED\t31064160"
+   },
+   {
+      "column0": "CONSIDERING\t31063246"
+   },
+   {
+      "column0": "PHONE\t31061391"
+   },
+   {
+      "column0": "REFLECTED\t31058582"
+   },
+   {
+      "column0": "PARTICLES\t31048495"
+   },
+   {
+      "column0": "PRISON\t31038090"
+   },
+   {
+      "column0": "AIM\t31024295"
+   },
+   {
+      "column0": "SIGNIFICANTLY\t31014987"
+   },
+   {
+      "column0": "MARKETING\t31012054"
+   },
+   {
+      "column0": "FUNCTIONAL\t30982070"
+   },
+   {
+      "column0": "CARD\t30975661"
+   },
+   {
+      "column0": "PRINT\t30965760"
+   },
+   {
+      "column0": "BIRD\t30961472"
+   },
+   {
+      "column0": "LEE\t30959898"
+   },
+   {
+      "column0": "SCOPE\t30959084"
+   },
+   {
+      "column0": "REPLACED\t30956923"
+   },
+   {
+      "column0": "SLAVE\t30911620"
+   },
+   {
+      "column0": "ACCORDINGLY\t30899713"
+   },
+   {
+      "column0": "MUTUAL\t30893042"
+   },
+   {
+      "column0": "PUTTING\t30870466"
+   },
+   {
+      "column0": "BORDER\t30868408"
+   },
+   {
+      "column0": "DEFENDANT\t30865564"
+   },
+   {
+      "column0": "WORSHIP\t30860120"
+   },
+   {
+      "column0": "INVOLVING\t30858764"
+   },
+   {
+      "column0": "LINK\t30850001"
+   },
+   {
+      "column0": "WALKING\t30746983"
+   },
+   {
+      "column0": "RECEIVING\t30724736"
+   },
+   {
+      "column0": "ECONOMICS\t30716266"
+   },
+   {
+      "column0": "CLOSER\t30715649"
+   },
+   {
+      "column0": "STARS\t30710319"
+   },
+   {
+      "column0": "PULLED\t30704751"
+   },
+   {
+      "column0": "NEWSPAPER\t30697614"
+   },
+   {
+      "column0": "CRITERIA\t30692778"
+   },
+   {
+      "column0": "STABLE\t30679455"
+   },
+   {
+      "column0": "INHABITANTS\t30651827"
+   },
+   {
+      "column0": "MIXTURE\t30638389"
+   },
+   {
+      "column0": "EXPENSES\t30632728"
+   },
+   {
+      "column0": "SLIGHT\t30622746"
+   },
+   {
+      "column0": "CONSUMER\t30600860"
+   },
+   {
+      "column0": "ALCOHOL\t30599390"
+   },
+   {
+      "column0": "SAMPLES\t30583626"
+   },
+   {
+      "column0": "COPPER\t30581034"
+   },
+   {
+      "column0": "COMPARE\t30579346"
+   },
+   {
+      "column0": "TASKS\t30566751"
+   },
+   {
+      "column0": "UNTO\t30565819"
+   },
+   {
+      "column0": "ANXIETY\t30563269"
+   },
+   {
+      "column0": "BERLIN\t30562936"
+   },
+   {
+      "column0": "GOLDEN\t30558916"
+   },
+   {
+      "column0": "RETURNS\t30557022"
+   },
+   {
+      "column0": "SICK\t30552654"
+   },
+   {
+      "column0": "SE\t30523166"
+   },
+   {
+      "column0": "PERCEPTION\t30516478"
+   },
+   {
+      "column0": "BEINGS\t30513714"
+   },
+   {
+      "column0": "RESOURCE\t30511437"
+   },
+   {
+      "column0": "DEFINE\t30503877"
+   },
+   {
+      "column0": "FINANCE\t30502821"
+   },
+   {
+      "column0": "REFLECT\t30472161"
+   },
+   {
+      "column0": "SUFFICIENTLY\t30460965"
+   },
+   {
+      "column0": "VII\t30454969"
+   },
+   {
+      "column0": "IDENTIFICATION\t30441300"
+   },
+   {
+      "column0": "ASKING\t30410164"
+   },
+   {
+      "column0": "RAY\t30396290"
+   },
+   {
+      "column0": "SPOKEN\t30374054"
+   },
+   {
+      "column0": "GRAIN\t30342566"
+   },
+   {
+      "column0": "PECULIAR\t30338744"
+   },
+   {
+      "column0": "UNIVERSE\t30327449"
+   },
+   {
+      "column0": "GENDER\t30323444"
+   },
+   {
+      "column0": "SENSITIVE\t30320462"
+   },
+   {
+      "column0": "HONOR\t30299052"
+   },
+   {
+      "column0": "SUIT\t30284895"
+   },
+   {
+      "column0": "THEE\t30284547"
+   },
+   {
+      "column0": "ARISE\t30283204"
+   },
+   {
+      "column0": "MAGAZINE\t30274997"
+   },
+   {
+      "column0": "NOTICED\t30257675"
+   },
+   {
+      "column0": "DISTANT\t30223783"
+   },
+   {
+      "column0": "RADICAL\t30217902"
+   },
+   {
+      "column0": "DESCRIBES\t30201362"
+   },
+   {
+      "column0": "OBSERVE\t30190962"
+   },
+   {
+      "column0": "CHRISTIANITY\t30190177"
+   },
+   {
+      "column0": "HILLS\t30185486"
+   },
+   {
+      "column0": "WAGE\t30149420"
+   },
+   {
+      "column0": "CLASSIFICATION\t30112246"
+   },
+   {
+      "column0": "EXACT\t30097041"
+   },
+   {
+      "column0": "KILL\t30061980"
+   },
+   {
+      "column0": "HOLDS\t30017703"
+   },
+   {
+      "column0": "OWNED\t30008173"
+   },
+   {
+      "column0": "VARY\t29995673"
+   },
+   {
+      "column0": "AXIS\t29993153"
+   },
+   {
+      "column0": "CONTINUES\t29990390"
+   },
+   {
+      "column0": "ROW\t29985454"
+   },
+   {
+      "column0": "ACCURATE\t29967080"
+   },
+   {
+      "column0": "TOOL\t29950175"
+   },
+   {
+      "column0": "REVOLUTIONARY\t29939019"
+   },
+   {
+      "column0": "REPLY\t29929435"
+   },
+   {
+      "column0": "GETS\t29913461"
+   },
+   {
+      "column0": "ADDRESSED\t29903585"
+   },
+   {
+      "column0": "ADULTS\t29901258"
+   },
+   {
+      "column0": "BREAD\t29875488"
+   },
+   {
+      "column0": "WAVES\t29873462"
+   },
+   {
+      "column0": "PLANNED\t29869157"
+   },
+   {
+      "column0": "ALIVE\t29844303"
+   },
+   {
+      "column0": "CONSTRUCTED\t29816696"
+   },
+   {
+      "column0": "OPINIONS\t29805353"
+   },
+   {
+      "column0": "RECOVERY\t29775914"
+   },
+   {
+      "column0": "THEME\t29775562"
+   },
+   {
+      "column0": "ABSOLUTELY\t29772528"
+   },
+   {
+      "column0": "CITED\t29742713"
+   },
+   {
+      "column0": "LISTEN\t29733421"
+   },
+   {
+      "column0": "DETERMINING\t29729265"
+   },
+   {
+      "column0": "PARAMETERS\t29722909"
+   },
+   {
+      "column0": "TURNS\t29719923"
+   },
+   {
+      "column0": "CONSIDERATIONS\t29719228"
+   },
+   {
+      "column0": "BESIDE\t29718597"
+   },
+   {
+      "column0": "PARTIAL\t29714766"
+   },
+   {
+      "column0": "SHOP\t29712508"
+   },
+   {
+      "column0": "DEL\t29696131"
+   },
+   {
+      "column0": "WORKER\t29671565"
+   },
+   {
+      "column0": "RAILWAY\t29656042"
+   },
+   {
+      "column0": "BOUGHT\t29646517"
+   },
+   {
+      "column0": "GLORY\t29640696"
+   },
+   {
+      "column0": "CANADIAN\t29511941"
+   },
+   {
+      "column0": "SAINT\t29511488"
+   },
+   {
+      "column0": "COOPERATION\t29477987"
+   },
+   {
+      "column0": "ARCHITECTURE\t29468570"
+   },
+   {
+      "column0": "ULTIMATELY\t29467474"
+   },
+   {
+      "column0": "CONSENT\t29455915"
+   },
+   {
+      "column0": "VITAL\t29437126"
+   },
+   {
+      "column0": "ALTOGETHER\t29424210"
+   },
+   {
+      "column0": "ROOTS\t29383889"
+   },
+   {
+      "column0": "COFFEE\t29366250"
+   },
+   {
+      "column0": "POEMS\t29345654"
+   },
+   {
+      "column0": "NERVOUS\t29345085"
+   },
+   {
+      "column0": "EAR\t29307453"
+   },
+   {
+      "column0": "ABSTRACT\t29297265"
+   },
+   {
+      "column0": "CONCLUSIONS\t29270930"
+   },
+   {
+      "column0": "PHENOMENA\t29252468"
+   },
+   {
+      "column0": "RESERVE\t29234046"
+   },
+   {
+      "column0": "COLLECTIVE\t29227477"
+   },
+   {
+      "column0": "MINISTERS\t29216270"
+   },
+   {
+      "column0": "ML\t29215371"
+   },
+   {
+      "column0": "IMPERIAL\t29197966"
+   },
+   {
+      "column0": "Q\t29196763"
+   },
+   {
+      "column0": "BREATH\t29182864"
+   },
+   {
+      "column0": "HYPOTHESIS\t29151858"
+   },
+   {
+      "column0": "INTERVENTION\t29135897"
+   },
+   {
+      "column0": "GRASS\t29107972"
+   },
+   {
+      "column0": "SILENT\t29085216"
+   },
+   {
+      "column0": "RELATING\t29077080"
+   },
+   {
+      "column0": "ARRIVAL\t29045127"
+   },
+   {
+      "column0": "ATTENDED\t29035951"
+   },
+   {
+      "column0": "THANKS\t29035754"
+   },
+   {
+      "column0": "LOGICAL\t29008178"
+   },
+   {
+      "column0": "REFERS\t29001642"
+   },
+   {
+      "column0": "PUNISHMENT\t28991542"
+   },
+   {
+      "column0": "TRIP\t28961321"
+   },
+   {
+      "column0": "DEVICES\t28960285"
+   },
+   {
+      "column0": "CLIMATE\t28957603"
+   },
+   {
+      "column0": "OUTER\t28950468"
+   },
+   {
+      "column0": "BIOLOGICAL\t28949186"
+   },
+   {
+      "column0": "DEFINITE\t28931415"
+   },
+   {
+      "column0": "STABILITY\t28924943"
+   },
+   {
+      "column0": "WISHED\t28924006"
+   },
+   {
+      "column0": "EQUILIBRIUM\t28918869"
+   },
+   {
+      "column0": "DECREASE\t28917057"
+   },
+   {
+      "column0": "ORAL\t28915753"
+   },
+   {
+      "column0": "AMENDMENT\t28899488"
+   },
+   {
+      "column0": "DEPENDING\t28882036"
+   },
+   {
+      "column0": "FUEL\t28865010"
+   },
+   {
+      "column0": "WRITINGS\t28853183"
+   },
+   {
+      "column0": "WONDERFUL\t28846897"
+   },
+   {
+      "column0": "DOMINANT\t28837486"
+   },
+   {
+      "column0": "TOM\t28836687"
+   },
+   {
+      "column0": "JURISDICTION\t28821586"
+   },
+   {
+      "column0": "LIPS\t28818837"
+   },
+   {
+      "column0": "YE\t28817149"
+   },
+   {
+      "column0": "ULTIMATE\t28801142"
+   },
+   {
+      "column0": "BOUNDARY\t28799110"
+   },
+   {
+      "column0": "THREAT\t28788554"
+   },
+   {
+      "column0": "MEMBRANE\t28786927"
+   },
+   {
+      "column0": "TEARS\t28775699"
+   },
+   {
+      "column0": "MEAT\t28749972"
+   },
+   {
+      "column0": "COMMUNICATIONS\t28739926"
+   },
+   {
+      "column0": "ISOLATED\t28718137"
+   },
+   {
+      "column0": "CF\t28689495"
+   },
+   {
+      "column0": "IMPLICATIONS\t28688181"
+   },
+   {
+      "column0": "REALIZE\t28686011"
+   },
+   {
+      "column0": "DROPPED\t28684391"
+   },
+   {
+      "column0": "CUP\t28682080"
+   },
+   {
+      "column0": "BONDS\t28678295"
+   },
+   {
+      "column0": "HOMES\t28672134"
+   },
+   {
+      "column0": "VISITED\t28667058"
+   },
+   {
+      "column0": "OFFICES\t28663692"
+   },
+   {
+      "column0": "VARIATIONS\t28656083"
+   },
+   {
+      "column0": "MAGNETIC\t28649609"
+   },
+   {
+      "column0": "SLAVES\t28630968"
+   },
+   {
+      "column0": "MARKS\t28620422"
+   },
+   {
+      "column0": "WATCHED\t28617145"
+   },
+   {
+      "column0": "TRANSPORTATION\t28605274"
+   },
+   {
+      "column0": "SEES\t28534122"
+   },
+   {
+      "column0": "CHRISTIANS\t28521242"
+   },
+   {
+      "column0": "UNFORTUNATELY\t28512689"
+   },
+   {
+      "column0": "INTEGRATION\t28508192"
+   },
+   {
+      "column0": "MAJESTY\t28498992"
+   },
+   {
+      "column0": "LISTED\t28477335"
+   },
+   {
+      "column0": "HAPPENS\t28472757"
+   },
+   {
+      "column0": "FACED\t28462817"
+   },
+   {
+      "column0": "PREFERRED\t28462355"
+   },
+   {
+      "column0": "FACES\t28435004"
+   },
+   {
+      "column0": "TYPICALLY\t28414532"
+   },
+   {
+      "column0": "TRACK\t28410371"
+   },
+   {
+      "column0": "CATTLE\t28398942"
+   },
+   {
+      "column0": "DUTCH\t28391120"
+   },
+   {
+      "column0": "FAVOUR\t28372602"
+   },
+   {
+      "column0": "ENEMIES\t28360647"
+   },
+   {
+      "column0": "FATE\t28356675"
+   },
+   {
+      "column0": "CONVENTIONAL\t28354523"
+   },
+   {
+      "column0": "ILLNESS\t28351103"
+   },
+   {
+      "column0": "ABUSE\t28339218"
+   },
+   {
+      "column0": "WILLIAMS\t28331790"
+   },
+   {
+      "column0": "DELIVERY\t28321658"
+   },
+   {
+      "column0": "STRIKING\t28309469"
+   },
+   {
+      "column0": "GODS\t28301585"
+   },
+   {
+      "column0": "ACCOMPLISHED\t28300336"
+   },
+   {
+      "column0": "SERIOUSLY\t28255387"
+   },
+   {
+      "column0": "EDS\t28240220"
+   },
+   {
+      "column0": "ENABLE\t28237512"
+   },
+   {
+      "column0": "IDENTICAL\t28227393"
+   },
+   {
+      "column0": "SURPRISE\t28212787"
+   },
+   {
+      "column0": "PROFITS\t28210991"
+   },
+   {
+      "column0": "CLAY\t28197591"
+   },
+   {
+      "column0": "PHENOMENON\t28180781"
+   },
+   {
+      "column0": "TEMPORARY\t28174162"
+   },
+   {
+      "column0": "ACCEPTANCE\t28171260"
+   },
+   {
+      "column0": "ELECTRON\t28164211"
+   },
+   {
+      "column0": "BUREAU\t28154401"
+   },
+   {
+      "column0": "WIRE\t28133692"
+   },
+   {
+      "column0": "MANAGERS\t28128466"
+   },
+   {
+      "column0": "STATISTICAL\t28121433"
+   },
+   {
+      "column0": "CUSTOM\t28099651"
+   },
+   {
+      "column0": "SHORE\t28078339"
+   },
+   {
+      "column0": "SHARES\t28076892"
+   },
+   {
+      "column0": "RADIATION\t28061947"
+   },
+   {
+      "column0": "BELL\t28060582"
+   },
+   {
+      "column0": "EDITED\t28059792"
+   },
+   {
+      "column0": "TRANSFORMATION\t28053106"
+   },
+   {
+      "column0": "PREPARE\t28049072"
+   },
+   {
+      "column0": "OPTION\t28032034"
+   },
+   {
+      "column0": "PROMISED\t28016222"
+   },
+   {
+      "column0": "ARRANGEMENTS\t28014767"
+   },
+   {
+      "column0": "LIKEWISE\t28000692"
+   },
+   {
+      "column0": "FACULTY\t27989326"
+   },
+   {
+      "column0": "CREATIVE\t27981385"
+   },
+   {
+      "column0": "MG\t27981306"
+   },
+   {
+      "column0": "TEA\t27969105"
+   },
+   {
+      "column0": "REMOVAL\t27945207"
+   },
+   {
+      "column0": "PROMINENT\t27907346"
+   },
+   {
+      "column0": "FALLING\t27890361"
+   },
+   {
+      "column0": "GROSS\t27887806"
+   },
+   {
+      "column0": "CHILDHOOD\t27879065"
+   },
+   {
+      "column0": "UNUSUAL\t27867552"
+   },
+   {
+      "column0": "RICE\t27854780"
+   },
+   {
+      "column0": "EASIER\t27840553"
+   },
+   {
+      "column0": "STEAM\t27828920"
+   },
+   {
+      "column0": "DYNAMIC\t27827595"
+   },
+   {
+      "column0": "GUN\t27826093"
+   },
+   {
+      "column0": "SHOULDER\t27817669"
+   },
+   {
+      "column0": "CHAIRMAN\t27812667"
+   },
+   {
+      "column0": "EXISTED\t27804709"
+   },
+   {
+      "column0": "IL\t27800116"
+   },
+   {
+      "column0": "FINGERS\t27799321"
+   },
+   {
+      "column0": "DRAMATIC\t27789569"
+   },
+   {
+      "column0": "CA\t27777598"
+   },
+   {
+      "column0": "EFFECTIVELY\t27758643"
+   },
+   {
+      "column0": "RANDOM\t27732319"
+   },
+   {
+      "column0": "SCARCELY\t27724116"
+   },
+   {
+      "column0": "COMPENSATION\t27713742"
+   },
+   {
+      "column0": "VIOLENT\t27711993"
+   },
+   {
+      "column0": "BELONG\t27711699"
+   },
+   {
+      "column0": "HELL\t27709546"
+   },
+   {
+      "column0": "PROGRAMME\t27696463"
+   },
+   {
+      "column0": "NEGRO\t27694097"
+   },
+   {
+      "column0": "DELAY\t27693078"
+   },
+   {
+      "column0": "CHRONIC\t27677747"
+   },
+   {
+      "column0": "HOPED\t27658168"
+   },
+   {
+      "column0": "PRIEST\t27653715"
+   },
+   {
+      "column0": "DISCOURSE\t27650936"
+   },
+   {
+      "column0": "DIMENSIONS\t27634114"
+   },
+   {
+      "column0": "REGIME\t27630120"
+   },
+   {
+      "column0": "EQUATIONS\t27616497"
+   },
+   {
+      "column0": "GENTLEMAN\t27610654"
+   },
+   {
+      "column0": "PARTNER\t27607453"
+   },
+   {
+      "column0": "RATIONAL\t27604114"
+   },
+   {
+      "column0": "BINDING\t27589102"
+   },
+   {
+      "column0": "TENSION\t27580263"
+   },
+   {
+      "column0": "ETHNIC\t27566048"
+   },
+   {
+      "column0": "OPERATE\t27565053"
+   },
+   {
+      "column0": "GOSPEL\t27564079"
+   },
+   {
+      "column0": "PRIDE\t27561848"
+   },
+   {
+      "column0": "TREAT\t27558923"
+   },
+   {
+      "column0": "CONTRIBUTIONS\t27547767"
+   },
+   {
+      "column0": "MUSICAL\t27535671"
+   },
+   {
+      "column0": "PAYMENTS\t27519094"
+   },
+   {
+      "column0": "DIET\t27518991"
+   },
+   {
+      "column0": "FORMING\t27511321"
+   },
+   {
+      "column0": "INFLUENCED\t27485755"
+   },
+   {
+      "column0": "PHRASE\t27484220"
+   },
+   {
+      "column0": "TEXTS\t27482161"
+   },
+   {
+      "column0": "GRAVE\t27464045"
+   },
+   {
+      "column0": "ADMIT\t27459942"
+   },
+   {
+      "column0": "ENJOYED\t27459389"
+   },
+   {
+      "column0": "WIN\t27443860"
+   },
+   {
+      "column0": "SHAPED\t27440691"
+   },
+   {
+      "column0": "PROCEED\t27436241"
+   },
+   {
+      "column0": "ENTRANCE\t27425724"
+   },
+   {
+      "column0": "MATRIX\t27419064"
+   },
+   {
+      "column0": "ABROAD\t27417189"
+   },
+   {
+      "column0": "PERCEIVED\t27402576"
+   },
+   {
+      "column0": "PRODUCES\t27393941"
+   },
+   {
+      "column0": "EVERYWHERE\t27387892"
+   },
+   {
+      "column0": "CUTTING\t27379461"
+   },
+   {
+      "column0": "SI\t27378266"
+   },
+   {
+      "column0": "MILE\t27376220"
+   },
+   {
+      "column0": "WEAR\t27363275"
+   },
+   {
+      "column0": "OCCUPATION\t27358543"
+   },
+   {
+      "column0": "MEASUREMENTS\t27353560"
+   },
+   {
+      "column0": "PASSION\t27352152"
+   },
+   {
+      "column0": "INVOLVE\t27348106"
+   },
+   {
+      "column0": "EXECUTION\t27338980"
+   },
+   {
+      "column0": "CLOTH\t27337033"
+   },
+   {
+      "column0": "HOLE\t27315637"
+   },
+   {
+      "column0": "APPROVED\t27297635"
+   },
+   {
+      "column0": "DOMAIN\t27294749"
+   },
+   {
+      "column0": "CHARACTERIZED\t27281239"
+   },
+   {
+      "column0": "PALACE\t27260992"
+   },
+   {
+      "column0": "DESIRABLE\t27257383"
+   },
+   {
+      "column0": "PUBLICATIONS\t27251259"
+   },
+   {
+      "column0": "SUPPLIED\t27245581"
+   },
+   {
+      "column0": "RESULTED\t27238862"
+   },
+   {
+      "column0": "CUSTOMER\t27232795"
+   },
+   {
+      "column0": "COURSES\t27228865"
+   },
+   {
+      "column0": "STRAIN\t27206479"
+   },
+   {
+      "column0": "CUSTOMERS\t27203479"
+   },
+   {
+      "column0": "REMARKS\t27185141"
+   },
+   {
+      "column0": "CROWD\t27183445"
+   },
+   {
+      "column0": "HONOUR\t27172728"
+   },
+   {
+      "column0": "TONGUE\t27158763"
+   },
+   {
+      "column0": "DARKNESS\t27150450"
+   },
+   {
+      "column0": "FILES\t27148162"
+   },
+   {
+      "column0": "SAKE\t27144295"
+   },
+   {
+      "column0": "CONTROLS\t27144003"
+   },
+   {
+      "column0": "EXTRAORDINARY\t27102852"
+   },
+   {
+      "column0": "DIFFER\t27090131"
+   },
+   {
+      "column0": "IMPOSED\t27081057"
+   },
+   {
+      "column0": "HANDLE\t27054026"
+   },
+   {
+      "column0": "PUBLISHING\t27036697"
+   },
+   {
+      "column0": "USERS\t27020410"
+   },
+   {
+      "column0": "GLAD\t27019084"
+   },
+   {
+      "column0": "VOLTAGE\t27018255"
+   },
+   {
+      "column0": "FALLEN\t27010063"
+   },
+   {
+      "column0": "NURSING\t26981986"
+   },
+   {
+      "column0": "ELECTRONIC\t26978947"
+   },
+   {
+      "column0": "MA\t26974783"
+   },
+   {
+      "column0": "SLAVERY\t26955124"
+   },
+   {
+      "column0": "TRAINED\t26945176"
+   },
+   {
+      "column0": "RAW\t26924016"
+   },
+   {
+      "column0": "DISCHARGE\t26915492"
+   },
+   {
+      "column0": "SUFFER\t26911029"
+   },
+   {
+      "column0": "SENIOR\t26867849"
+   },
+   {
+      "column0": "WRITES\t26811260"
+   },
+   {
+      "column0": "KITCHEN\t26806547"
+   },
+   {
+      "column0": "LOAN\t26801494"
+   },
+   {
+      "column0": "ARTHUR\t26797985"
+   },
+   {
+      "column0": "ELECTRICAL\t26774596"
+   },
+   {
+      "column0": "CONFUSION\t26766526"
+   },
+   {
+      "column0": "MEMBERSHIP\t26714932"
+   },
+   {
+      "column0": "CONSERVATIVE\t26708670"
+   },
+   {
+      "column0": "RUNS\t26702428"
+   },
+   {
+      "column0": "PLEASED\t26699489"
+   },
+   {
+      "column0": "PHYSICIAN\t26680397"
+   },
+   {
+      "column0": "SURROUNDING\t26674759"
+   },
+   {
+      "column0": "NICE\t26663502"
+   },
+   {
+      "column0": "WHOLLY\t26649281"
+   },
+   {
+      "column0": "ANN\t26640151"
+   },
+   {
+      "column0": "POSSESSED\t26610224"
+   },
+   {
+      "column0": "MODIFIED\t26606484"
+   },
+   {
+      "column0": "ROLES\t26597565"
+   }
+]
+}
