@@ -20,22 +20,59 @@ class FBEngine {
     private val emojyList = listOf("❤", "😊", "😉", "💋", "🤷‍", "♀")
 
     fun getLessonsList() {
-        fbReference.collection("words")
+        fbReference.collection("lessons")
             .get()
-            .addOnSuccessListener {
-                for (i in 0 until (it.documents.size / LIMIT.toInt())) {
-                    lessonsList.add(
-                        Lesson(
-                            id = i,
-                            name = "Урок ${i + 1}",
-                            number = i + 1,
-                            status = LessonStatus.PENDING,
-                            description = emojyList[Random().nextInt(emojyList.size)]
-                        )
-                    )
-                }
+            .addOnSuccessListener { gotLessonsList ->
+                if (gotLessonsList.documents.isNullOrEmpty()) {
+                    fbReference.collection("words")
+                        .get()
+                        .addOnSuccessListener {
+                            for (i in 0 until (it.documents.size / LIMIT.toInt())) {
 
-                lessonsObserver.onNext(lessonsList)
+                                val description = emojyList[Random().nextInt(emojyList.size)]
+
+                                lessonsList.add(
+                                    Lesson(
+                                        id = i,
+                                        name = "Урок ${i + 1}",
+                                        number = i + 1,
+                                        status = LessonStatus.PENDING,
+                                        description = description
+                                    )
+                                )
+
+                                val hm = hashMapOf<String, Any>()
+                                hm["id"] = i
+                                hm["name"] = "Урок ${i + 1}"
+                                hm["number"] = i + 1
+                                hm["status"] = LessonStatus.PENDING.code
+                                hm["description"] = description
+
+                                fbReference
+                                    .collection("lessons")
+                                    .add(hm)
+                            }
+
+                            lessonsObserver.onNext(lessonsList)
+                        }
+                } else {
+                    fbReference.collection("lessons")
+                        .orderBy("number")
+                        .addSnapshotListener { value, _ ->
+                            value?.documents?.forEach {
+                                lessonsList.add(
+                                    Lesson(
+                                        id = it.data?.get("id").toString().toInt(),
+                                        name = it.data?.get("name").toString(),
+                                        number = it.data?.get("number").toString().toInt(),
+                                        status = LessonStatus.valueByCode(it.data?.get("status").toString()),
+                                        description = it.data?.get("description").toString()
+                                    )
+                                )
+                            }
+                            lessonsObserver.onNext(lessonsList)
+                        }
+                }
             }
     }
 
