@@ -29,7 +29,7 @@ class FBEngine {
                             id = i,
                             name = "Урок ${i + 1}",
                             number = i + 1,
-                            status = LessonStatus.NOT_STARTED,
+                            status = LessonStatus.PENDING,
                             description = emojyList[Random().nextInt(emojyList.size)]
                         )
                     )
