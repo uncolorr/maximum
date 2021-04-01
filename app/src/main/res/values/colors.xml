@@ -10,4 +10,6 @@
 
 
     <color name="background_color">#AAAAAA</color>
+
+    <color name="orange_color">#FF8612</color>
 </resources>

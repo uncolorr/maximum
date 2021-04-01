@@ -1,9 +1,10 @@
-package com.example.maximumhackathon
+package com.example.maximumhackathon.presentation
 
 import android.content.Context
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
+import com.example.maximumhackathon.R
 
 class MainViewPagerAdapter(fragmentManager: FragmentManager, val context: Context) :
     FragmentPagerAdapter(fragmentManager, BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT) {

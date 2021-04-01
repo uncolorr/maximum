@@ -1,8 +1,10 @@
-package com.example.maximumhackathon
+package com.example.maximumhackathon.presentation
 
 import android.os.Bundle
 import android.os.CountDownTimer
 import androidx.appcompat.app.AppCompatActivity
+import com.example.maximumhackathon.R
+import com.example.maximumhackathon.transaction
 
 
 class MainActivity : AppCompatActivity() {

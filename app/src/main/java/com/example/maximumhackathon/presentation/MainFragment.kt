@@ -1,7 +1,9 @@
-package com.example.maximumhackathon
+package com.example.maximumhackathon.presentation
 
 import android.os.Bundle
 import android.view.View
+import com.example.maximumhackathon.R
+import com.example.maximumhackathon.presentation.base.BaseFragment
 import kotlinx.android.synthetic.main.fragment_main.*
 
 class MainFragment: BaseFragment() {

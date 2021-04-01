@@ -1,4 +1,4 @@
-package com.example.maximumhackathon
+package com.example.maximumhackathon.presentation.base
 
 import android.os.Bundle
 import android.view.LayoutInflater
