@@ -19,12 +19,9 @@ class SettingsFragment: BaseFragment() {
         super.onViewCreated(view, savedInstanceState)
 
         if (!Firebase.auth.currentUser?.providerData?.first()?.displayName.isNullOrEmpty()){
-            if (Firebase.auth.currentUser?.providerData?.first()?.displayName?.isNotBlank() == true){
-                tvUserName.text = Firebase.auth.currentUser?.providerData?.first()?.displayName
-            } else {
-                tvUserName.text = Firebase.auth.currentUser?.providerData?.first()?.email
-            }
+            tvUserName.text = Firebase.auth.currentUser?.providerData?.first()?.displayName
         }
+        tvUserName.text = Firebase.auth.currentUser?.providerData?.first()?.email
 
         buttonExit.setOnClickListener {
             context?.let { context ->
