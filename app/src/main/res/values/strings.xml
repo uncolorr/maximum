@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Maximum Hackathon</string>
+    <string name="next">Next</string>
+    <string name="title_test_level">Тест уровня</string>
+    <string name="title_choose_your_level">Выбери свой уровень</string>
+    <string name="title_low">Низкий</string>
+    <string name="title_high">Высокий</string>
+    <string name="title_medium">Средний</string>
+    <string name="title_exit">Выйти</string>
+    <string name="title_tab_learning">Уроки</string>
+    <string name="title_tab_tests">Тесты</string>
+    <string name="title_tab_settings">Настройки</string>
+
 </resources>
