@@ -23,8 +23,6 @@ class FBEngine {
     val wordsObserver = PublishSubject.create<List<Word>>()
     val lessonsObserver = PublishSubject.create<List<Lesson>>()
 
-    private val compositeDisposable = CompositeDisposable()
-
     private val emojyList = listOf("❤", "😊", "😉", "💋", "🤷‍", "♀")
 
     fun getLessonsList() {
@@ -93,24 +91,24 @@ class FBEngine {
             .startAt(offset)
             .limit(limit)
             .addSnapshotListener { value, _ ->
-                value?.documents?.forEach {
-                    if (it.data?.get("translate") == null){
-                        yandexEngine.translate(it.data?.get("name").toString())
+                value?.documents?.forEach { fbDocument ->
+                    if (fbDocument.data?.get("translate") == null){
+                        yandexEngine.translate(fbDocument.data?.get("name").toString())
                             .subscribeOn(Schedulers.io())
                             .observeOn(AndroidSchedulers.mainThread())
                             .subscribe { tr ->
                                 Log.i("Logcat ", "translate ${tr.def.firstOrNull()?.tr?.firstOrNull()?.text ?: ""}")
                                 val translatedWord = Word(
-                                    orderNumber = it.data?.get("orderNumber").toString().toInt(),
-                                    name = it.data?.get("name").toString(),
+                                    orderNumber = fbDocument.data?.get("orderNumber").toString().toInt(),
+                                    name = fbDocument.data?.get("name").toString(),
                                     translate = tr.def.firstOrNull()?.tr?.firstOrNull()?.text ?: "",
-                                    frequency = it.data?.get("frequency").toString().toLong()
+                                    frequency = fbDocument.data?.get("frequency").toString().toLong()
                                 )
                                 wordsList.add(translatedWord)
 
                                 fbReference
                                     .collection("words")
-                                    .document(it.reference.id)
+                                    .document(fbDocument.reference.id)
                                     .update("translate", tr.def.firstOrNull()?.tr?.firstOrNull()?.text ?: "")
 
                                 if (restCounter == 0){
@@ -121,10 +119,10 @@ class FBEngine {
                             }
                     } else {
                         val translatedWord = Word(
-                            orderNumber = it.data?.get("orderNumber").toString().toInt(),
-                            name = it.data?.get("name").toString(),
-                            translate = it.data?.get("translate").toString(),
-                            frequency = it.data?.get("frequency").toString().toLong()
+                            orderNumber = fbDocument.data?.get("orderNumber").toString().toInt(),
+                            name = fbDocument.data?.get("name").toString(),
+                            translate = fbDocument.data?.get("translate").toString(),
+                            frequency = fbDocument.data?.get("frequency").toString().toLong()
                         )
                         wordsList.add(translatedWord)
 
