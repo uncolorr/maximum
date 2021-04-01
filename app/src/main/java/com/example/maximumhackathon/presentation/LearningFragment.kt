@@ -6,11 +6,7 @@ import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.maximumhackathon.R
 import com.example.maximumhackathon.domain.engines.FBEngine
-import com.example.maximumhackathon.domain.model.Lesson
-import com.example.maximumhackathon.domain.model.LessonStatus
-import com.example.maximumhackathon.domain.model.Word
 import com.example.maximumhackathon.presentation.base.BaseFragment
-import com.google.firebase.firestore.FirebaseFirestore
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.disposables.Disposable
@@ -31,6 +27,21 @@ class LearningFragment: BaseFragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        fbEngine.wordsObserver
+            .subscribeOn(Schedulers.io())
+            .observeOn(AndroidSchedulers.mainThread())
+            .doOnSubscribe {
+                // TODO need some holder start
+                fbEngine.getPartOfWords(50, 10L)
+            }
+            .doFinally {
+                // TODO need some holder stop
+            }
+            .subscribe {
+                Log.i("Logcat ", "wordsList $it")
+            }
+            .disposeOnDestroy()
 
         fbEngine.lessonsObserver
             .subscribeOn(Schedulers.io())

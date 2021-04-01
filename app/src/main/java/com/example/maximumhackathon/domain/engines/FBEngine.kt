@@ -1,9 +1,13 @@
 package com.example.maximumhackathon.domain.engines
 
+import android.util.Log
 import com.example.maximumhackathon.domain.model.Lesson
 import com.example.maximumhackathon.domain.model.LessonStatus
 import com.example.maximumhackathon.domain.model.Word
 import com.google.firebase.firestore.FirebaseFirestore
+import io.reactivex.android.schedulers.AndroidSchedulers
+import io.reactivex.disposables.CompositeDisposable
+import io.reactivex.schedulers.Schedulers
 import io.reactivex.subjects.PublishSubject
 import java.util.*
 
@@ -11,11 +15,15 @@ class FBEngine {
 
     private val fbReference = FirebaseFirestore.getInstance()
 
+    private val yandexEngine = YandexEngine()
+
     private val wordsList = mutableListOf<Word>()
     private val lessonsList = mutableListOf<Lesson>()
 
     val wordsObserver = PublishSubject.create<List<Word>>()
     val lessonsObserver = PublishSubject.create<List<Lesson>>()
+
+    private val compositeDisposable = CompositeDisposable()
 
     private val emojyList = listOf("❤", "😊", "😉", "💋", "🤷‍", "♀")
 
@@ -78,24 +86,55 @@ class FBEngine {
 
     fun getPartOfWords(offset: Int, limit: Long) {
 
+        var restCounter = limit.toInt() - 1
+
         fbReference.collection("words")
             .orderBy("orderNumber")
-            .startAt(OFFSET)
-            .limit(LIMIT)
+            .startAt(offset)
+            .limit(limit)
             .addSnapshotListener { value, _ ->
                 value?.documents?.forEach {
-                    wordsList.add(
-                        Word(
+                    if (it.data?.get("translate") == null){
+                        yandexEngine.translate(it.data?.get("name").toString())
+                            .subscribeOn(Schedulers.io())
+                            .observeOn(AndroidSchedulers.mainThread())
+                            .subscribe { tr ->
+                                Log.i("Logcat ", "translate ${tr.def.firstOrNull()?.tr?.firstOrNull()?.text ?: ""}")
+                                val translatedWord = Word(
+                                    orderNumber = it.data?.get("orderNumber").toString().toInt(),
+                                    name = it.data?.get("name").toString(),
+                                    translate = tr.def.firstOrNull()?.tr?.firstOrNull()?.text ?: "",
+                                    frequency = it.data?.get("frequency").toString().toLong()
+                                )
+                                wordsList.add(translatedWord)
+
+                                fbReference
+                                    .collection("words")
+                                    .document(it.reference.id)
+                                    .update("translate", tr.def.firstOrNull()?.tr?.firstOrNull()?.text ?: "")
+
+                                if (restCounter == 0){
+                                    wordsObserver.onNext(wordsList)
+                                } else {
+                                    restCounter--
+                                }
+                            }
+                    } else {
+                        val translatedWord = Word(
                             orderNumber = it.data?.get("orderNumber").toString().toInt(),
                             name = it.data?.get("name").toString(),
+                            translate = it.data?.get("translate").toString(),
                             frequency = it.data?.get("frequency").toString().toLong()
                         )
-                    )
+                        wordsList.add(translatedWord)
+
+                        if (restCounter == 0){
+                            wordsObserver.onNext(wordsList)
+                        } else {
+                            restCounter--
+                        }
+                    }
                 }
-
-                // TODO Here will be yandex translate integrations
-
-                wordsObserver.onNext(wordsList)
             }
     }
 
