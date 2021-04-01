@@ -6,7 +6,6 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.maximumhackathon.R
 import com.example.maximumhackathon.transaction
 
-
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -36,6 +35,4 @@ class MainActivity : AppCompatActivity() {
         }
         timer.start()
     }
-
-
 }
