@@ -62,8 +62,9 @@ class MainFragment: BaseFragment() {
     }
 
     private fun showMainUI(){
-        pagerAdapter = MainViewPagerAdapter(requireFragmentManager(), requireContext())
+        pagerAdapter = MainViewPagerAdapter(parentFragmentManager, requireContext())
         viewPager.adapter = pagerAdapter
+        viewPager.offscreenPageLimit = 3
         tabsLayout.setupWithViewPager(viewPager)
     }
 

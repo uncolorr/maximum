@@ -10,5 +10,7 @@
     <string name="title_tab_learning">Уроки</string>
     <string name="title_tab_tests">Тесты</string>
     <string name="title_tab_settings">Настройки</string>
+    <string name="title_new_lessons">Новые уроки</string>
+    <string name="title_new_tests">Новые тесты</string>
 
 </resources>
