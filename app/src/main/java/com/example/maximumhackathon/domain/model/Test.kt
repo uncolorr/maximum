@@ -1,5 +1,7 @@
 package com.example.maximumhackathon.domain.model
 
+import java.io.Serializable
+
 data class Test(
     val id: Int,
     val name: String,
@@ -7,4 +9,4 @@ data class Test(
     val stats: String,
     val number: Int,
     val description: String
-)
+): Serializable

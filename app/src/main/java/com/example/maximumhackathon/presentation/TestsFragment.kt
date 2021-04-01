@@ -9,6 +9,7 @@ import com.example.maximumhackathon.domain.model.LessonStatus
 import com.example.maximumhackathon.domain.model.Test
 import com.example.maximumhackathon.domain.model.TestStatus
 import com.example.maximumhackathon.presentation.base.BaseFragment
+import com.example.maximumhackathon.transaction
 import kotlinx.android.synthetic.main.fragment_page_learning.*
 import kotlinx.android.synthetic.main.fragment_page_tests.*
 
@@ -22,7 +23,14 @@ class TestsFragment: BaseFragment(){
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        testsAdapter = TestsAdapter()
+        testsAdapter = TestsAdapter().apply {
+            onItemClickListener = {
+                openTestScreen(it)
+            }
+            onBlockedItemClickListener = {
+                //show block dialog
+            }
+        }
         recyclerViewTests.apply {
             adapter = testsAdapter
             layoutManager = LinearLayoutManager(requireContext())
@@ -70,5 +78,16 @@ class TestsFragment: BaseFragment(){
             )
         )
         testsAdapter.setItems(list)
+    }
+
+    private fun openTestScreen(test: Test) {
+        activity?.supportFragmentManager.transaction {
+            add(
+                R.id.mainContainer,
+                TestFragment.newInstance(test),
+                TestFragment::class.java.name
+            )
+            addToBackStack(TestFragment::class.java.name)
+        }
     }
 }

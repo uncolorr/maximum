@@ -10,6 +10,10 @@ import com.example.maximumhackathon.presentation.base.BaseRecyclerAdapter
 import kotlinx.android.synthetic.main.item_test.view.*
 
 class TestsAdapter: BaseRecyclerAdapter<Test, BaseRecyclerAdapter.ViewHolder<Test>>() {
+
+    var onItemClickListener: ((Test) -> Unit)? = null
+    var onBlockedItemClickListener: (() -> Unit)? = null
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder<Test> {
         return when (viewType) {
             PENDING_VIEW_HOLDER -> PendingViewHolder(parent.inflate<View>(R.layout.item_test, false))
@@ -33,6 +37,9 @@ class TestsAdapter: BaseRecyclerAdapter<Test, BaseRecyclerAdapter.ViewHolder<Tes
             itemView.textViewTestName.text = model.name
             itemView.textViewDescription.text = model.description
             itemView.textViewStats.text = model.stats
+            itemView.setOnClickListener {
+                onItemClickListener?.invoke(model)
+            }
         }
     }
 
@@ -42,6 +49,9 @@ class TestsAdapter: BaseRecyclerAdapter<Test, BaseRecyclerAdapter.ViewHolder<Tes
             itemView.textViewDescription.text = model.description
             itemView.imageViewTestStatus.setImageResource(R.drawable.ic_lock)
             itemView.textViewStats.text = model.stats
+            itemView.setOnClickListener {
+                onBlockedItemClickListener?.invoke()
+            }
         }
     }
 
