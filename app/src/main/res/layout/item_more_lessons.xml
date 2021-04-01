@@ -19,32 +19,22 @@
         android:paddingTop="20dp"
         android:paddingBottom="20dp"
         android:gravity="center"
-        android:orientation="horizontal">
-
-        <ImageView
-            android:id="@+id/imageViewLessonStatus"
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            app:srcCompat="@drawable/ic_check"
-            app:tint="@color/orange_color" />
+        android:orientation="vertical">
 
         <TextView
-            android:id="@+id/textViewDescription"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="30sp"
-            android:layout_marginStart="12dp" />
-
-        <TextView
-            android:id="@+id/textViewLessonName"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_marginStart="12dp"
-            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="8dp"
             android:textSize="18sp"
             android:textColor="@color/title_color"
-            android:text="Название урока"/>
+            android:text="@string/title_new_lessons"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/title_color"
+            android:text="🔒🔒🔒"/>
 
     </LinearLayout>
 

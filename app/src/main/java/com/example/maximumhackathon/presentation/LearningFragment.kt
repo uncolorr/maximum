@@ -29,33 +29,33 @@ class LearningFragment: BaseFragment() {
                 0,
                 "Урок 1",
                 1,
-                LessonStatus.STARTED,
+                LessonStatus.COMPLETED,
                 "❤"
             ),
             Lesson(
                 0,
                 "Урок 2",
                 1,
-                LessonStatus.STARTED,
+                LessonStatus.COMPLETED,
                 "😊"
             ),
             Lesson(
                 0,
                 "Урок 3",
                 1,
-                LessonStatus.STARTED,
+                LessonStatus.COMPLETED,
                 "😉"
             ), Lesson(
                 0,
                 "Урок 4",
                 1,
-                LessonStatus.STARTED,
+                LessonStatus.COMPLETED,
                 "💋"
             ), Lesson(
                 0,
                 "Урок 5",
                 1,
-                LessonStatus.STARTED,
+                LessonStatus.COMPLETED,
                 "🤷‍♀️"
             )
         )
