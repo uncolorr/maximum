@@ -234,10 +234,7 @@ class FBEngine {
 
                                         var currentStatus = TestStatus.valueByCode(it.data?.get("status").toString())
 
-                                        Log.i("Logcat ", "testsList lastCompleteNumber $lastCompleteNumber")
-
                                         if (it.data?.get("number").toString().toInt() > lastCompleteNumber){
-                                            Log.i("Logcat ", "testsList test number ${it.data?.get("number").toString().toInt()}")
 
                                             currentStatus = TestStatus.BLOCKED
                                         } else {
