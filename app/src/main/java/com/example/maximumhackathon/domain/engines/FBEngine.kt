@@ -6,7 +6,7 @@ import com.google.firebase.auth.ktx.auth
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.ktx.Firebase
 import io.reactivex.android.schedulers.AndroidSchedulers
-import io.reactivex.disposables.CompositeDisposable
+import io.reactivex.processors.PublishProcessor
 import io.reactivex.schedulers.Schedulers
 import io.reactivex.subjects.PublishSubject
 import java.util.*
@@ -22,10 +22,10 @@ class FBEngine {
     private val lessonsList = mutableListOf<Lesson>()
     private val testsList = mutableListOf<Test>()
 
-    val wordsObserver = PublishSubject.create<List<Word>>()
-    val subWordsObserver = PublishSubject.create<List<Word>>()
-    val lessonsObserver = PublishSubject.create<List<Lesson>>()
-    val testsObserver = PublishSubject.create<List<Test>>()
+    val wordsObserver = PublishProcessor.create<List<Word>>()
+    val subWordsObserver = PublishProcessor.create<List<Word>>()
+    val lessonsObserver = PublishProcessor.create<List<Lesson>>()
+    val testsObserver = PublishProcessor.create<List<Test>>()
 
     private val emojyList = mutableListOf<String>()
 

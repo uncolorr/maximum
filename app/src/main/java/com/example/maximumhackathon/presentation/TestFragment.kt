@@ -13,6 +13,7 @@ import com.example.maximumhackathon.domain.engines.FBEngine
 import com.example.maximumhackathon.domain.model.Test
 import com.example.maximumhackathon.domain.model.Word
 import com.example.maximumhackathon.presentation.base.BaseFragment
+import io.reactivex.Flowable
 import io.reactivex.Observable
 import io.reactivex.Single
 import io.reactivex.android.schedulers.AndroidSchedulers
@@ -21,6 +22,7 @@ import io.reactivex.disposables.Disposable
 import io.reactivex.functions.BiFunction
 import io.reactivex.schedulers.Schedulers
 import kotlinx.android.synthetic.main.fragment_test.*
+import java.util.*
 
 class TestFragment : BaseFragment() {
 
@@ -50,8 +52,9 @@ class TestFragment : BaseFragment() {
         initToolbar()
 
         val test = arguments?.getSerializable(ScreenExtraConstants.test) as Test
+        val items = mutableListOf<Word>()
 
-        Observable.zip(
+            Flowable.zip(
             fbEngine.wordsObserver,
             fbEngine.subWordsObserver,
             { words, subwords ->
@@ -63,11 +66,19 @@ class TestFragment : BaseFragment() {
             .doOnSubscribe {
                 // TODO need some holder start
                 fbEngine.getPartOfWords(test.number * 20)
+                fbEngine.getSubWordsForTest(test.number)
             }
             .doFinally {
                 // TODO need some holder stop
             }
             .subscribe {
+                textViewWord.text = it.first[Random().nextInt(it.first.size)].name
+                for (i in 0..4){
+                    items.add(
+                        it.second[Random().nextInt(it.second.size)]
+                    )
+                }
+                variantsAdapter.setItems(items)
                 Log.i("Logcat ", "wordsList $it")
             }
             .disposeOnDestroy()
@@ -77,29 +88,6 @@ class TestFragment : BaseFragment() {
             adapter = variantsAdapter
             layoutManager = LinearLayoutManager(requireContext())
         }
-        val items = arrayListOf(
-            Word(
-                0,
-                "Variant 1",
-                frequency = 1
-            ),
-            Word(
-                0,
-                "Variant 2",
-                frequency = 1
-            ),
-            Word(
-                0,
-                "Variant 3",
-                frequency = 1
-            ),
-            Word(
-                0,
-                "Variant 4",
-                frequency = 1
-            ),
-        )
-        variantsAdapter.setItems(items)
 
         buttonAnswer.setOnClickListener {
 

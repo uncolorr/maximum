@@ -6,17 +6,13 @@ import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.maximumhackathon.R
 import com.example.maximumhackathon.domain.engines.FBEngine
-import com.example.maximumhackathon.domain.model.Lesson
-import com.example.maximumhackathon.domain.model.LessonStatus
 import com.example.maximumhackathon.domain.model.Test
-import com.example.maximumhackathon.domain.model.TestStatus
 import com.example.maximumhackathon.presentation.base.BaseFragment
 import com.example.maximumhackathon.transaction
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.disposables.Disposable
 import io.reactivex.schedulers.Schedulers
-import kotlinx.android.synthetic.main.fragment_page_learning.*
 import kotlinx.android.synthetic.main.fragment_page_tests.*
 
 class TestsFragment: BaseFragment(){
