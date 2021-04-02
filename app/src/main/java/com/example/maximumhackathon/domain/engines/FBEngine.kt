@@ -29,6 +29,7 @@ class FBEngine {
     }
 
     fun getLessonsList() {
+        val user = Firebase.auth.currentUser?.providerData?.first()?.email
         val lessonsList = mutableListOf<Lesson>()
 
         fbReference.collection("lessons")
@@ -49,7 +50,8 @@ class FBEngine {
                                         number = i + 1,
                                         status = LessonStatus.PENDING,
                                         description = description,
-                                        dbReference = ""
+                                        dbReference = "",
+                                        user = user
                                     )
                                 )
 
@@ -73,16 +75,19 @@ class FBEngine {
                         .orderBy("number")
 
                     ref.get()
-                        .addOnSuccessListener {  value ->
+                        .addOnSuccessListener { value ->
                             value?.documents?.forEach {
                                 lessonsList.add(
                                     Lesson(
                                         id = it.data?.get("id").toString().toInt(),
                                         name = it.data?.get("name").toString(),
                                         number = it.data?.get("number").toString().toInt(),
-                                        status = LessonStatus.valueByCode(it.data?.get("status").toString()),
+                                        status = LessonStatus.valueByCode(
+                                            it.data?.get("status").toString()
+                                        ),
                                         description = it.data?.get("description").toString(),
-                                        dbReference = it.reference.id
+                                        dbReference = it.reference.id,
+                                        user = user
                                     )
                                 )
                             }
@@ -109,26 +114,34 @@ class FBEngine {
         ref.get()
             .addOnSuccessListener { value ->
                 value?.documents?.forEach { fbDocument ->
-                    if (fbDocument.data?.get("translate") == "***"){
+                    if (fbDocument.data?.get("translate") == "***") {
                         yandexEngine.translate(fbDocument.data?.get("name").toString())
                             .subscribeOn(Schedulers.io())
                             .observeOn(AndroidSchedulers.mainThread())
                             .subscribe { tr ->
-                                Log.i("Logcat ", "translate ${tr.def.firstOrNull()?.tr?.firstOrNull()?.text ?: ""}")
+                                Log.i(
+                                    "Logcat ",
+                                    "translate ${tr.def.firstOrNull()?.tr?.firstOrNull()?.text ?: ""}"
+                                )
                                 val translatedWord = Word(
-                                    orderNumber = fbDocument.data?.get("orderNumber").toString().toInt(),
+                                    orderNumber = fbDocument.data?.get("orderNumber").toString()
+                                        .toInt(),
                                     name = fbDocument.data?.get("name").toString(),
                                     translate = tr.def.firstOrNull()?.tr?.firstOrNull()?.text ?: "",
-                                    frequency = fbDocument.data?.get("frequency").toString().toLong()
+                                    frequency = fbDocument.data?.get("frequency").toString()
+                                        .toLong()
                                 )
                                 wordsList.add(translatedWord)
 
                                 fbReference
                                     .collection("words")
                                     .document(fbDocument.reference.id)
-                                    .update("translate", tr.def.firstOrNull()?.tr?.firstOrNull()?.text ?: "")
+                                    .update(
+                                        "translate",
+                                        tr.def.firstOrNull()?.tr?.firstOrNull()?.text ?: ""
+                                    )
 
-                                if (restCounter == 0){
+                                if (restCounter == 0) {
                                     wordsObserver.onNext(wordsList)
                                 } else {
                                     restCounter--
@@ -143,7 +156,7 @@ class FBEngine {
                         )
                         wordsList.add(translatedWord)
 
-                        if (restCounter == 0){
+                        if (restCounter == 0) {
                             wordsObserver.onNext(wordsList)
                         } else {
                             restCounter--
@@ -153,7 +166,7 @@ class FBEngine {
             }
     }
 
-    fun getTestsList(){
+    fun getTestsList() {
 
         val testsList = mutableListOf<Test>()
 
@@ -175,7 +188,7 @@ class FBEngine {
                                     Test(
                                         id = i,
                                         name = "Тест ${i + 1}",
-                                        status = TestStatus.PENDING,
+                                        status = TestStatus.BLOCKED,
                                         stats = " - ",
                                         number = i + 1,
                                         description = description,
@@ -205,32 +218,62 @@ class FBEngine {
                         .orderBy("number")
                         .whereEqualTo("user", user)
                         .get()
-                        .addOnSuccessListener { value ->
-                            Log.i("Logcat ", "testsList value $value")
-                            value?.documents?.forEach {
-                                testsList.add(
-                                    Test(
-                                        id = it.data?.get("id").toString().toInt(),
-                                        name = it.data?.get("name").toString(),
-                                        status = TestStatus.valueByCode(it.data?.get("status").toString()),
-                                        stats = it.data?.get("stats").toString(),
-                                        number = it.data?.get("number").toString().toInt(),
-                                        description = it.data?.get("description").toString(),
-                                        user = it.data?.get("user").toString()
-                                    )
-                                )
-                            }
-                            testsObserver.onNext(testsList)
+                        .addOnSuccessListener { testsValue ->
 
-                        }
-                        .addOnFailureListener {
-                            Log.i("Logcat ", "testsList error $it")
+                            fbReference.collection("lessons")
+                                .orderBy("number")
+                                .get()
+                                .addOnSuccessListener { lessonsValue ->
+
+                                    Log.i("Logcat ", "testsList testsValue $testsValue")
+                                    testsValue?.documents?.forEach {
+
+                                        val currentLesson =
+                                            lessonsValue.documents.first { lessons ->
+                                                lessons.data?.get("number").toString().toInt() ==
+                                                        it.data?.get("number").toString().toInt()
+                                            }
+
+
+                                        var currentStatus = TestStatus.valueByCode(it.data?.get("status").toString())
+                                        if (
+                                            LessonStatus.valueByCode(
+                                                currentLesson.data?.get("status").toString()
+                                            )
+                                            == LessonStatus.COMPLETED
+                                        ) {
+                                            if (TestStatus.valueByCode(it.data?.get("status").toString()) != TestStatus.COMPLETED){
+                                                currentStatus = TestStatus.PENDING
+                                            }
+                                        } else {
+                                            currentStatus = TestStatus.PENDING
+                                        }
+
+                                        testsList.add(
+                                            Test(
+                                                id = it.data?.get("id").toString().toInt(),
+                                                name = it.data?.get("name").toString(),
+                                                status = currentStatus,
+                                                stats = it.data?.get("stats").toString(),
+                                                number = it.data?.get("number").toString().toInt(),
+                                                description = it.data?.get("description")
+                                                    .toString(),
+                                                user = it.data?.get("user").toString()
+                                            )
+                                        )
+                                    }
+                                    testsObserver.onNext(testsList)
+
+                                }
+                                .addOnFailureListener {
+                                    Log.i("Logcat ", "testsList error $it")
+                                }
                         }
                 }
             }
     }
 
-    fun updateLessonStatus(dbReference: String, status: LessonStatus){
+    fun updateLessonStatus(dbReference: String, status: LessonStatus) {
         fbReference
             .collection("lessons")
             .document(dbReference)
@@ -238,7 +281,7 @@ class FBEngine {
     }
 
 
-    fun getSubWordsForTest(testNumber: Int){
+    fun getSubWordsForTest(testNumber: Int) {
 
         val subWordsList = mutableListOf<Word>()
 
@@ -262,7 +305,7 @@ class FBEngine {
                     )
                     subWordsList.add(word)
 
-                    if (restCounter == 0){
+                    if (restCounter == 0) {
                         subWordsObserver.onNext(subWordsList)
                     } else {
                         restCounter--
