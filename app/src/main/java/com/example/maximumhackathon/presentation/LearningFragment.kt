@@ -55,6 +55,9 @@ class LearningFragment: BaseFragment() {
             .doFinally {
 
             }
+            .doOnError {
+                Log.i("Logcat ", it.stackTraceToString())
+            }
             .subscribe {
                 Log.i("Logcat ", "lessonsList $it")
                 progressBar.visibility = View.GONE

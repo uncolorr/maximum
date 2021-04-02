@@ -88,10 +88,13 @@ open class LessonFragment : BaseFragment() {
             .doFinally {
 
             }
+            .doOnError {
+                Log.i("Logcat ", it.stackTraceToString())
+            }
             .subscribe {
-                progressBar.visibility = View.GONE
-                buttonNext.visibility = View.VISIBLE
-                buttonSpeech.visibility = View.VISIBLE
+                progressBar?.visibility = View.GONE
+                buttonNext?.visibility = View.VISIBLE
+                buttonSpeech?.visibility = View.VISIBLE
                 words = it
                 updateWord()
                 Log.i("Logcat ", "wordsList $it")
@@ -109,12 +112,12 @@ open class LessonFragment : BaseFragment() {
             return
         }
         currentIndex++
-        toolbar.title = "${currentIndex + 1}/${words.size}"
-        textViewWord.text = words[currentIndex].name
+        toolbar?.title = "${currentIndex + 1}/${words.size}"
+        textViewWord?.text = words[currentIndex].name
         if (words[currentIndex].translate.isEmpty()) {
-            textViewTranslate.text = "(Перевод не найден)"
+            textViewTranslate?.text = "(Перевод не найден)"
         } else {
-            textViewTranslate.text = words[currentIndex].translate
+            textViewTranslate?.text = words[currentIndex].translate
         }
     }
 
