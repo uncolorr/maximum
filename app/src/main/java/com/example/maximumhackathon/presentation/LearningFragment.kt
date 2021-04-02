@@ -7,7 +7,6 @@ import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.maximumhackathon.R
 import com.example.maximumhackathon.domain.engines.FBEngine
-import com.example.maximumhackathon.domain.model.Lesson
 import com.example.maximumhackathon.presentation.base.BaseFragment
 import com.example.maximumhackathon.transaction
 import io.reactivex.android.schedulers.AndroidSchedulers
