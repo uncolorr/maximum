@@ -35,6 +35,8 @@ class TestFragment : BaseFragment() {
 
     lateinit var currentWord: Word
 
+    var buttonStateMark = false
+
     override fun getLayoutId(): Int {
         return R.layout.fragment_test
     }
@@ -61,15 +63,23 @@ class TestFragment : BaseFragment() {
         }
 
         buttonAnswer.setOnClickListener {
-            val checkedWord = variantsAdapter.getCheckedWord()
-            if (checkedWord != null){
-                if (currentWord.name == checkedWord.name){
-                    Toast.makeText(requireContext(), "Правильно", Toast.LENGTH_SHORT).show()
-                } else {
-                    Toast.makeText(requireContext(), "Неправильно", Toast.LENGTH_SHORT).show()
-                }
+            if (!buttonStateMark){
+
             } else {
-                Toast.makeText(requireContext(), "Нучего не выбрано", Toast.LENGTH_SHORT).show()
+                val checkedWord = variantsAdapter.getCheckedWord()
+                if (checkedWord != null){
+                    if (currentWord.name == checkedWord.name){
+
+                        Toast.makeText(requireContext(), "Правильно", Toast.LENGTH_SHORT).show()
+                    } else {
+                        Toast.makeText(requireContext(), "Неправильно", Toast.LENGTH_SHORT).show()
+                    }
+
+                    buttonAnswer.text = "Далее"
+                    buttonStateMark = true
+                } else {
+                    Toast.makeText(requireContext(), "Нучего не выбрано", Toast.LENGTH_SHORT).show()
+                }
             }
         }
     }
