@@ -31,7 +31,12 @@ class VariantsAdapter: BaseRecyclerAdapter<Word, VariantsAdapter.VariantViewHold
 
     inner class VariantViewHolder(itemView: View): ViewHolder<Word>(itemView) {
         override fun bindHolder(model: Word) {
-            itemView.textViewVariant.text = model.name
+            if (model.translate == "***"){
+                itemView.textViewVariant.text = "(Перевод не найден)"
+            } else {
+                itemView.textViewVariant.text = model.translate
+            }
+
             if(adapterPosition == checkedPosition) {
                 itemView.imageViewChecked.visibility = View.VISIBLE
             } else {
