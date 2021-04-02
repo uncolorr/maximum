@@ -8,5 +8,6 @@ data class Lesson(
     val number: Int,
     var status: LessonStatus,
     val description: String,
-    val dbReference: String
+    val dbReference: String,
+    val user: String? = ""
 ): Serializable
