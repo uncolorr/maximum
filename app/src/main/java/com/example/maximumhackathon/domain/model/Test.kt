@@ -9,5 +9,6 @@ data class Test(
     val stats: String,
     val number: Int,
     val description: String,
+    val dbReference: String,
     val user: String? = ""
 ): Serializable
