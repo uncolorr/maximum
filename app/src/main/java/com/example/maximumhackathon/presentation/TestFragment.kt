@@ -54,7 +54,7 @@ class TestFragment : BaseFragment() {
         val test = arguments?.getSerializable(ScreenExtraConstants.test) as Test
         val items = mutableListOf<Word>()
 
-            Flowable.zip(
+            Observable.zip(
             fbEngine.wordsObserver,
             fbEngine.subWordsObserver,
             { words, subwords ->

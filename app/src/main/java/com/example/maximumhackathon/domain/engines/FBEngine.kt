@@ -16,6 +16,7 @@ class FBEngine {
 
     private val yandexEngine = YandexEngine()
     val wordsObserver = PublishSubject.create<List<Word>>()
+    val subWordsObserver = PublishSubject.create<List<Word>>()
     val lessonsObserver = PublishSubject.create<List<Lesson>>()
     val testsObserver = PublishSubject.create<List<Test>>()
 
@@ -238,6 +239,8 @@ class FBEngine {
 
 
     fun getSubWordsForTest(testNumber: Int){
+        val subWordsList = mutableListOf<Word>()
+
         val offset = ((testNumber / 200) - 1) * 200
 
         var restCounter = 200
