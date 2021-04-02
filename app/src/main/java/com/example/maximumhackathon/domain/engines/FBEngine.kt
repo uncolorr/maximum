@@ -18,10 +18,12 @@ class FBEngine {
     private val yandexEngine = YandexEngine()
 
     private val wordsList = mutableListOf<Word>()
+    private val subWordsList = mutableListOf<Word>()
     private val lessonsList = mutableListOf<Lesson>()
     private val testsList = mutableListOf<Test>()
 
     val wordsObserver = PublishSubject.create<List<Word>>()
+    val subWordsObserver = PublishSubject.create<List<Word>>()
     val lessonsObserver = PublishSubject.create<List<Lesson>>()
     val testsObserver = PublishSubject.create<List<Test>>()
 
@@ -84,7 +86,7 @@ class FBEngine {
             }
     }
 
-    fun getPartOfWords(offset: Int, limit: Long) {
+    fun getPartOfWords(offset: Int, limit: Long = LIMIT) {
 
         var restCounter = limit.toInt() - 1
 
@@ -202,6 +204,34 @@ class FBEngine {
                             }
                             testsObserver.onNext(this.testsList)
                         }
+                }
+            }
+    }
+
+    fun getSubWordsForTest(testNumber: Int){
+        val offset = ((testNumber / 200) - 1) * 200
+
+        var restCounter = 200
+
+        fbReference.collection("words")
+            .orderBy("orderNumber")
+            .startAt(offset)
+            .limit(200)
+            .addSnapshotListener { value, _ ->
+                value?.documents?.forEach { fbDocument ->
+                    val word = Word(
+                        orderNumber = fbDocument.data?.get("orderNumber").toString().toInt(),
+                        name = fbDocument.data?.get("name").toString(),
+                        translate = fbDocument.data?.get("translate").toString(),
+                        frequency = fbDocument.data?.get("frequency").toString().toLong()
+                    )
+                    subWordsList.add(word)
+
+                    if (restCounter == 0){
+                        subWordsObserver.onNext(subWordsList)
+                    } else {
+                        restCounter--
+                    }
                 }
             }
     }
