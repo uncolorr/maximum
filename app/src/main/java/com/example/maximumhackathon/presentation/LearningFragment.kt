@@ -49,14 +49,15 @@ class LearningFragment: BaseFragment() {
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())
             .doOnSubscribe {
-                // TODO need some holder start
+                progressBar.visibility = View.VISIBLE
                 fbEngine.getLessonsList()
             }
             .doFinally {
-                // TODO need some holder stop
+
             }
             .subscribe {
                 Log.i("Logcat ", "lessonsList $it")
+                progressBar.visibility = View.GONE
                 lessonsAdapter.setItems(it)
             }
             .disposeOnDestroy()
