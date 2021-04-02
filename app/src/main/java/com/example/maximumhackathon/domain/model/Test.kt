@@ -8,5 +8,6 @@ data class Test(
     val status: TestStatus,
     val stats: String,
     val number: Int,
-    val description: String
+    val description: String,
+    val user: String? = ""
 ): Serializable
