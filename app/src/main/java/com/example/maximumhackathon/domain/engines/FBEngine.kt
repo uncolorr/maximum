@@ -25,9 +25,15 @@ class FBEngine {
     val lessonsObserver = PublishSubject.create<List<Lesson>>()
     val testsObserver = PublishSubject.create<List<Test>>()
 
-    private val emojyList = listOf("❤", "😊", "😉", "💋", "🤷‍", "♀")
+    private val emojyList = listOf(0x1F601 - 0x1F64F)
 
     fun getLessonsList() {
+
+        val description = Character.toChars(emojyList[Random().nextInt(emojyList.size)]).toString()
+
+        Log.i("Logcat ", "emojyList ${emojyList.size}")
+        Log.i("Logcat ", "emojyList ${emojyList.size}")
+
         fbReference.collection("lessons")
             .get()
             .addOnSuccessListener { gotLessonsList ->
@@ -37,7 +43,7 @@ class FBEngine {
                         .addOnSuccessListener {
                             for (i in 0 until (it.documents.size / LIMIT.toInt())) {
 
-                                val description = emojyList[Random().nextInt(emojyList.size)]
+                                val description = Character.toChars(emojyList[Random().nextInt(emojyList.size)]).toString()
 
                                 lessonsList.add(
                                     Lesson(
@@ -152,7 +158,7 @@ class FBEngine {
                         .addOnSuccessListener {
                             for (i in 0 until (it.documents.size / LIMIT.toInt())) {
 
-                                val description = emojyList[Random().nextInt(emojyList.size)]
+                                val description = Character.toChars(emojyList[Random().nextInt(emojyList.size)]).toString()
 
                                 this.testsList.add(
                                     Test(
