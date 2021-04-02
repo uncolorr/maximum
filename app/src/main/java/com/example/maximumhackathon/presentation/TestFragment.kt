@@ -45,19 +45,23 @@ class TestFragment: BaseFragment() {
         val items = arrayListOf(
             Word(
                 0,
-                "Variant 1"
+                "Variant 1",
+                frequency = 1
             ),
             Word(
                 0,
-                "Variant 2"
+                "Variant 2",
+                frequency = 1
             ),
             Word(
                 0,
-                "Variant 3"
+                "Variant 3",
+                frequency = 1
             ),
             Word(
                 0,
-                "Variant 4"
+                "Variant 4",
+                frequency = 1
             ),
         )
         variantsAdapter.setItems(items)
