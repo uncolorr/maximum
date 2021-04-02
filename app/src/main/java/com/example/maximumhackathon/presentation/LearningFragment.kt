@@ -7,6 +7,7 @@ import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.maximumhackathon.R
 import com.example.maximumhackathon.domain.engines.FBEngine
+import com.example.maximumhackathon.domain.model.Lesson
 import com.example.maximumhackathon.presentation.base.BaseFragment
 import com.example.maximumhackathon.transaction
 import io.reactivex.android.schedulers.AndroidSchedulers
@@ -67,7 +68,7 @@ class LearningFragment: BaseFragment() {
 
         lessonsAdapter = LessonsAdapter().apply {
             onItemClickListener = {
-                openLessonScreen(it.number)
+                openLessonScreen(it)
             }
 
             onBlockedItemClickListener = {
@@ -80,9 +81,10 @@ class LearningFragment: BaseFragment() {
         }
     }
 
-    private fun openLessonScreen(number: Int) {
-        val fragment = LessonFragment.newInstance(number)
+    private fun openLessonScreen(lesson: Lesson) {
+        val fragment = LessonFragment.newInstance(lesson)
         fragment.onLessonCompleteListener = {
+            lessonsAdapter.updateLessonStatus(lesson)
             lessonsAdapter.notifyDataSetChanged()
             showCompleteLessonDialog()
         }

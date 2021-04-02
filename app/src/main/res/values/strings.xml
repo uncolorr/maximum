@@ -14,5 +14,6 @@
     <string name="title_new_tests">Новые тесты</string>
     <string name="answer">Ответить</string>
     <string name="title_edit">Изменить</string>
+    <string name="title_complete">Завершить</string>
 
 </resources>

@@ -1,5 +1,6 @@
 package com.example.maximumhackathon.presentation
 
+import android.app.AlertDialog
 import android.os.Bundle
 import android.speech.tts.TextToSpeech
 import android.util.Log
@@ -7,6 +8,8 @@ import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.example.maximumhackathon.R
 import com.example.maximumhackathon.domain.engines.FBEngine
+import com.example.maximumhackathon.domain.model.Lesson
+import com.example.maximumhackathon.domain.model.LessonStatus
 import com.example.maximumhackathon.domain.model.Word
 import com.example.maximumhackathon.presentation.base.BaseFragment
 import io.reactivex.android.schedulers.AndroidSchedulers
@@ -22,7 +25,7 @@ open class LessonFragment : BaseFragment() {
 
     private val compositeDisposable = CompositeDisposable()
 
-    var onLessonCompleteListener: (() -> Unit)? = null
+    var onLessonCompleteListener: ((Lesson) -> Unit)? = null
 
     private var words = listOf<Word>()
     private var currentIndex = -1
@@ -71,8 +74,22 @@ open class LessonFragment : BaseFragment() {
         (activity as AppCompatActivity).supportActionBar?.setDisplayHomeAsUpEnabled(true)
         (activity as AppCompatActivity).supportActionBar?.setDisplayShowHomeEnabled(true)
         toolbar.setNavigationOnClickListener {
-            activity?.supportFragmentManager?.popBackStack()
+            showAskExitDialog()
         }
+    }
+
+    private fun showAskExitDialog() {
+        val builder = AlertDialog.Builder(requireContext())
+        builder.setTitle("Предупреждение")
+            .setMessage("Вы действительно хотите завершить урок?")
+            .setPositiveButton("ОК") { _, _ ->
+                activity?.supportFragmentManager?.popBackStack()
+            }
+            .setNegativeButton("Отмена") { dialog, _ ->
+                dialog.cancel()
+            }
+        val alert = builder.create()
+        alert.show()
     }
 
     private fun initWords() {
@@ -81,8 +98,9 @@ open class LessonFragment : BaseFragment() {
             .observeOn(AndroidSchedulers.mainThread())
             .doOnSubscribe {
                 progressBar.visibility = View.VISIBLE
-                arguments?.getInt(ScreenExtraConstants.number)?.let { number ->
-                    fbEngine.getPartOfWords(number * 20, 20)
+                arguments?.getSerializable(ScreenExtraConstants.lesson)?.let { lesson ->
+                    lesson as Lesson
+                    fbEngine.getPartOfWords(lesson.number * 20, 20)
                 }
             }
             .doFinally {
@@ -106,8 +124,16 @@ open class LessonFragment : BaseFragment() {
         if (words.isEmpty()) {
             return
         }
+        if(currentIndex + 2 == words.size) {
+            buttonNext.text = requireContext().getString(R.string.title_complete)
+        }
+
         if (currentIndex + 1 == words.size) {
-            onLessonCompleteListener?.invoke()
+            arguments?.getSerializable(ScreenExtraConstants.lesson)?.let { lesson ->
+                lesson as Lesson
+                fbEngine.updateLessonStatus(lesson.dbReference, LessonStatus.COMPLETED)
+                onLessonCompleteListener?.invoke(lesson)
+            }
             exitLesson()
             return
         }
@@ -130,9 +156,9 @@ open class LessonFragment : BaseFragment() {
     }
 
     companion object {
-        fun newInstance(number: Int): LessonFragment {
+        fun newInstance(lesson: Lesson): LessonFragment {
             val args = Bundle()
-            args.putInt(ScreenExtraConstants.number, number)
+            args.putSerializable(ScreenExtraConstants.lesson, lesson)
             val fragment = LessonFragment()
             fragment.arguments = args
             return fragment
