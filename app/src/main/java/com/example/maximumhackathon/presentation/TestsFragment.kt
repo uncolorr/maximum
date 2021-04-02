@@ -50,12 +50,14 @@ class TestsFragment: BaseFragment(){
             .observeOn(AndroidSchedulers.mainThread())
             .doOnSubscribe {
                 // TODO need some holder start
+                progressBar.visibility = View.VISIBLE
                 fbEngine.getTestsList()
             }
             .doFinally {
                 // TODO need some holder stop
             }
             .subscribe {
+                progressBar.visibility = View.GONE
                 Log.i("Logcat ", "testsList $it")
                 testsAdapter.setItems(it)
             }
