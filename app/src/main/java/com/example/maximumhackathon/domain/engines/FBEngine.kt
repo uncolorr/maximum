@@ -94,7 +94,7 @@ class FBEngine {
             .limit(limit)
             .addSnapshotListener { value, _ ->
                 value?.documents?.forEach { fbDocument ->
-                    if (fbDocument.data?.get("translate") == null){
+                    if (fbDocument.data?.get("translate") == "***"){
                         yandexEngine.translate(fbDocument.data?.get("name").toString())
                             .subscribeOn(Schedulers.io())
                             .observeOn(AndroidSchedulers.mainThread())
