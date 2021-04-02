@@ -120,18 +120,36 @@ class MainFragment: BaseFragment() {
 
     private fun convertData(inData: List<String>){
         val outData = mutableListOf<Word>()
+        val outData2 = mutableListOf<Word>()
 
         inData.forEachIndexed { index, s ->
-            outData.add(
+            val name = getName(s)
+            if (name.length > 2){
+                outData.add(
+                    Word(
+                        0,
+                        name,
+                        getFrequence(s)
+                    )
+                )
+            } else {
+                Log.d("Small word ", "$s , $index")
+            }
+        }
+
+        for (i in 0..9999){
+            outData2.add(
                 Word(
-                    index + 1,
-                    getName(s),
-                    getFrequence(s)
+                    i + 1,
+                    outData[i].name,
+                    outData[i].frequency
                 )
             )
         }
 
-        saveData(outData)
+        Log.d("outData size", "${outData2.size}")
+
+        saveData(outData2)
     }
 
     private fun saveData(inData: List<Word>){
@@ -139,6 +157,7 @@ class MainFragment: BaseFragment() {
             val hm = hashMapOf<String, Any>()
             hm["orderNumber"] = it.orderNumber
             hm["name"] = it.name
+            hm["translate"] = "***"
             hm["frequency"] = it.frequency
 
             docRef
