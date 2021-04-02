@@ -192,6 +192,7 @@ class FBEngine {
                                         stats = " - ",
                                         number = i + 1,
                                         description = description,
+                                        dbReference = "",
                                         user = user
                                     )
                                 )
@@ -254,6 +255,7 @@ class FBEngine {
                                                 number = it.data?.get("number").toString().toInt(),
                                                 description = it.data?.get("description")
                                                     .toString(),
+                                                dbReference = it.reference.id,
                                                 user = it.data?.get("user").toString()
                                             )
                                         )
@@ -274,6 +276,20 @@ class FBEngine {
             .collection("lessons")
             .document(dbReference)
             .update("status", status.code)
+    }
+
+    fun updateTestStatus(dbReference: String, status: TestStatus) {
+        fbReference
+            .collection("tests")
+            .document(dbReference)
+            .update("status", status.code)
+    }
+
+    fun updateTestStates(dbReference: String, stats: String) {
+        fbReference
+            .collection("tests")
+            .document(dbReference)
+            .update("stats", stats)
     }
 
 
