@@ -47,7 +47,8 @@ class FBEngine {
                                         name = "Урок ${i + 1}",
                                         number = i + 1,
                                         status = LessonStatus.PENDING,
-                                        description = description
+                                        description = description,
+                                        dbReference = ""
                                     )
                                 )
 
@@ -79,7 +80,8 @@ class FBEngine {
                                         name = it.data?.get("name").toString(),
                                         number = it.data?.get("number").toString().toInt(),
                                         status = LessonStatus.valueByCode(it.data?.get("status").toString()),
-                                        description = it.data?.get("description").toString()
+                                        description = it.data?.get("description").toString(),
+                                        dbReference = it.reference.id
                                     )
                                 )
                             }
@@ -226,6 +228,14 @@ class FBEngine {
                 }
             }
     }
+
+    fun updateLessonStatus(dbReference: String, status: LessonStatus){
+        fbReference
+            .collection("lessons")
+            .document(dbReference)
+            .update("status", status.code)
+    }
+
 
     private fun getEmojiByUnicode(unicode: Int): String {
         return String(Character.toChars(unicode))
