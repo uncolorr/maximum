@@ -1,9 +1,7 @@
 package com.example.maximumhackathon.domain.engines
 
 import android.util.Log
-import com.example.maximumhackathon.domain.model.Lesson
-import com.example.maximumhackathon.domain.model.LessonStatus
-import com.example.maximumhackathon.domain.model.Word
+import com.example.maximumhackathon.domain.model.*
 import com.google.firebase.firestore.FirebaseFirestore
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
@@ -19,9 +17,11 @@ class FBEngine {
 
     private val wordsList = mutableListOf<Word>()
     private val lessonsList = mutableListOf<Lesson>()
+    private val testsList = mutableListOf<Test>()
 
     val wordsObserver = PublishSubject.create<List<Word>>()
     val lessonsObserver = PublishSubject.create<List<Lesson>>()
+    val testsObserver = PublishSubject.create<List<Test>>()
 
     private val emojyList = listOf("❤", "😊", "😉", "💋", "🤷‍", "♀")
 
@@ -132,6 +132,66 @@ class FBEngine {
                             restCounter--
                         }
                     }
+                }
+            }
+    }
+
+    fun getTestsList(){
+        fbReference.collection("tests")
+            .get()
+            .addOnSuccessListener { gotLessonsList ->
+                if (gotLessonsList.documents.isNullOrEmpty()) {
+                    fbReference.collection("words")
+                        .get()
+                        .addOnSuccessListener {
+                            for (i in 0 until (it.documents.size / LIMIT.toInt())) {
+
+                                val description = emojyList[Random().nextInt(emojyList.size)]
+
+                                testsList.add(
+                                    Test(
+                                        id = i,
+                                        name = "Тест ${i + 1}",
+                                        status = TestStatus.PENDING,
+                                        stats = " - ",
+                                        number = i + 1,
+                                        description = description
+                                    )
+                                )
+
+                                val hm = hashMapOf<String, Any>()
+                                hm["id"] = i
+                                hm["name"] = "Тест ${i + 1}"
+                                hm["status"] = LessonStatus.PENDING.code
+                                hm["stats"] = " - "
+                                hm["number"] = i + 1
+                                hm["description"] = description
+
+                                fbReference
+                                    .collection("tests")
+                                    .add(hm)
+                            }
+
+                            testsObserver.onNext(testsList)
+                        }
+                } else {
+                    fbReference.collection("tests")
+                        .orderBy("number")
+                        .addSnapshotListener { value, _ ->
+                            value?.documents?.forEach {
+                                testsList.add(
+                                    Test(
+                                        id = it.data?.get("id").toString().toInt(),
+                                        name = it.data?.get("name").toString(),
+                                        status = TestStatus.valueByCode(it.data?.get("status").toString()),
+                                        stats = it.data?.get("stats").toString(),
+                                        number = it.data?.get("number").toString().toInt(),
+                                        description = it.data?.get("description").toString()
+                                    )
+                                )
+                            }
+                            testsObserver.onNext(testsList)
+                        }
                 }
             }
     }

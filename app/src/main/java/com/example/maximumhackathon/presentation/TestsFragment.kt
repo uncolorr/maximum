@@ -1,21 +1,31 @@
 package com.example.maximumhackathon.presentation
 
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.maximumhackathon.R
+import com.example.maximumhackathon.domain.engines.FBEngine
 import com.example.maximumhackathon.domain.model.Lesson
 import com.example.maximumhackathon.domain.model.LessonStatus
 import com.example.maximumhackathon.domain.model.Test
 import com.example.maximumhackathon.domain.model.TestStatus
 import com.example.maximumhackathon.presentation.base.BaseFragment
 import com.example.maximumhackathon.transaction
+import io.reactivex.android.schedulers.AndroidSchedulers
+import io.reactivex.disposables.CompositeDisposable
+import io.reactivex.disposables.Disposable
+import io.reactivex.schedulers.Schedulers
 import kotlinx.android.synthetic.main.fragment_page_learning.*
 import kotlinx.android.synthetic.main.fragment_page_tests.*
 
 class TestsFragment: BaseFragment(){
 
     private lateinit var testsAdapter: TestsAdapter
+
+    private val fbEngine = FBEngine()
+
+    private val compositeDisposable = CompositeDisposable()
 
     override fun getLayoutId(): Int {
         return R.layout.fragment_page_tests
@@ -35,49 +45,22 @@ class TestsFragment: BaseFragment(){
             adapter = testsAdapter
             layoutManager = LinearLayoutManager(requireContext())
         }
-        val list = arrayListOf(
-            Test(
-                0,
-                "Тест 1",
-                TestStatus.COMPLETED,
-                "100%",
-                1,
-                "😉"
-            ),
-            Test(
-                0,
-                "Тест 2",
-                TestStatus.PENDING,
-                "100%",
-                2,
-                "❤"
-            ),
-            Test(
-                0,
-                "Тест 3",
-                TestStatus.BLOCKED,
-                " - ",
-                3,
-                "😊"
-            ),
-            Test(
-                0,
-                "Тест 4",
-                TestStatus.BLOCKED,
-                " - ",
-                4,
-                "🤷‍♀️"
-            ),
-            Test(
-                0,
-                "Тест 5",
-                TestStatus.BLOCKED,
-                " - ",
-                5,
-                "💋"
-            )
-        )
-        testsAdapter.setItems(list)
+
+        fbEngine.testsObserver
+            .subscribeOn(Schedulers.io())
+            .observeOn(AndroidSchedulers.mainThread())
+            .doOnSubscribe {
+                // TODO need some holder start
+                fbEngine.getTestsList()
+            }
+            .doFinally {
+                // TODO need some holder stop
+            }
+            .subscribe {
+                Log.i("Logcat ", "testsList $it")
+                testsAdapter.setItems(it)
+            }
+            .disposeOnDestroy()
     }
 
     private fun openTestScreen(test: Test) {
@@ -89,5 +72,9 @@ class TestsFragment: BaseFragment(){
             )
             addToBackStack(TestFragment::class.java.name)
         }
+    }
+
+    private fun Disposable.disposeOnDestroy() {
+        compositeDisposable.add(this)
     }
 }

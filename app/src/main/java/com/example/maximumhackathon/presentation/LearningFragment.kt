@@ -66,7 +66,7 @@ class LearningFragment: BaseFragment() {
         }
     }
 
-    protected fun Disposable.disposeOnDestroy() {
+    private fun Disposable.disposeOnDestroy() {
         compositeDisposable.add(this)
     }
 }
