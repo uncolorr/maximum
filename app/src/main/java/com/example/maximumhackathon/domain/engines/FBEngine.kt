@@ -143,8 +143,6 @@ class FBEngine {
                         )
                         wordsList.add(translatedWord)
 
-                        Log.i("Logcat ", "getPartOfWords restCounter $restCounter")
-
                         if (restCounter == 0){
                             wordsObserver.onNext(wordsList)
                         } else {
@@ -156,8 +154,6 @@ class FBEngine {
     }
 
     fun getTestsList(){
-
-        Log.i("Logcat ", "testsList ")
 
         val testsList = mutableListOf<Test>()
 
@@ -244,8 +240,6 @@ class FBEngine {
 
     fun getSubWordsForTest(testNumber: Int){
 
-        Log.i("Logcat ", "getSubWordsForTest")
-
         val subWordsList = mutableListOf<Word>()
 
         val offset = ((testNumber / 200) - 1) * 200
@@ -268,7 +262,6 @@ class FBEngine {
                     )
                     subWordsList.add(word)
 
-                    Log.i("Logcat ", "getSubWordsForTest restCounter $restCounter")
                     if (restCounter == 0){
                         subWordsObserver.onNext(subWordsList)
                     } else {

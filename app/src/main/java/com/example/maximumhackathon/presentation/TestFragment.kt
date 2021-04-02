@@ -86,12 +86,14 @@ class TestFragment : BaseFragment() {
                 // TODO need some holder stop
             }
             .subscribe {
-                textViewWord.text = it.first[Random().nextInt(it.first.size)].name
+                val currentWord = it.first[Random().nextInt(it.first.size)]
+                textViewWord.text = currentWord.name
                 for (i in 0..4) {
                     items.add(
                         it.second[Random().nextInt(it.second.size)]
                     )
                 }
+                items.set(Random().nextInt(4), currentWord )
                 variantsAdapter.setItems(items)
                 Log.i("Logcat ", "wordsList of test $it")
             }
