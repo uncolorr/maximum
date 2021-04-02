@@ -51,10 +51,24 @@ class TestFragment : BaseFragment() {
         super.onViewCreated(view, savedInstanceState)
         initToolbar()
 
+        variantsAdapter = VariantsAdapter()
+        recyclerViewVariants.apply {
+            adapter = variantsAdapter
+            layoutManager = LinearLayoutManager(requireContext())
+        }
+
+        buttonAnswer.setOnClickListener {
+
+        }
+    }
+
+    override fun onResume() {
+        super.onResume()
+
         val test = arguments?.getSerializable(ScreenExtraConstants.test) as Test
         val items = mutableListOf<Word>()
 
-            Observable.zip(
+        Observable.zip(
             fbEngine.wordsObserver,
             fbEngine.subWordsObserver,
             { words, subwords ->
@@ -73,25 +87,15 @@ class TestFragment : BaseFragment() {
             }
             .subscribe {
                 textViewWord.text = it.first[Random().nextInt(it.first.size)].name
-                for (i in 0..4){
+                for (i in 0..4) {
                     items.add(
                         it.second[Random().nextInt(it.second.size)]
                     )
                 }
                 variantsAdapter.setItems(items)
-                Log.i("Logcat ", "wordsList $it")
+                Log.i("Logcat ", "wordsList of test $it")
             }
             .disposeOnDestroy()
-
-        this.variantsAdapter = VariantsAdapter()
-        recyclerViewVariants.apply {
-            adapter = variantsAdapter
-            layoutManager = LinearLayoutManager(requireContext())
-        }
-
-        buttonAnswer.setOnClickListener {
-
-        }
     }
 
     private fun Disposable.disposeOnDestroy() {

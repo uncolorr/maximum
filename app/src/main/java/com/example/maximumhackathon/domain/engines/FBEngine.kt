@@ -95,6 +95,8 @@ class FBEngine {
 
     fun getPartOfWords(offset: Int, limit: Long = LIMIT) {
 
+        Log.i("Logcat ", "getPartOfWords")
+
         val wordsList = mutableListOf<Word>()
 
         var restCounter = limit.toInt() - 1
@@ -140,6 +142,8 @@ class FBEngine {
                             frequency = fbDocument.data?.get("frequency").toString().toLong()
                         )
                         wordsList.add(translatedWord)
+
+                        Log.i("Logcat ", "getPartOfWords restCounter $restCounter")
 
                         if (restCounter == 0){
                             wordsObserver.onNext(wordsList)
@@ -239,17 +243,22 @@ class FBEngine {
 
 
     fun getSubWordsForTest(testNumber: Int){
+
+        Log.i("Logcat ", "getSubWordsForTest")
+
         val subWordsList = mutableListOf<Word>()
 
         val offset = ((testNumber / 200) - 1) * 200
 
-        var restCounter = 200
+        var restCounter = 199
 
-        fbReference.collection("words")
+        val ref = fbReference.collection("words")
             .orderBy("orderNumber")
-            .startAt(offset)
             .limit(200)
-            .addSnapshotListener { value, _ ->
+            .startAt(offset)
+
+        ref.get()
+            .addOnSuccessListener { value ->
                 value?.documents?.forEach { fbDocument ->
                     val word = Word(
                         orderNumber = fbDocument.data?.get("orderNumber").toString().toInt(),
@@ -259,12 +268,17 @@ class FBEngine {
                     )
                     subWordsList.add(word)
 
+                    Log.i("Logcat ", "getSubWordsForTest restCounter $restCounter")
                     if (restCounter == 0){
                         subWordsObserver.onNext(subWordsList)
                     } else {
                         restCounter--
                     }
                 }
+
+            }
+            .addOnFailureListener {
+                Log.i("Logcat ", "getSubWordsForTest error $it")
             }
     }
 
