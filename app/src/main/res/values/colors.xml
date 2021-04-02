@@ -12,5 +12,7 @@
     <color name="background_color">#FFFFFF</color>
     <color name="title_color">#121212</color>
 
+    <color name="card_color">#FFFFFF</color>
+
 
 </resources>

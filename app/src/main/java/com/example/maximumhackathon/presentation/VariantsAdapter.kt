@@ -97,7 +97,7 @@ class VariantsAdapter : BaseRecyclerAdapter<Word, VariantsAdapter.VariantViewHol
                 } else {
                     itemView.layout.setCardBackgroundColor(
                         itemView.resources.getColor(
-                            android.R.color.white,
+                            R.color.card_color,
                             null
                         )
                     )
@@ -105,7 +105,7 @@ class VariantsAdapter : BaseRecyclerAdapter<Word, VariantsAdapter.VariantViewHol
             } else {
                 itemView.layout.setCardBackgroundColor(
                     itemView.resources.getColor(
-                        android.R.color.white,
+                        R.color.card_color,
                         null
                     )
                 )
