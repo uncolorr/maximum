@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "573866884785",
-    "project_id": "maximumhackathon",
-    "storage_bucket": "maximumhackathon.appspot.com"
+    "project_number": "1058900872690",
+    "project_id": "maximumhackathon2",
+    "storage_bucket": "maximumhackathon2.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:573866884785:android:57badcc3c5de09e833ec90",
+        "mobilesdk_app_id": "1:1058900872690:android:336bacf28b112b72c8af6b",
         "android_client_info": {
           "package_name": "com.example.maximumhackathon"
         }
       },
       "oauth_client": [
         {
-          "client_id": "573866884785-gjld8hs17ba1hgh93outq585jius3j9t.apps.googleusercontent.com",
+          "client_id": "1058900872690-29h182s9fnqbnv1f7s5liem3udp2rdeo.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCJFpX2CObmxxZWQvdKlzLXYNmvJyne-TE"
+          "current_key": "AIzaSyD9sb5KD2bqh3RRuGS3GBvVQqWDrY_5yfc"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "573866884785-gjld8hs17ba1hgh93outq585jius3j9t.apps.googleusercontent.com",
+              "client_id": "1058900872690-29h182s9fnqbnv1f7s5liem3udp2rdeo.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

@@ -137,7 +137,7 @@ class MainFragment: BaseFragment() {
             }
         }
 
-        for (i in 0..9999){
+        for (i in 0..1999){
             outData2.add(
                 Word(
                     i + 1,
