@@ -61,6 +61,10 @@ class TestFragment: BaseFragment() {
             ),
         )
         variantsAdapter.setItems(items)
+
+        buttonAnswer.setOnClickListener {
+
+        }
     }
 
     companion object {

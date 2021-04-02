@@ -53,11 +53,11 @@
 
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/buttonNext"
+        android:id="@+id/buttonAnswer"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="56dp"
         android:layout_margin="16dp"
-        android:text="@string/next"
+        android:text="@string/answer"
         android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

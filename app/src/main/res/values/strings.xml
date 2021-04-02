@@ -12,5 +12,6 @@
     <string name="title_tab_settings">Настройки</string>
     <string name="title_new_lessons">Новые уроки</string>
     <string name="title_new_tests">Новые тесты</string>
+    <string name="answer">Ответить</string>
 
 </resources>
