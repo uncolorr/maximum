@@ -5,5 +5,6 @@ data class Lesson(
     val name: String,
     val number: Int,
     val status: LessonStatus,
-    val description: String
+    val description: String,
+    val dbReference: String
 )

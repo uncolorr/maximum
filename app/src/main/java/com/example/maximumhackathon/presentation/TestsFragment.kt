@@ -45,7 +45,10 @@ class TestsFragment: BaseFragment(){
             adapter = testsAdapter
             layoutManager = LinearLayoutManager(requireContext())
         }
+    }
 
+    override fun onResume() {
+        super.onResume()
         fbEngine.testsObserver
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())

@@ -6,7 +6,6 @@ import com.google.firebase.auth.ktx.auth
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.ktx.Firebase
 import io.reactivex.android.schedulers.AndroidSchedulers
-import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers
 import io.reactivex.subjects.PublishSubject
 import java.util.*
@@ -16,7 +15,6 @@ class FBEngine {
     private val fbReference = FirebaseFirestore.getInstance()
 
     private val yandexEngine = YandexEngine()
-
     val wordsObserver = PublishSubject.create<List<Word>>()
     val lessonsObserver = PublishSubject.create<List<Lesson>>()
     val testsObserver = PublishSubject.create<List<Test>>()
@@ -49,7 +47,8 @@ class FBEngine {
                                         name = "Урок ${i + 1}",
                                         number = i + 1,
                                         status = LessonStatus.PENDING,
-                                        description = description
+                                        description = description,
+                                        dbReference = ""
                                     )
                                 )
 
@@ -68,9 +67,12 @@ class FBEngine {
                             lessonsObserver.onNext(lessonsList)
                         }
                 } else {
-                    fbReference.collection("lessons")
+
+                    val ref = fbReference.collection("lessons")
                         .orderBy("number")
-                        .addSnapshotListener { value, _ ->
+
+                    ref.get()
+                        .addOnSuccessListener {  value ->
                             value?.documents?.forEach {
                                 lessonsList.add(
                                     Lesson(
@@ -78,11 +80,13 @@ class FBEngine {
                                         name = it.data?.get("name").toString(),
                                         number = it.data?.get("number").toString().toInt(),
                                         status = LessonStatus.valueByCode(it.data?.get("status").toString()),
-                                        description = it.data?.get("description").toString()
+                                        description = it.data?.get("description").toString(),
+                                        dbReference = it.reference.id
                                     )
                                 )
                             }
                             lessonsObserver.onNext(lessonsList)
+
                         }
                 }
             }
@@ -94,11 +98,13 @@ class FBEngine {
 
         var restCounter = limit.toInt() - 1
 
-        fbReference.collection("words")
+        val ref = fbReference.collection("words")
             .orderBy("orderNumber")
-            .startAt(offset)
             .limit(limit)
-            .addSnapshotListener { value, _ ->
+            .startAt(offset)
+
+        ref.get()
+            .addOnSuccessListener { value ->
                 value?.documents?.forEach { fbDocument ->
                     if (fbDocument.data?.get("translate") == "***"){
                         yandexEngine.translate(fbDocument.data?.get("name").toString())
@@ -146,6 +152,8 @@ class FBEngine {
 
     fun getTestsList(){
 
+        Log.i("Logcat ", "testsList ")
+
         val testsList = mutableListOf<Test>()
 
         val user = Firebase.auth.currentUser?.providerData?.first()?.email
@@ -191,10 +199,13 @@ class FBEngine {
                             testsObserver.onNext(testsList)
                         }
                 } else {
+
                     fbReference.collection("tests")
-                        .whereEqualTo("user", user)
                         .orderBy("number")
-                        .addSnapshotListener { value, _ ->
+                        .whereEqualTo("user", user)
+                        .get()
+                        .addOnSuccessListener { value ->
+                            Log.i("Logcat ", "testsList value $value")
                             value?.documents?.forEach {
                                 testsList.add(
                                     Test(
@@ -209,10 +220,22 @@ class FBEngine {
                                 )
                             }
                             testsObserver.onNext(testsList)
+
+                        }
+                        .addOnFailureListener {
+                            Log.i("Logcat ", "testsList error $it")
                         }
                 }
             }
     }
+
+    fun updateLessonStatus(dbReference: String, status: LessonStatus){
+        fbReference
+            .collection("lessons")
+            .document(dbReference)
+            .update("status", status.code)
+    }
+
 
     private fun getEmojiByUnicode(unicode: Int): String {
         return String(Character.toChars(unicode))
