@@ -222,31 +222,27 @@ class FBEngine {
 
                             fbReference.collection("lessons")
                                 .orderBy("number")
+                                .whereEqualTo("status", LessonStatus.COMPLETED.code)
                                 .get()
                                 .addOnSuccessListener { lessonsValue ->
 
                                     Log.i("Logcat ", "testsList testsValue $testsValue")
                                     testsValue?.documents?.forEach {
 
-                                        val currentLesson =
-                                            lessonsValue.documents.first { lessons ->
-                                                lessons.data?.get("number").toString().toInt() ==
-                                                        it.data?.get("number").toString().toInt()
-                                            }
-
+                                        val lastCompleteNumber = lessonsValue.documents[lessonsValue.documents.lastIndex].data?.get("number").toString().toInt()
 
                                         var currentStatus = TestStatus.valueByCode(it.data?.get("status").toString())
-                                        if (
-                                            LessonStatus.valueByCode(
-                                                currentLesson.data?.get("status").toString()
-                                            )
-                                            == LessonStatus.COMPLETED
-                                        ) {
-                                            if (TestStatus.valueByCode(it.data?.get("status").toString()) != TestStatus.COMPLETED){
+
+                                        Log.i("Logcat ", "testsList lastCompleteNumber $lastCompleteNumber")
+
+                                        if (it.data?.get("number").toString().toInt() > lastCompleteNumber){
+                                            Log.i("Logcat ", "testsList test number ${it.data?.get("number").toString().toInt()}")
+
+                                            currentStatus = TestStatus.BLOCKED
+                                        } else {
+                                            if (currentStatus != TestStatus.COMPLETED){
                                                 currentStatus = TestStatus.PENDING
                                             }
-                                        } else {
-                                            currentStatus = TestStatus.PENDING
                                         }
 
                                         testsList.add(
