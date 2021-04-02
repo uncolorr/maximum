@@ -5,6 +5,7 @@ import android.os.Build
 import android.os.Bundle
 import android.util.Log
 import android.view.View
+import android.widget.Toast
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -32,6 +33,8 @@ class TestFragment : BaseFragment() {
 
     private val compositeDisposable = CompositeDisposable()
 
+    lateinit var currentWord: Word
+
     override fun getLayoutId(): Int {
         return R.layout.fragment_test
     }
@@ -58,7 +61,16 @@ class TestFragment : BaseFragment() {
         }
 
         buttonAnswer.setOnClickListener {
-
+            val checkedWord = variantsAdapter.getCheckedWord()
+            if (checkedWord != null){
+                if (currentWord.name == checkedWord.name){
+                    Toast.makeText(requireContext(), "Правильно", Toast.LENGTH_SHORT).show()
+                } else {
+                    Toast.makeText(requireContext(), "Неправильно", Toast.LENGTH_SHORT).show()
+                }
+            } else {
+                Toast.makeText(requireContext(), "Нучего не выбрано", Toast.LENGTH_SHORT).show()
+            }
         }
     }
 
@@ -79,7 +91,7 @@ class TestFragment : BaseFragment() {
                 // TODO need some holder stop
             }
             .subscribe {
-                val currentWord = it[Random().nextInt(it.size)]
+                currentWord = it[Random().nextInt(it.size)]
                 textViewWord.text = currentWord.name
                 for (i in 0..3) {
                     var subItem: Word

@@ -18,7 +18,7 @@ class VariantsAdapter: BaseRecyclerAdapter<Word, VariantsAdapter.VariantViewHold
         notifyDataSetChanged()
     }
 
-    private fun getCheckedWord(): Word? {
+    fun getCheckedWord(): Word? {
         if(checkedPosition == -1) {
             return null
         }
