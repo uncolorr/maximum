@@ -25,6 +25,51 @@ class LessonsAdapter: BaseRecyclerAdapter<Lesson, BaseRecyclerAdapter.ViewHolder
         }
     }
 
+    override fun setItems(items: List<Lesson>) {
+        if(items.isEmpty()) {
+            return
+        }
+        val lastCompleted = items.indexOfLast {
+            it.status == LessonStatus.COMPLETED
+        }
+        if(lastCompleted == -1) {
+            if(items.size > 1) {
+                for (i in 1 until items.size) {
+                    items[i].status = LessonStatus.BLOCKED
+                }
+            }
+        } else {
+            if(lastCompleted != items.size - 1) {
+                for (i in lastCompleted + 2 until items.size) {
+                    items[i].status = LessonStatus.BLOCKED
+                }
+            }
+        }
+        super.setItems(items)
+    }
+
+    private fun updateNextLesson(completedLesson: Lesson) {
+        items.indexOfFirst {
+            it.id == completedLesson.id
+        }.let { index ->
+            if(index != -1 && index < items.size - 1) {
+                items[index + 1].status = LessonStatus.PENDING
+            }
+         }
+    }
+
+    fun updateLessonStatus(lesson: Lesson) {
+        items.find {
+            it.dbReference == lesson.dbReference
+        }?.let {
+            val oldStatus = it.status
+            it.status = LessonStatus.COMPLETED
+            if(oldStatus != LessonStatus.COMPLETED) {
+                updateNextLesson(it)
+            }
+        }
+    }
+
     inner class CompletedViewHolder(itemView: View): ViewHolder<Lesson>(itemView) {
         override fun bindHolder(model: Lesson) {
             itemView.textViewLessonName.text = model.name

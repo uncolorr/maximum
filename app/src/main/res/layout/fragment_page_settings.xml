@@ -42,6 +42,32 @@
         app:layout_constraintTop_toBottomOf="@id/tvUserEmail"
         tools:text="User name" />
 
+    <TextView
+        android:id="@+id/tvLevel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvUserName"
+        tools:text="Уровень: средний" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonChangeLevel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_edit"
+        android:textAllCaps="false"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/tvLevel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
     <com.google.android.material.button.MaterialButton
         android:id="@+id/buttonExit"
         android:layout_width="match_parent"
@@ -53,6 +79,7 @@
         android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:backgroundTint="@android:color/holo_red_light"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
