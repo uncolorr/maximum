@@ -2,7 +2,9 @@ package com.example.maximumhackathon.domain.engines
 
 import android.util.Log
 import com.example.maximumhackathon.domain.model.*
+import com.google.firebase.auth.ktx.auth
 import com.google.firebase.firestore.FirebaseFirestore
+import com.google.firebase.ktx.Firebase
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers
@@ -137,10 +139,14 @@ class FBEngine {
     }
 
     fun getTestsList(){
+
+        val user = Firebase.auth.currentUser?.providerData?.first()?.email
+
         fbReference.collection("tests")
+            .whereEqualTo("user", user)
             .get()
-            .addOnSuccessListener { gotLessonsList ->
-                if (gotLessonsList.documents.isNullOrEmpty()) {
+            .addOnSuccessListener { testsList ->
+                if (testsList.documents.isNullOrEmpty()) {
                     fbReference.collection("words")
                         .get()
                         .addOnSuccessListener {
@@ -148,14 +154,15 @@ class FBEngine {
 
                                 val description = emojyList[Random().nextInt(emojyList.size)]
 
-                                testsList.add(
+                                this.testsList.add(
                                     Test(
                                         id = i,
                                         name = "Тест ${i + 1}",
                                         status = TestStatus.PENDING,
                                         stats = " - ",
                                         number = i + 1,
-                                        description = description
+                                        description = description,
+                                        user = user
                                     )
                                 )
 
@@ -166,31 +173,34 @@ class FBEngine {
                                 hm["stats"] = " - "
                                 hm["number"] = i + 1
                                 hm["description"] = description
+                                hm["user"] = user ?: ""
 
                                 fbReference
                                     .collection("tests")
                                     .add(hm)
                             }
 
-                            testsObserver.onNext(testsList)
+                            testsObserver.onNext(this.testsList)
                         }
                 } else {
                     fbReference.collection("tests")
+                        .whereEqualTo("user", user)
                         .orderBy("number")
                         .addSnapshotListener { value, _ ->
                             value?.documents?.forEach {
-                                testsList.add(
+                                this.testsList.add(
                                     Test(
                                         id = it.data?.get("id").toString().toInt(),
                                         name = it.data?.get("name").toString(),
                                         status = TestStatus.valueByCode(it.data?.get("status").toString()),
                                         stats = it.data?.get("stats").toString(),
                                         number = it.data?.get("number").toString().toInt(),
-                                        description = it.data?.get("description").toString()
+                                        description = it.data?.get("description").toString(),
+                                        user = it.data?.get("user").toString()
                                     )
                                 )
                             }
-                            testsObserver.onNext(testsList)
+                            testsObserver.onNext(this.testsList)
                         }
                 }
             }
