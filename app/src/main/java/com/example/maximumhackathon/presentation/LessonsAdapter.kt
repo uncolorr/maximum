@@ -5,11 +5,17 @@ import android.view.ViewGroup
 import com.example.maximumhackathon.R
 import com.example.maximumhackathon.domain.model.Lesson
 import com.example.maximumhackathon.domain.model.LessonStatus
+import com.example.maximumhackathon.domain.model.Test
 import com.example.maximumhackathon.inflate
 import com.example.maximumhackathon.presentation.base.BaseRecyclerAdapter
 import kotlinx.android.synthetic.main.item_lesson.view.*
 
 class LessonsAdapter: BaseRecyclerAdapter<Lesson, BaseRecyclerAdapter.ViewHolder<Lesson>>() {
+
+    var onItemClickListener: ((Lesson) -> Unit)? = null
+    var onBlockedItemClickListener: (() -> Unit)? = null
+
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder<Lesson> {
         return when (viewType) {
             PENDING_VIEW_HOLDER -> PendingViewHolder(parent.inflate<View>(R.layout.item_lesson, false))
@@ -23,6 +29,10 @@ class LessonsAdapter: BaseRecyclerAdapter<Lesson, BaseRecyclerAdapter.ViewHolder
         override fun bindHolder(model: Lesson) {
             itemView.textViewLessonName.text = model.name
             itemView.textViewDescription.text = model.description
+            itemView.imageViewLessonStatus.setImageResource(R.drawable.ic_check)
+            itemView.setOnClickListener {
+                onItemClickListener?.invoke(model)
+            }
         }
     }
 
@@ -30,6 +40,10 @@ class LessonsAdapter: BaseRecyclerAdapter<Lesson, BaseRecyclerAdapter.ViewHolder
         override fun bindHolder(model: Lesson) {
             itemView.textViewLessonName.text = model.name
             itemView.textViewDescription.text = model.description
+            itemView.setOnClickListener {
+                onItemClickListener?.invoke(model)
+            }
+
         }
     }
 
@@ -37,6 +51,10 @@ class LessonsAdapter: BaseRecyclerAdapter<Lesson, BaseRecyclerAdapter.ViewHolder
         override fun bindHolder(model: Lesson) {
             itemView.textViewLessonName.text = model.name
             itemView.textViewDescription.text = model.description
+            itemView.imageViewLessonStatus.setImageResource(R.drawable.ic_lock)
+            itemView.setOnClickListener {
+                onBlockedItemClickListener?.invoke()
+            }
         }
     }
 
