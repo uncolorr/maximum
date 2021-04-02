@@ -23,6 +23,7 @@ import io.reactivex.disposables.Disposable
 import io.reactivex.functions.BiFunction
 import io.reactivex.schedulers.Schedulers
 import kotlinx.android.synthetic.main.fragment_test.*
+import okhttp3.internal.addHeaderLenient
 import java.util.*
 
 class TestFragment : BaseFragment() {
@@ -36,6 +37,8 @@ class TestFragment : BaseFragment() {
     lateinit var currentWord: Word
 
     var buttonStateMark = false
+
+    var items = mutableListOf<Word>()
 
     override fun getLayoutId(): Int {
         return R.layout.fragment_test
@@ -63,17 +66,28 @@ class TestFragment : BaseFragment() {
         }
 
         buttonAnswer.setOnClickListener {
-            if (!buttonStateMark){
+            if (buttonStateMark){
 
             } else {
                 val checkedWord = variantsAdapter.getCheckedWord()
                 if (checkedWord != null){
                     if (currentWord.name == checkedWord.name){
-
-                        Toast.makeText(requireContext(), "Правильно", Toast.LENGTH_SHORT).show()
+//                        Toast.makeText(requireContext(), "Правильно", Toast.LENGTH_SHORT).show()
+                        variantsAdapter.setRightItem(variantsAdapter.checkedPosition)
                     } else {
-                        Toast.makeText(requireContext(), "Неправильно", Toast.LENGTH_SHORT).show()
+//                        Toast.makeText(requireContext(), "Неправильно", Toast.LENGTH_SHORT).show()
+                        variantsAdapter.setWrongItem(variantsAdapter.checkedPosition)
+
+                        var rightPosition = 0
+                        items.forEachIndexed { index, word ->
+                            if (currentWord.name == word.name){
+                                rightPosition = index
+                            }
+                        }
+
+                        variantsAdapter.setRightItem(rightPosition)
                     }
+                    variantsAdapter.notifyDataSetChanged()
 
                     buttonAnswer.text = "Далее"
                     buttonStateMark = true
@@ -88,7 +102,7 @@ class TestFragment : BaseFragment() {
         super.onResume()
 
         val test = arguments?.getSerializable(ScreenExtraConstants.test) as Test
-        val items = mutableListOf<Word>()
+        items = mutableListOf()
 
         fbEngine.wordsObserver
             .subscribeOn(Schedulers.io())

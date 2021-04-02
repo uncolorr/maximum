@@ -1,5 +1,6 @@
 package com.example.maximumhackathon.presentation
 
+import android.graphics.Color
 import android.view.View
 import android.view.ViewGroup
 import com.example.maximumhackathon.R
@@ -11,7 +12,9 @@ import kotlinx.android.synthetic.main.item_variant.view.*
 
 class VariantsAdapter: BaseRecyclerAdapter<Word, VariantsAdapter.VariantViewHolder>() {
 
-    private var checkedPosition = - 1
+    var checkedPosition = - 1
+    var rightPosition = - 1
+    var wrongPosition = - 1
 
     private var onItemClickListener: ((Int) -> Unit) = { position ->
         checkedPosition = position
@@ -23,6 +26,14 @@ class VariantsAdapter: BaseRecyclerAdapter<Word, VariantsAdapter.VariantViewHold
             return null
         }
         return items[checkedPosition]
+    }
+
+    fun setRightItem(position: Int){
+        rightPosition = position
+    }
+
+    fun setWrongItem(position: Int){
+        wrongPosition = position
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): VariantViewHolder {
@@ -42,6 +53,15 @@ class VariantsAdapter: BaseRecyclerAdapter<Word, VariantsAdapter.VariantViewHold
             } else {
                 itemView.imageViewChecked.visibility = View.INVISIBLE
             }
+
+            if (adapterPosition == rightPosition){
+                itemView.backLayout.setBackgroundColor(Color.GREEN)
+            }
+
+            if (adapterPosition == wrongPosition){
+                itemView.backLayout.setBackgroundColor(Color.RED)
+            }
+
             itemView.setOnClickListener {
                 onItemClickListener.invoke(adapterPosition)
             }
