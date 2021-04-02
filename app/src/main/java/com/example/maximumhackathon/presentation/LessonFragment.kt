@@ -52,6 +52,7 @@ open class LessonFragment : BaseFragment() {
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())
             .doOnSubscribe {
+                progressBar.visibility = View.VISIBLE
                 arguments?.getInt(ScreenExtraConstants.number)?.let { number ->
                     fbEngine.getPartOfWords(number * 20, 20)
                 }
@@ -60,6 +61,8 @@ open class LessonFragment : BaseFragment() {
 
             }
             .subscribe {
+                progressBar.visibility = View.GONE
+                buttonSpeech.visibility = View.VISIBLE
                 words = it
                 updateWord()
                 Log.i("Logcat ", "wordsList $it")
