@@ -1,5 +1,6 @@
 package com.example.maximumhackathon.presentation
 
+import android.app.AlertDialog
 import android.os.Bundle
 import android.util.Log
 import android.view.View
@@ -7,6 +8,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.maximumhackathon.R
 import com.example.maximumhackathon.domain.engines.FBEngine
 import com.example.maximumhackathon.presentation.base.BaseFragment
+import com.example.maximumhackathon.transaction
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.disposables.Disposable
@@ -59,14 +61,49 @@ class LearningFragment: BaseFragment() {
             }
             .disposeOnDestroy()
 
-        lessonsAdapter = LessonsAdapter()
+        lessonsAdapter = LessonsAdapter().apply {
+            onItemClickListener = {
+                openLessonScreen(it.number)
+            }
+
+            onBlockedItemClickListener = {
+
+            }
+        }
         recyclerViewLessons.apply {
             adapter = lessonsAdapter
             layoutManager = LinearLayoutManager(requireContext())
         }
     }
 
-    private fun Disposable.disposeOnDestroy() {
+    private fun openLessonScreen(number: Int) {
+        val fragment = LessonFragment.newInstance(number)
+        fragment.onLessonCompleteListener = {
+            lessonsAdapter.notifyDataSetChanged()
+            showCompleteLessonDialog()
+        }
+        activity?.supportFragmentManager.transaction {
+            add(
+                R.id.mainContainer,
+                fragment,
+                LessonFragment::class.java.name
+            )
+            addToBackStack(LessonFragment::class.java.name)
+        }
+    }
+
+    private fun showCompleteLessonDialog() {
+        val builder = AlertDialog.Builder(requireContext())
+        builder.setTitle("Поздравляем")
+            .setMessage("Урок завершен!")
+            .setPositiveButton("ОК") { dialog, id ->
+                dialog.cancel()
+            }
+        val alert = builder.create()
+        alert.show()
+    }
+
+    protected fun Disposable.disposeOnDestroy() {
         compositeDisposable.add(this)
     }
 }

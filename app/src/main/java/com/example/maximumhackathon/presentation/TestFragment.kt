@@ -38,7 +38,6 @@ class TestFragment : BaseFragment() {
         (activity as AppCompatActivity).setSupportActionBar(toolbar)
         (activity as AppCompatActivity).supportActionBar?.setDisplayHomeAsUpEnabled(true)
         (activity as AppCompatActivity).supportActionBar?.setDisplayShowHomeEnabled(true)
-        toolbar.title = "5/20"
         toolbar.setNavigationOnClickListener {
             activity?.supportFragmentManager?.popBackStack()
         }

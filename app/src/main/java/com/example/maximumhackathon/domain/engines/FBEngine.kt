@@ -27,7 +27,13 @@ class FBEngine {
     val lessonsObserver = PublishSubject.create<List<Lesson>>()
     val testsObserver = PublishSubject.create<List<Test>>()
 
-    private val emojyList = listOf("❤", "😊", "😉", "💋", "🤷‍", "♀")
+    private val emojyList = mutableListOf<String>()
+
+    init {
+        for (i in 0x1F601..0x1F64F) {
+            emojyList.add(getEmojiByUnicode(i))
+        }
+    }
 
     fun getLessonsList() {
         fbReference.collection("lessons")
@@ -96,7 +102,7 @@ class FBEngine {
             .limit(limit)
             .addSnapshotListener { value, _ ->
                 value?.documents?.forEach { fbDocument ->
-                    if (fbDocument.data?.get("translate") == null){
+                    if (fbDocument.data?.get("translate") == "***"){
                         yandexEngine.translate(fbDocument.data?.get("name").toString())
                             .subscribeOn(Schedulers.io())
                             .observeOn(AndroidSchedulers.mainThread())
@@ -234,6 +240,10 @@ class FBEngine {
                     }
                 }
             }
+    }
+
+    private fun getEmojiByUnicode(unicode: Int): String {
+        return String(Character.toChars(unicode))
     }
 
     companion object {

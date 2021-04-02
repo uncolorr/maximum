@@ -40,7 +40,7 @@
             android:layout_weight="1"
             android:text="Вариант"
             android:textColor="@color/title_color"
-            android:textSize="18sp" />
+            android:textSize="24sp" />
 
     </LinearLayout>
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
@@ -20,8 +20,7 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            app:popupTheme="@style/Theme.MaximumHackathon.PopupOverlay"
-            app:title="@string/app_name" />
+            app:popupTheme="@style/Theme.MaximumHackathon.PopupOverlay" />
 
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -29,7 +28,7 @@
         android:id="@+id/textViewWord"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
+        android:layout_marginTop="124dp"
         android:textSize="24sp"
         android:textStyle="bold"
         android:text="House"
@@ -40,29 +39,44 @@
         app:layout_constraintTop_toBottomOf="@id/appBarLayout"
         tools:text="House" />
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerViewVariants"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:orientation="vertical"
-        android:layout_marginStart="24dp"
-        android:layout_marginEnd="24dp"
-        android:layout_weight="1"
-        tools:itemCount="4"
-        tools:listitem="@layout/item_variant"/>
+    <ImageButton
+        android:id="@+id/buttonSpeech"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="16dp"
+        android:src="@drawable/ic_rumor"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewWord"
+        app:layout_constraintStart_toEndOf="@+id/textViewWord"
+        app:layout_constraintTop_toTopOf="@+id/textViewWord" />
+
+
+    <TextView
+        android:id="@+id/textViewTranslate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:text="Дом"
+        android:layout_gravity="center"
+        android:textColor="@color/title_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewWord" />
+
 
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/buttonAnswer"
+        android:id="@+id/buttonNext"
         android:layout_width="match_parent"
         android:layout_height="112dp"
         android:layout_margin="16dp"
-        android:text="@string/answer"
+        android:text="@string/next"
         android:textAllCaps="false"
-        android:textSize="24sp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
 
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
