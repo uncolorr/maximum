@@ -17,10 +17,6 @@ class FBEngine {
 
     private val yandexEngine = YandexEngine()
 
-    private val wordsList = mutableListOf<Word>()
-    private val lessonsList = mutableListOf<Lesson>()
-    private val testsList = mutableListOf<Test>()
-
     val wordsObserver = PublishSubject.create<List<Word>>()
     val lessonsObserver = PublishSubject.create<List<Lesson>>()
     val testsObserver = PublishSubject.create<List<Test>>()
@@ -34,6 +30,8 @@ class FBEngine {
     }
 
     fun getLessonsList() {
+        val lessonsList = mutableListOf<Lesson>()
+
         fbReference.collection("lessons")
             .get()
             .addOnSuccessListener { gotLessonsList ->
@@ -92,6 +90,8 @@ class FBEngine {
 
     fun getPartOfWords(offset: Int, limit: Long) {
 
+        val wordsList = mutableListOf<Word>()
+
         var restCounter = limit.toInt() - 1
 
         fbReference.collection("words")
@@ -146,13 +146,15 @@ class FBEngine {
 
     fun getTestsList(){
 
+        val testsList = mutableListOf<Test>()
+
         val user = Firebase.auth.currentUser?.providerData?.first()?.email
 
         fbReference.collection("tests")
             .whereEqualTo("user", user)
             .get()
-            .addOnSuccessListener { testsList ->
-                if (testsList.documents.isNullOrEmpty()) {
+            .addOnSuccessListener { gotTestsList ->
+                if (gotTestsList.documents.isNullOrEmpty()) {
                     fbReference.collection("words")
                         .get()
                         .addOnSuccessListener {
@@ -160,7 +162,7 @@ class FBEngine {
 
                                 val description = emojyList[Random().nextInt(emojyList.size)]
 
-                                this.testsList.add(
+                                testsList.add(
                                     Test(
                                         id = i,
                                         name = "Тест ${i + 1}",
@@ -186,7 +188,7 @@ class FBEngine {
                                     .add(hm)
                             }
 
-                            testsObserver.onNext(this.testsList)
+                            testsObserver.onNext(testsList)
                         }
                 } else {
                     fbReference.collection("tests")
@@ -194,7 +196,7 @@ class FBEngine {
                         .orderBy("number")
                         .addSnapshotListener { value, _ ->
                             value?.documents?.forEach {
-                                this.testsList.add(
+                                testsList.add(
                                     Test(
                                         id = it.data?.get("id").toString().toInt(),
                                         name = it.data?.get("name").toString(),
@@ -206,7 +208,7 @@ class FBEngine {
                                     )
                                 )
                             }
-                            testsObserver.onNext(this.testsList)
+                            testsObserver.onNext(testsList)
                         }
                 }
             }
