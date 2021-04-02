@@ -6,7 +6,6 @@ import com.google.firebase.auth.ktx.auth
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.ktx.Firebase
 import io.reactivex.android.schedulers.AndroidSchedulers
-import io.reactivex.processors.PublishProcessor
 import io.reactivex.schedulers.Schedulers
 import io.reactivex.subjects.PublishSubject
 import java.util.*
@@ -16,16 +15,9 @@ class FBEngine {
     private val fbReference = FirebaseFirestore.getInstance()
 
     private val yandexEngine = YandexEngine()
-
-    private val wordsList = mutableListOf<Word>()
-    private val subWordsList = mutableListOf<Word>()
-    private val lessonsList = mutableListOf<Lesson>()
-    private val testsList = mutableListOf<Test>()
-
-    val wordsObserver = PublishProcessor.create<List<Word>>()
-    val subWordsObserver = PublishProcessor.create<List<Word>>()
-    val lessonsObserver = PublishProcessor.create<List<Lesson>>()
-    val testsObserver = PublishProcessor.create<List<Test>>()
+    val wordsObserver = PublishSubject.create<List<Word>>()
+    val lessonsObserver = PublishSubject.create<List<Lesson>>()
+    val testsObserver = PublishSubject.create<List<Test>>()
 
     private val emojyList = mutableListOf<String>()
 
@@ -36,6 +28,8 @@ class FBEngine {
     }
 
     fun getLessonsList() {
+        val lessonsList = mutableListOf<Lesson>()
+
         fbReference.collection("lessons")
             .get()
             .addOnSuccessListener { gotLessonsList ->
@@ -53,7 +47,8 @@ class FBEngine {
                                         name = "Урок ${i + 1}",
                                         number = i + 1,
                                         status = LessonStatus.PENDING,
-                                        description = description
+                                        description = description,
+                                        dbReference = ""
                                     )
                                 )
 
@@ -72,9 +67,12 @@ class FBEngine {
                             lessonsObserver.onNext(lessonsList)
                         }
                 } else {
-                    fbReference.collection("lessons")
+
+                    val ref = fbReference.collection("lessons")
                         .orderBy("number")
-                        .addSnapshotListener { value, _ ->
+
+                    ref.get()
+                        .addOnSuccessListener {  value ->
                             value?.documents?.forEach {
                                 lessonsList.add(
                                     Lesson(
@@ -82,11 +80,13 @@ class FBEngine {
                                         name = it.data?.get("name").toString(),
                                         number = it.data?.get("number").toString().toInt(),
                                         status = LessonStatus.valueByCode(it.data?.get("status").toString()),
-                                        description = it.data?.get("description").toString()
+                                        description = it.data?.get("description").toString(),
+                                        dbReference = it.reference.id
                                     )
                                 )
                             }
                             lessonsObserver.onNext(lessonsList)
+
                         }
                 }
             }
@@ -94,13 +94,17 @@ class FBEngine {
 
     fun getPartOfWords(offset: Int, limit: Long = LIMIT) {
 
+        val wordsList = mutableListOf<Word>()
+
         var restCounter = limit.toInt() - 1
 
-        fbReference.collection("words")
+        val ref = fbReference.collection("words")
             .orderBy("orderNumber")
-            .startAt(offset)
             .limit(limit)
-            .addSnapshotListener { value, _ ->
+            .startAt(offset)
+
+        ref.get()
+            .addOnSuccessListener { value ->
                 value?.documents?.forEach { fbDocument ->
                     if (fbDocument.data?.get("translate") == "***"){
                         yandexEngine.translate(fbDocument.data?.get("name").toString())
@@ -148,13 +152,17 @@ class FBEngine {
 
     fun getTestsList(){
 
+        Log.i("Logcat ", "testsList ")
+
+        val testsList = mutableListOf<Test>()
+
         val user = Firebase.auth.currentUser?.providerData?.first()?.email
 
         fbReference.collection("tests")
             .whereEqualTo("user", user)
             .get()
-            .addOnSuccessListener { testsList ->
-                if (testsList.documents.isNullOrEmpty()) {
+            .addOnSuccessListener { gotTestsList ->
+                if (gotTestsList.documents.isNullOrEmpty()) {
                     fbReference.collection("words")
                         .get()
                         .addOnSuccessListener {
@@ -162,7 +170,7 @@ class FBEngine {
 
                                 val description = emojyList[Random().nextInt(emojyList.size)]
 
-                                this.testsList.add(
+                                testsList.add(
                                     Test(
                                         id = i,
                                         name = "Тест ${i + 1}",
@@ -188,15 +196,18 @@ class FBEngine {
                                     .add(hm)
                             }
 
-                            testsObserver.onNext(this.testsList)
+                            testsObserver.onNext(testsList)
                         }
                 } else {
+
                     fbReference.collection("tests")
-                        .whereEqualTo("user", user)
                         .orderBy("number")
-                        .addSnapshotListener { value, _ ->
+                        .whereEqualTo("user", user)
+                        .get()
+                        .addOnSuccessListener { value ->
+                            Log.i("Logcat ", "testsList value $value")
                             value?.documents?.forEach {
-                                this.testsList.add(
+                                testsList.add(
                                     Test(
                                         id = it.data?.get("id").toString().toInt(),
                                         name = it.data?.get("name").toString(),
@@ -208,11 +219,23 @@ class FBEngine {
                                     )
                                 )
                             }
-                            testsObserver.onNext(this.testsList)
+                            testsObserver.onNext(testsList)
+
+                        }
+                        .addOnFailureListener {
+                            Log.i("Logcat ", "testsList error $it")
                         }
                 }
             }
     }
+
+    fun updateLessonStatus(dbReference: String, status: LessonStatus){
+        fbReference
+            .collection("lessons")
+            .document(dbReference)
+            .update("status", status.code)
+    }
+
 
     fun getSubWordsForTest(testNumber: Int){
         val offset = ((testNumber / 200) - 1) * 200
