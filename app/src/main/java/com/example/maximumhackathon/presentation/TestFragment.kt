@@ -68,32 +68,29 @@ class TestFragment : BaseFragment() {
         val test = arguments?.getSerializable(ScreenExtraConstants.test) as Test
         val items = mutableListOf<Word>()
 
-        Observable.zip(
-            fbEngine.wordsObserver,
-            fbEngine.subWordsObserver,
-            { words, subwords ->
-                Pair(words, subwords)
-            }
-        )
+        fbEngine.wordsObserver
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())
             .doOnSubscribe {
                 // TODO need some holder start
                 fbEngine.getPartOfWords(test.number * 20)
-                fbEngine.getSubWordsForTest(test.number)
             }
             .doFinally {
                 // TODO need some holder stop
             }
             .subscribe {
-                val currentWord = it.first[Random().nextInt(it.first.size)]
+                val currentWord = it[Random().nextInt(it.size)]
                 textViewWord.text = currentWord.name
-                for (i in 0..4) {
+                for (i in 0..3) {
+                    var subItem: Word
+                    do {
+                        subItem = it[Random().nextInt(it.size)]
+                    } while (subItem.name == currentWord.name)
                     items.add(
-                        it.second[Random().nextInt(it.second.size)]
+                        it[Random().nextInt(it.size)]
                     )
                 }
-                items.set(Random().nextInt(4), currentWord )
+                items[Random().nextInt(4)] = currentWord
                 variantsAdapter.setItems(items)
                 Log.i("Logcat ", "wordsList of test $it")
             }
